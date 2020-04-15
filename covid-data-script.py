@@ -1,4 +1,4 @@
-import pandas as pd; import numpy as np; import json
+ import pandas as pd; import numpy as np; import json
 from weightedstats import weighted_median, weighted_mean
 from bs4 import BeautifulSoup; import requests
 ##########################################################################################
@@ -82,56 +82,27 @@ Read in and record demographic data on age and race/hispanic population
 ##########################################################################################
 ##########################################################################################
 print('Loading Census Data.....', end = '')
-ageUS = pd.read_csv('C:/Users/raana/OneDrive/Desktop/Geominr/Data/USA/Counties/Data/ACSSE2018.K200104_data_with_overlays_2020-04-11T175905.csv', 
-                    header=1, 
-                    usecols=['id','Geographic Area Name', 
-                             'Estimate!!Total','Estimate!!Total!!18 to 24 years','Estimate!!Total!!25 to 34 years', 
-                             'Estimate!!Total!!35 to 44 years','Estimate!!Total!!45 to 54 years', 
-                             'Estimate!!Total!!55 to 64 years', 'Estimate!!Total!!65 years and over']
+demUS = pd.read_csv('C:/Users/raana/OneDrive/Desktop/Geominr/Data/USA/Counties/Data/'+
+                    'ACSDP1Y{}.DP05_data_with_overlays_2020-04-11T185031.csv'.format(2018), 
+                    header=1,
+                    usecols=["id", "Percent Estimate!!SEX AND AGE!!Total population!!65 years and over", 
+                             "Percent Estimate!!RACE!!Total population!!One race!!Black or African American", 
+                             "Percent Estimate!!HISPANIC OR LATINO AND RACE!!Total population!!Hispanic or Latino (of any race)"
+                            ]                       
                    )
-ageUS['id'] = [str(x)[9:] for x in ageUS.id]
-ageUS.rename(columns={'id':'FIPS'}, inplace=True)
-rnm = {}
-for i in ageUS.columns:
-    if 'Total!!' in i:
-        x = i.replace('Estimate!!Total!!','')
-        x = x.split(' ')
-        if x[2] == 'and':
-            x[2] = 'over'
-        rnm[i] = 'popage{}_{}'.format(x[0],x[2])
-ageUS.rename(columns=rnm,inplace=True)
+demUS['id'] = [str(x)[9:] for x in demUS.id]
+rnm = {'id':'FIPS'}
+for i in demUS.columns[1:]:
+    x = i.split('!!')
+    if '65' in i:
+        rnm[i] = 'popage65_older%2018'
+    else:
+        rnm[i] = 'pop' + x[len(x)-1].split(' ')[0].lower() + '%2018'
+demUS.rename(columns=rnm,inplace=True)
 print('Done')
 print('Merging Census data....', end ='')
-confUS = pd.merge(confUS, ageUS, on = 'FIPS', how = 'left')
-dthsUS = pd.merge(dthsUS, ageUS, on = 'FIPS', how = 'left')
-for df in [confUS, dthsUS]:
-    for i in ['popage18_24','popage25_34','popage35_44','popage45_54','popage55_64','popage65_over']:
-        df[i+'%2018'] = [df[i][x]/df['Estimate!!Total'][x] for x in df.index]
-demUS = pd.read_csv('C:/Users/raana/OneDrive/Desktop/Geominr/Data/USA/Counties/Data/ACSDP1Y2010.DP05_data_with_overlays_2020-04-11T185031.csv', 
-                    header=1, usecols = ['id','Geographic Area Name', 'Estimate!!HISPANIC OR LATINO AND RACE!!Total population',
-                                          'Estimate!!RACE!!One race!!Black or African American',
-                                          'Estimate!!HISPANIC OR LATINO AND RACE!!Hispanic or Latino (of any race)'])
-demUS['id'] = [str(x)[9:] for x in demUS.id]
-demUS.rename(columns={'id':'FIPS', 
-                      'Estimate!!HISPANIC OR LATINO AND RACE!!Hispanic or Latino (of any race)':'pophisp18', 
-                      'Estimate!!RACE!!One race!!Black or African American':'popblack18',
-                      'Estimate!!HISPANIC OR LATINO AND RACE!!Total population':'acspop18'
-                     }, inplace=True)
-demUS['pophisp%2018'] = [demUS['pophisp18'][x]/demUS['acspop18'][x] for x in demUS.index]
-pbl = []
-for i in demUS['popblack18']:
-    if i == 'N':
-        pbl.append(np.nan)
-    else:
-        pbl.append(int(i))
-demUS['popblack18'] = pbl
-demUS['popblack%2018'] = [demUS['popblack18'][x]/demUS['acspop18'][x] for x in demUS.index]
 confUS = pd.merge(confUS, demUS, on = 'FIPS', how = 'left')
 dthsUS = pd.merge(dthsUS, demUS, on = 'FIPS', how = 'left')
-for col in confUS.columns:
-    if '%' in col:
-        confUS[col] = confUS[col]*100
-        dthsUS[col] = dthsUS[col]*100
 print('Done')     
 ##########################################################################################
 ##########################################################################################
@@ -180,7 +151,7 @@ for mid in cdcdf.MeasureId.unique():
     x+=1
 ##########################################################################################
 ##########################################################################################
-""" 
+"""
 Defining a Metro Area by cdcdf[cdcdf.FIPS==i].CityName.unique(),
 which returns every CityName (as defined by CDC 500 Cities) within the 5 digit FIPS grouping
 """
@@ -286,19 +257,19 @@ Here we aggregate the 5 boroughs of New York City into one county
 ##########################################################################################
 ##########################################################################################
 print('Aggregating New York City data...', end='')
-medians = ['pophisp%2018','popblack%2018', 'popage65_over%2018']
+medians = ['pophispanic%2018','popblack%2018', 'popage65_over%2018']
 for mid in cdcdf.MeasureId.unique():
     if mid in cdc_covid_dths.columns:
         medians.append(mid)
 for mid in medians:
     try:
-        cdc_covid_conf.at[90, mid] = cdc_covid_conf[cdc_covid_conf.METRO=="'New York'"][mid].median()
+        cdc_covid_dths.at[90, mid] = cdc_covid_dths[cdc_covid_dths.METRO=="'New York'"][mid].median()
     except KeyError:
         continue
 sums = ['pop500','nhosp','nhosp999','totalbeds','estbeds']
 for col in sums:
     try:
-        cdc_covid_conf.at[90, col] = cdc_covid_conf[cdc_covid_conf.METRO=="'New York'"][col].sum()
+        cdc_covid_dths.at[90, col] = cdc_covid_dths[cdc_covid_dths.METRO=="'New York'"][col].sum()
     except KeyError:
         continue
 print('Done')
@@ -349,6 +320,8 @@ for i in cdc_covid_conf.index:
 cdc_covid_conf['FLAG'] = zero
 cdc_covid_conf = cdc_covid_conf[cdc_covid_conf.FLAG!='FLAG']
 cdc_covid_dths = cdc_covid_dths[cdc_covid_dths.FIPS.isin(cdc_covid_conf.FIPS)]
+cdc_covid_dths.dropna(subset=['popage65_older%2018'],inplace=True)
+cdc_covid_conf.dropna(subset=['popage65_older%2018'],inplace=True)
 print('Done')
 ##########################################################################################
 #########################################################################################
@@ -365,7 +338,7 @@ cdc_covid_dths[['FIPS','Province_State','Combined_Key','Lat','Long_','Population
                 'KIDNEY','BINGE','LPA','ARTHRITIS','BPMED','PHLTH','BPHIGH','COPD',
                 
                 'nhosp','nhosp999','totalbeds','estbeds', 
-                'popage65_over%2018','popblack%2018','pophisp%2018']].fillna('NAN').to_csv('covid-county-data/static.csv', index=False)
+                'popage65_older%2018','popblack%2018','pophispanic%2018']].fillna('NAN').to_csv('covid-county-data/static.csv', index=False)
 cdc_covid_dths[tscols].fillna('NAN').to_csv('covid-county-data/covid-deaths.csv', index=False)
 cdc_covid_conf[tscols].fillna('NAN').to_csv('covid-county-data/covid-cases.csv', index=False)
 print('Done')
