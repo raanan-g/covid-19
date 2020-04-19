@@ -1,4 +1,4 @@
- import pandas as pd; import numpy as np; import json
+import pandas as pd; import numpy as np; import json
 from weightedstats import weighted_median, weighted_mean
 from bs4 import BeautifulSoup; import requests
 ##########################################################################################
@@ -62,16 +62,19 @@ avghbeds = pd.DataFrame({'state':[row[0].split(' - ')[1] for row in rows[1:]],
               'avgbeds':[(int(row[2].replace(',',''))/int(row[1].replace(',',''))) for row in rows[1:]]})
 estbeds = []
 for i in dthsUS.index:
-    state = dthsUS.Province_State[i]
-    if dthsUS.nhosp999[i] > 0:
-        stateavgs = avghbeds[avghbeds.state==state].reset_index()
-        if len(stateavgs) > 0:
-            est = int(dthsUS.totalbeds[i] + (dthsUS.nhosp999[i] * stateavgs.avgbeds[0]))
-            estbeds.append(est)
-        else:
-            estbeds.append(np.nan)
+    if dthsUS.FIPS[i]=='11001':
+        estbeds.append(3415)
     else:
-        estbeds.append(dthsUS.totalbeds[i])      
+        state = dthsUS.Province_State[i]
+        if dthsUS.nhosp999[i] > 0:
+            stateavgs = avghbeds[avghbeds.state==state].reset_index()
+            if len(stateavgs) > 0:
+                est = int(dthsUS.totalbeds[i] + (dthsUS.nhosp999[i] * stateavgs.avgbeds[0]))
+                estbeds.append(est)
+            else:
+                estbeds.append(np.nan)
+        else:
+            estbeds.append(dthsUS.totalbeds[i])      
 dthsUS['estbeds'] = estbeds
 print('Done')
 ##########################################################################################
@@ -99,6 +102,16 @@ for i in demUS.columns[1:]:
     else:
         rnm[i] = 'pop' + x[len(x)-1].split(' ')[0].lower() + '%2018'
 demUS.rename(columns=rnm,inplace=True)
+
+def get_num(x):
+    try:
+        return float(x)
+    except:
+        return np.nan
+for col in demUS.columns[1:]:
+    demUS[col] = [get_num(i) for i in demUS[col]]
+    demUS[col] = demUS[col].astype(float)
+demUS.dropna(inplace=True)
 print('Done')
 print('Merging Census data....', end ='')
 confUS = pd.merge(confUS, demUS, on = 'FIPS', how = 'left')
@@ -257,7 +270,7 @@ Here we aggregate the 5 boroughs of New York City into one county
 ##########################################################################################
 ##########################################################################################
 print('Aggregating New York City data...', end='')
-medians = ['pophispanic%2018','popblack%2018', 'popage65_over%2018']
+medians = ['pophispanic%2018','popblack%2018', 'popage65_older%2018']
 for mid in cdcdf.MeasureId.unique():
     if mid in cdc_covid_dths.columns:
         medians.append(mid)
@@ -306,6 +319,10 @@ confirmed cases.
 """
 ##########################################################################################
 ##########################################################################################
+print('\nCases: {} rows'.format(len(cdc_covid_conf)),end='')
+print('  Deaths:{} rows'.format(len(cdc_covid_dths)))
+
+print('Dropping Null values and duplicate rows...')
 cdc_covid_conf.dropna(subset=[tscols[1]], inplace=True)
 cdc_covid_dths.dropna(subset=[tscols[1]], inplace=True)
 cdc_covid_conf.reset_index(inplace=True)
@@ -320,8 +337,13 @@ for i in cdc_covid_conf.index:
 cdc_covid_conf['FLAG'] = zero
 cdc_covid_conf = cdc_covid_conf[cdc_covid_conf.FLAG!='FLAG']
 cdc_covid_dths = cdc_covid_dths[cdc_covid_dths.FIPS.isin(cdc_covid_conf.FIPS)]
-cdc_covid_dths.dropna(subset=['popage65_older%2018'],inplace=True)
-cdc_covid_conf.dropna(subset=['popage65_older%2018'],inplace=True)
+cdc_covid_dths.dropna(subset=['popage65_older%2018','CASTHMA'],inplace=True)
+cdc_covid_conf.dropna(subset=['popage65_older%2018','CASTHMA'],inplace=True)
+cdc_covid_dths.drop_duplicates(subset=['FIPS'],inplace=True)
+cdc_covid_conf.drop_duplicates(subset=['FIPS'],inplace=True)
+cdc_covid_conf = cdc_covid_conf[cdc_covid_conf.FIPS.isin(cdc_covid_dths.FIPS)]
+print('  Cases:{} rows'.format(len(cdc_covid_conf)))
+print('  Deaths:{} rows'.format(len(cdc_covid_dths)))
 print('Done')
 ##########################################################################################
 #########################################################################################
@@ -332,13 +354,172 @@ Save static data and dynamic data by FIPS code in different files with the same 
 ##########################################################################################
 print('Saving data.......',end='')
 cdc_covid_dths[['FIPS','Province_State','Combined_Key','Lat','Long_','Population', 
-                
                 'METRO','pop500','CASTHMA','HIGHCHOL','DIABETES','OBESITY','CANCER', 
                 'STROKE','MHLTH','CSMOKING','CHOLSCREEN','ACCESS2','CHD','CHECKUP', 
                 'KIDNEY','BINGE','LPA','ARTHRITIS','BPMED','PHLTH','BPHIGH','COPD',
-                
                 'nhosp','nhosp999','totalbeds','estbeds', 
-                'popage65_older%2018','popblack%2018','pophispanic%2018']].fillna('NAN').to_csv('covid-county-data/static.csv', index=False)
-cdc_covid_dths[tscols].fillna('NAN').to_csv('covid-county-data/covid-deaths.csv', index=False)
-cdc_covid_conf[tscols].fillna('NAN').to_csv('covid-county-data/covid-cases.csv', index=False)
+                'popage65_older%2018',
+                'popblack%2018',
+                'pophispanic%2018']].to_csv('covid-county-data/static.csv', index=False)
+cdc_covid_dths[tscols].to_csv('covid-county-data/covid-deaths.csv', index=False)
+cdc_covid_conf[tscols].to_csv('covid-county-data/covid-cases.csv', index=False)
 print('Done')
+
+static = cdc_covid_dths[['FIPS','Province_State','Combined_Key','Lat','Long_','Population', 
+                'METRO','pop500','CASTHMA','HIGHCHOL','DIABETES','OBESITY','CANCER', 
+                'STROKE','MHLTH','CSMOKING','CHOLSCREEN','ACCESS2','CHD','CHECKUP', 
+                'KIDNEY','BINGE','LPA','ARTHRITIS','BPMED','PHLTH','BPHIGH','COPD',
+                'nhosp','nhosp999','totalbeds','estbeds', 
+                'popage65_older%2018',
+                'popblack%2018',
+                'pophispanic%2018']]
+ts_deaths=cdc_covid_dths[tscols]
+ts_cases=cdc_covid_conf[tscols]
+
+import pandas as pd
+print('Reading in Google mobility data...')
+google_mobility = pd.read_excel('googlemobilitydata.xlsx')
+google_mobility.dropna(subset=['sub_region_2'], inplace=True)
+google_mobility.rename(columns={'country_region_code':'County'}, inplace=True)
+for i in google_mobility.index:
+    # get combined key
+    key = google_mobility['sub_region_2'][i]
+    key = key+', '+google_mobility['sub_region_1'][i]
+    google_mobility.at[i, 'County'] = key
+    # get datetime
+    google_mobility.at[i, 'date'] = google_mobility.date[i].replace('.','-')
+google_mobility['date'] = pd.to_datetime(google_mobility['date'])
+print('Grabbing FIPS codes....', end='')
+fipsdf = pd.read_csv('CountyCityFIPScodes.csv')
+def get_fips(fips, state=False):
+    if state:
+        if len(str(fips)) < 2:
+            return '0'+str(fips)
+        else:
+            return str(fips)
+    else:
+        if len(str(fips)) < 3:
+            fips = '0'+str(fips)
+            if len(str(fips)) < 3:
+                return '0'+str(fips)
+            else:
+                return str(fips)
+        else:
+            return str(fips)
+fipsdf['State Code (FIPS)'] = [get_fips(fips, state=True) for fips in fipsdf['State Code (FIPS)']]
+fipsdf['County Code (FIPS)'] = [get_fips(fips) for fips in fipsdf['County Code (FIPS)']]
+states = fipsdf[fipsdf['Area Name (including legal/statistical area description)'].isin(static.Province_State.unique())]
+states = states[['State Code (FIPS)','Area Name (including legal/statistical area description)']].rename(columns={'State Code (FIPS)':'FIPS',                                                                                                     'Area Name (including legal/statistical area description)':'State'})
+sts = []
+for i in fipsdf.index:
+    h = 'NNN'
+    for x in states.index:
+        if fipsdf['State Code (FIPS)'][i] == states.FIPS[x]:
+            h = states.State[x]
+    if h != 'NNN':
+        sts.append(h)
+    else:
+        sts.append(np.nan)
+fipsdf['State'] = sts
+fipsdf['FIPS'] = fipsdf['State Code (FIPS)']+fipsdf['County Code (FIPS)']
+fipsdf['County'] = fipsdf['Area Name (including legal/statistical area description)']+', '+fipsdf['State']
+fipsdf=fipsdf[['FIPS','County']]
+google_mobility = pd.merge(google_mobility, fipsdf, on='County', how='left')
+google_mobility = google_mobility[['FIPS','County','sub_region_2','date',
+                                 'retail_and_recreation_percent_change_from_baseline',
+                                 'grocery_and_pharmacy_percent_change_from_baseline',
+                                 'parks_percent_change_from_baseline',
+                                 'transit_stations_percent_change_from_baseline',
+                                 'workplaces_percent_change_from_baseline',
+                                 'residential_percent_change_from_baseline']]
+for i in google_mobility.index:
+    if google_mobility.sub_region_2[i]=='Anchorage':
+        google_mobility.at[i, 'FIPS'] = '02020'
+    elif google_mobility.sub_region_2[i]=='Do√±a Ana County':
+        google_mobility.at[i, 'FIPS'] = '35013'
+    elif google_mobility.sub_region_2[i]=='Baltimore':
+        google_mobility.at[i, 'FIPS'] = '24510' 
+    elif google_mobility.sub_region_2[i]=='St. Louis':
+        google_mobility.at[i, 'FIPS'] = '29510'
+    elif google_mobility.sub_region_2[i]=='Norfolk':
+        google_mobility.at[i, 'FIPS'] = '51710'
+    elif google_mobility.sub_region_2[i]=='Alexandria':
+        google_mobility.at[i, 'FIPS'] = '51510'
+    elif google_mobility.sub_region_2[i]=='Portsmouth':
+        google_mobility.at[i, 'FIPS'] = '51740'
+    elif google_mobility.sub_region_2[i]=='Hampton':
+        google_mobility.at[i, 'FIPS'] = '51650'
+    elif google_mobility.sub_region_2[i]=='Chesapeake':
+        google_mobility.at[i, 'FIPS'] = '51550'
+    elif google_mobility.sub_region_2[i]=='Lynchburg':
+        google_mobility.at[i, 'FIPS'] = '51680'
+    elif google_mobility.sub_region_2[i]=='Newport News':
+        google_mobility.at[i, 'FIPS'] = '51700'
+    elif google_mobility.sub_region_2[i]=='Richmond':
+        google_mobility.at[i, 'FIPS'] = '51760'
+    elif google_mobility.sub_region_2[i]=='Roanoke':
+        google_mobility.at[i, 'FIPS'] = '51770'
+    elif google_mobility.sub_region_2[i]=='Virginia Beach':
+        google_mobility.at[i, 'FIPS'] = '51810'
+    elif google_mobility.sub_region_2[i]=='Suffolk':
+        google_mobility.at[i, 'FIPS'] = '51800'
+    elif google_mobility.sub_region_2[i]=='District of Columbia':
+        google_mobility.at[i, 'FIPS'] = '11001'
+    else:
+        continue
+print('Done')
+print('Saving time series data...', end='')
+for col in ['retail_and_recreation_percent_change_from_baseline',
+             'grocery_and_pharmacy_percent_change_from_baseline',
+             'parks_percent_change_from_baseline',
+             'transit_stations_percent_change_from_baseline',
+             'workplaces_percent_change_from_baseline',
+             'residential_percent_change_from_baseline']:
+    df = google_mobility.drop_duplicates(subset=['FIPS','date']).pivot(index='FIPS',columns='date',values=col)
+    df.fillna('NAN').to_csv('covid-county-data/'+col+'.csv')
+print('Done')
+
+for col in ['retail_and_recreation_percent_change_from_baseline',
+             'grocery_and_pharmacy_percent_change_from_baseline',
+             'parks_percent_change_from_baseline',
+             'transit_stations_percent_change_from_baseline',
+             'workplaces_percent_change_from_baseline',
+             'residential_percent_change_from_baseline']:
+    
+    print('Creating matching timeseries for '+col)
+    
+    timefips = ts_deaths[['FIPS']]
+    print(len(timefips))
+    df = pd.read_csv('covid-county-data/'+col+'.csv')
+    def get_fips(x):
+        if len(str(x).replace('.0','')) < 5:
+            return '0'+str(x).replace('.0','')
+        else:
+            return str(x).replace('.0','')
+    df['FIPS'] = [get_fips(fips) for fips in df.FIPS]
+    timefips = pd.merge(timefips,df,on='FIPS',how='left')
+    print(len(timefips))
+    timefips.to_csv('covid-county-data/'+col+'.csv',index=False)
+    
+    print('\nDone\n')
+
+dens = []
+pov = []
+wel = []
+x = 0
+for fips in static.FIPS:
+    print('Progress: {:.2%}'.format(x/len(static)), end='\r')
+    url = "https://www.census.gov/quickfacts/fact/table/" + fips
+    r = requests.get(url)
+    soup = BeautifulSoup(r.content)
+    #keys = [i['data-title'] for i in soup.find_all("a",{"class":"quickinfo"})]
+    values = [i['data-value'] for i in soup.find_all("td", {"data-isnumeric":"1"})]
+    dens.append(values[len(values)-3])
+    pov.append(values[50])
+    wel.append(values[42])
+    x+=1
+static['welfare_receipts'] = wel
+static['pop_density_2010'] = dens
+static['poverty%pop'] = pov
+static.to_csv('covid-county-data/static.csv', index=False)
+print('Saved')
