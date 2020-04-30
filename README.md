@@ -1,5 +1,5 @@
 # Geominr COVID-19 Data Repository.
-Geominr has been collecting data surrounding COVID-19 and the response in the United States. This repository contains multiple data files which are organized by county (five-digit FIPS code). If you have any questions please contact us at info@geominr.com.
+Geominr has been collecting data surrounding the COVID-19 outbreak in the United States' largest metropolitan areas. This repository contains multiple data files which are organized by county (five-digit FIPS code). If you have any questions please contact us at info@geominr.com.
 
 ## In this Repository:
 ### 110 largest metro counties
