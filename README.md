@@ -1,5 +1,5 @@
-# Modeling the Spread of Covid-19 In US Cities
-Data sources and methods for COVID-19 response in the United States 
+# Geominr COVID-19 Data Repository.
+Geominr has been collecting data surrounding COVID-19 and the response in the United States. This repository contains multiple data files which are organized by county (five-digit FIPS code). If you have any questions please contact us at info@geominr.com.
 
 ## In this Repository:
 ### 110 largest metro counties
