@@ -6,7 +6,7 @@ Data sources and methods for COVID-19 response in the United States
 ##### COVID-19 US Counties time series data (Source: [Johns Hopkins CSSE]())
 * [Confirmed Cases](https://github.com/geominr/covid-19/blob/master/covid-county-data/110%20Cities/Covid19-cases-110USCities.csv)
 * [COVID-19 Deaths](https://github.com/geominr/covid-19/blob/master/covid-county-data/110%20Cities/Covid19-deaths-110USCities.csv)
-##### Health, hospitals, and population data (Sources: [CDC]())
+##### Health, hospitals, and population data (Sources: [CDC](https://chronicdata.cdc.gov/500-Cities/500-Cities-Local-Data-for-Better-Health-2019-relea/6vp6-wxuq), [Census QuickFacts](https://www.census.gov/quickfacts/fact/table/US/PST045219), [HIFLD](https://hifld-geoplatform.opendata.arcgis.com/datasets/hospitals), [American Hospital Directory](https://www.ahd.com/state_statistics.html))
 * [Static variables](https://github.com/geominr/covid-19/blob/master/covid-county-data/110%20Cities/static-110USCities.csv)
 
 ##### Air Quality Data (Source: [AirNow API]())
