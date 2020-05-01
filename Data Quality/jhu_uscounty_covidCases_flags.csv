@@ -1,0 +1,1991 @@
+,FIPS,Combined_Key,Flagged Dates,Value Day 1,Value Day 2
+0,72.0,"Puerto Rico, US",4/22/20,1298,1252
+1,72.0,"Puerto Rico, US",4/24/20,1416,1276
+2,1001.0,"Autauga, Alabama, US",4/18/20,26,25
+3,1007.0,"Bibb, Alabama, US",4/23/20,34,33
+4,1011.0,"Bullock, Alabama, US",4/2/20,3,2
+5,1013.0,"Butler, Alabama, US",4/18/20,16,13
+6,1015.0,"Calhoun, Alabama, US",4/27/20,91,90
+7,1017.0,"Chambers, Alabama, US",3/21/20,2,1
+8,1019.0,"Cherokee, Alabama, US",4/23/20,13,12
+9,1025.0,"Clarke, Alabama, US",4/24/20,25,24
+10,1031.0,"Coffee, Alabama, US",3/27/20,1,0
+11,1035.0,"Conecuh, Alabama, US",4/10/20,4,3
+12,1035.0,"Conecuh, Alabama, US",4/20/20,10,9
+13,1043.0,"Cullman, Alabama, US",4/18/20,53,42
+14,1043.0,"Cullman, Alabama, US",4/22/20,45,44
+15,1047.0,"Dallas, Alabama, US",4/11/20,11,10
+16,1047.0,"Dallas, Alabama, US",4/23/20,30,29
+17,1053.0,"Escambia, Alabama, US",4/12/20,9,8
+18,1053.0,"Escambia, Alabama, US",4/15/20,10,9
+19,1053.0,"Escambia, Alabama, US",4/18/20,14,12
+20,1057.0,"Fayette, Alabama, US",4/20/20,4,3
+21,1059.0,"Franklin, Alabama, US",4/18/20,18,17
+22,1061.0,"Geneva, Alabama, US",4/10/20,1,0
+23,1069.0,"Houston, Alabama, US",4/1/20,9,8
+24,1069.0,"Houston, Alabama, US",4/18/20,64,63
+25,1069.0,"Houston, Alabama, US",4/24/20,78,76
+26,1075.0,"Lamar, Alabama, US",4/14/20,8,7
+27,1075.0,"Lamar, Alabama, US",4/22/20,9,8
+28,1077.0,"Lauderdale, Alabama, US",4/28/20,31,30
+29,1079.0,"Lawrence, Alabama, US",3/27/20,3,2
+30,1083.0,"Limestone, Alabama, US",4/7/20,33,32
+31,1083.0,"Limestone, Alabama, US",4/22/20,40,39
+32,1087.0,"Macon, Alabama, US",4/23/20,28,27
+33,1089.0,"Madison, Alabama, US",3/15/20,1,0
+34,1089.0,"Madison, Alabama, US",4/18/20,217,197
+35,1089.0,"Madison, Alabama, US",4/24/20,205,202
+36,1091.0,"Marengo, Alabama, US",3/31/20,5,4
+37,1091.0,"Marengo, Alabama, US",4/23/20,40,38
+38,1093.0,"Marion, Alabama, US",3/31/20,10,9
+39,1093.0,"Marion, Alabama, US",4/18/20,61,60
+40,1093.0,"Marion, Alabama, US",4/30/20,76,75
+41,1095.0,"Marshall, Alabama, US",4/1/20,7,6
+42,1097.0,"Mobile, Alabama, US",3/21/20,3,2
+43,1099.0,"Monroe, Alabama, US",4/27/20,12,11
+44,1103.0,"Morgan, Alabama, US",4/1/20,20,19
+45,1103.0,"Morgan, Alabama, US",4/14/20,42,41
+46,1103.0,"Morgan, Alabama, US",4/18/20,46,45
+47,1103.0,"Morgan, Alabama, US",4/23/20,52,50
+48,1105.0,"Perry, Alabama, US",4/8/20,1,0
+49,1107.0,"Pickens, Alabama, US",4/27/20,48,47
+50,1111.0,"Randolph, Alabama, US",4/23/20,60,58
+51,1113.0,"Russell, Alabama, US",4/24/20,54,53
+52,1115.0,"St. Clair, Alabama, US",4/7/20,31,30
+53,1119.0,"Sumter, Alabama, US",4/4/20,7,6
+54,1123.0,"Tallapoosa, Alabama, US",4/20/20,195,193
+55,1125.0,"Tuscaloosa, Alabama, US",4/18/20,152,141
+56,1127.0,"Walker, Alabama, US",4/17/20,84,83
+57,1127.0,"Walker, Alabama, US",4/22/20,91,90
+58,1127.0,"Walker, Alabama, US",4/23/20,90,89
+59,1129.0,"Washington, Alabama, US",3/31/20,4,3
+60,2090.0,"Fairbanks North Star,Alaska,US",3/27/20,11,10
+61,4001.0,"Apache, Arizona, US",3/31/20,17,16
+62,4003.0,"Cochise, Arizona, US",4/14/20,16,15
+63,4005.0,"Coconino, Arizona, US",4/15/20,270,266
+64,4007.0,"Gila, Arizona, US",4/24/20,12,11
+65,4009.0,"Graham, Arizona, US",3/28/20,4,2
+66,4009.0,"Graham, Arizona, US",4/5/20,3,2
+67,4009.0,"Graham, Arizona, US",4/25/20,7,6
+68,4012.0,"La Paz, Arizona, US",4/25/20,8,7
+69,4021.0,"Pinal, Arizona, US",3/31/20,64,62
+70,4025.0,"Yavapai, Arizona, US",3/29/20,13,12
+71,4025.0,"Yavapai, Arizona, US",4/15/20,70,66
+72,4025.0,"Yavapai, Arizona, US",4/20/20,72,71
+73,4027.0,"Yuma, Arizona, US",4/5/20,14,13
+74,4027.0,"Yuma, Arizona, US",4/11/20,16,15
+75,5007.0,"Benton, Arkansas, US",4/6/20,43,42
+76,5007.0,"Benton, Arkansas, US",4/16/20,62,61
+77,5019.0,"Clark, Arkansas, US",3/24/20,7,6
+78,5019.0,"Clark, Arkansas, US",3/29/20,18,17
+79,5019.0,"Clark, Arkansas, US",4/13/20,27,26
+80,5019.0,"Clark, Arkansas, US",4/26/20,29,28
+81,5019.0,"Clark, Arkansas, US",4/27/20,28,27
+82,5023.0,"Cleburne, Arkansas, US",4/5/20,65,64
+83,5045.0,"Faulkner, Arkansas, US",4/13/20,59,57
+84,5047.0,"Franklin, Arkansas, US",4/15/20,2,1
+85,5051.0,"Garland, Arkansas, US",4/18/20,107,106
+86,5055.0,"Greene, Arkansas, US",4/19/20,9,8
+87,5057.0,"Hempstead, Arkansas, US",3/28/20,1,0
+88,5057.0,"Hempstead, Arkansas, US",4/14/20,5,4
+89,5061.0,"Howard, Arkansas, US",4/23/20,14,13
+90,5071.0,"Johnson, Arkansas, US",4/15/20,19,16
+91,5071.0,"Johnson, Arkansas, US",4/28/20,30,29
+92,5073.0,"Lafayette, Arkansas, US",4/18/20,5,4
+93,5075.0,"Lawrence, Arkansas, US",3/25/20,1,0
+94,5079.0,"Lincoln, Arkansas, US",4/9/20,11,10
+95,5085.0,"Lonoke, Arkansas, US",4/13/20,30,29
+96,5085.0,"Lonoke, Arkansas, US",4/19/20,30,26
+97,5125.0,"Saline, Arkansas, US",4/9/20,33,31
+98,5139.0,"Union, Arkansas, US",4/13/20,18,17
+99,5141.0,"Van Buren, Arkansas, US",3/31/20,20,19
+100,6003.0,"Alpine, California, US",4/20/20,2,1
+101,6005.0,"Amador, California, US",4/5/20,3,0
+102,6019.0,"Fresno, California, US",3/13/20,2,1
+103,6041.0,"Marin, California, US",4/12/20,154,153
+104,6055.0,"Napa, California, US",3/12/20,1,0
+105,6057.0,"Nevada, California, US",4/23/20,38,36
+106,6061.0,"Placer, California, US",3/13/20,7,4
+107,6061.0,"Placer, California, US",3/15/20,7,5
+108,6085.0,"Santa Clara, California, US",3/15/20,95,91
+109,6093.0,"Siskiyou, California, US",3/31/20,4,3
+110,6097.0,"Sonoma, California, US",3/14/20,3,1
+111,6097.0,"Sonoma, California, US",3/17/20,5,4
+112,6097.0,"Sonoma, California, US",3/19/20,8,6
+113,6101.0,"Sutter, California, US",4/14/20,37,23
+114,6101.0,"Sutter, California, US",4/28/20,45,29
+115,6109.0,"Tuolumne, California, US",4/8/20,2,1
+116,6111.0,"Ventura, California, US",3/16/20,5,4
+117,6115.0,"Yuba, California, US",3/25/20,3,0
+118,8007.0,"Archuleta, Colorado, US",4/23/20,9,8
+119,8013.0,"Boulder, Colorado, US",3/14/20,1,0
+120,8014.0,"Broomfield, Colorado, US",3/21/20,2,1
+121,8029.0,"Delta, Colorado, US",3/29/20,2,1
+122,8037.0,"Eagle, Colorado, US",4/17/20,480,479
+123,8039.0,"Elbert, Colorado, US",4/16/20,17,16
+124,8049.0,"Grand, Colorado, US",3/21/20,3,2
+125,8051.0,"Gunnison, Colorado, US",3/12/20,5,3
+126,8051.0,"Gunnison, Colorado, US",4/13/20,101,99
+127,8063.0,"Kit Carson, Colorado, US",3/29/20,2,1
+128,8067.0,"La Plata, Colorado, US",4/21/20,52,51
+129,8073.0,"Lincoln, Colorado, US",4/27/20,4,3
+130,8077.0,"Mesa, Colorado, US",4/2/20,16,14
+131,8077.0,"Mesa, Colorado, US",4/16/20,35,34
+132,8081.0,"Moffat, Colorado, US",4/4/20,4,3
+133,8087.0,"Morgan, Colorado, US",3/31/20,5,4
+134,8097.0,"Pitkin, Colorado, US",4/22/20,58,57
+135,8107.0,"Routt, Colorado, US",4/29/20,55,54
+136,8111.0,"San Juan, Colorado, US",4/27/20,1,0
+137,8117.0,"Summit, Colorado, US",3/16/20,2,1
+138,8117.0,"Summit, Colorado, US",3/26/20,10,9
+139,8117.0,"Summit, Colorado, US",3/29/20,13,11
+140,8117.0,"Summit, Colorado, US",4/7/20,58,53
+141,8117.0,"Summit, Colorado, US",4/24/20,105,97
+142,8119.0,"Teller, Colorado, US",4/13/20,16,15
+143,9015.0,"Windham, Connecticut, US",3/22/20,2,1
+144,9015.0,"Windham, Connecticut, US",4/16/20,89,87
+145,12001.0,"Alachua, Florida, US",3/14/20,2,1
+146,12001.0,"Alachua, Florida, US",4/13/20,215,187
+147,12001.0,"Alachua, Florida, US",4/15/20,195,194
+148,12017.0,"Citrus, Florida, US",4/15/20,75,74
+149,12023.0,"Columbia, Florida, US",4/22/20,43,42
+150,12029.0,"Dixie, Florida, US",4/9/20,2,1
+151,12029.0,"Dixie, Florida, US",4/27/20,6,5
+152,12031.0,"Duval, Florida, US",4/24/20,956,955
+153,12041.0,"Gilchrist, Florida, US",4/16/20,6,4
+154,12053.0,"Hernando, Florida, US",3/22/20,6,5
+155,12053.0,"Hernando, Florida, US",4/23/20,84,83
+156,12057.0,"Hillsborough, Florida, US",3/12/20,3,2
+157,12057.0,"Hillsborough, Florida, US",3/14/20,3,2
+158,12059.0,"Holmes, Florida, US",4/9/20,3,2
+159,12061.0,"Indian River, Florida, US",4/18/20,85,83
+160,12071.0,"Lee, Florida, US",4/22/20,795,794
+161,12073.0,"Leon, Florida, US",4/18/20,174,169
+162,12075.0,"Levy, Florida, US",4/13/20,8,7
+163,12075.0,"Levy, Florida, US",4/21/20,13,12
+164,12087.0,"Monroe, Florida, US",4/29/20,79,78
+165,12097.0,"Osceola, Florida, US",4/30/20,479,478
+166,12107.0,"Putnam, Florida, US",4/13/20,43,42
+167,12109.0,"St. Johns, Florida, US",3/14/20,1,0
+168,12113.0,"Santa Rosa, Florida, US",3/18/20,1,0
+169,12113.0,"Santa Rosa, Florida, US",4/21/20,140,139
+170,12113.0,"Santa Rosa, Florida, US",4/23/20,144,141
+171,12115.0,"Sarasota, Florida, US",3/14/20,2,1
+172,12117.0,"Seminole, Florida, US",4/29/20,374,373
+173,12119.0,"Sumter, Florida, US",4/29/20,177,176
+174,12125.0,"Union, Florida, US",4/20/20,3,2
+175,12133.0,"Washington, Florida, US",4/18/20,6,5
+176,13001.0,"Appling, Georgia, US",3/26/20,1,0
+177,13001.0,"Appling, Georgia, US",4/1/20,2,1
+178,13003.0,"Atkinson, Georgia, US",4/11/20,4,2
+179,13007.0,"Baker, Georgia, US",3/26/20,3,1
+180,13007.0,"Baker, Georgia, US",4/18/20,19,16
+181,13007.0,"Baker, Georgia, US",4/23/20,20,19
+182,13009.0,"Baldwin, Georgia, US",4/18/20,109,108
+183,13011.0,"Banks, Georgia, US",4/27/20,18,17
+184,13013.0,"Barrow, Georgia, US",4/26/20,111,108
+185,13019.0,"Berrien, Georgia, US",4/27/20,16,15
+186,13019.0,"Berrien, Georgia, US",4/30/20,18,17
+187,13023.0,"Bleckley, Georgia, US",4/20/20,6,5
+188,13029.0,"Bryan, Georgia, US",4/9/20,26,25
+189,13029.0,"Bryan, Georgia, US",4/11/20,29,28
+190,13029.0,"Bryan, Georgia, US",4/14/20,31,30
+191,13029.0,"Bryan, Georgia, US",4/21/20,35,34
+192,13033.0,"Burke, Georgia, US",4/28/20,77,74
+193,13035.0,"Butts, Georgia, US",4/24/20,126,125
+194,13037.0,"Calhoun, Georgia, US",4/18/20,60,57
+195,13039.0,"Camden, Georgia, US",3/14/20,1,0
+196,13039.0,"Camden, Georgia, US",4/20/20,28,27
+197,13043.0,"Candler, Georgia, US",4/28/20,8,7
+198,13049.0,"Charlton, Georgia, US",4/9/20,3,2
+199,13049.0,"Charlton, Georgia, US",4/30/20,9,8
+200,13055.0,"Chattooga, Georgia, US",4/10/20,5,4
+201,13059.0,"Clarke, Georgia, US",3/21/20,10,9
+202,13059.0,"Clarke, Georgia, US",4/26/20,127,123
+203,13063.0,"Clayton, Georgia, US",4/26/20,642,641
+204,13069.0,"Coffee, Georgia, US",4/1/20,11,9
+205,13071.0,"Colquitt, Georgia, US",4/8/20,69,68
+206,13071.0,"Colquitt, Georgia, US",4/26/20,166,165
+207,13077.0,"Coweta, Georgia, US",4/22/20,170,168
+208,13083.0,"Dade, Georgia, US",4/28/20,17,14
+209,13085.0,"Dawson, Georgia, US",3/27/20,3,2
+210,13087.0,"Decatur, Georgia, US",4/7/20,20,17
+211,13087.0,"Decatur, Georgia, US",4/9/20,30,21
+212,13087.0,"Decatur, Georgia, US",4/21/20,61,59
+213,13087.0,"Decatur, Georgia, US",4/22/20,59,50
+214,13087.0,"Decatur, Georgia, US",4/24/20,61,59
+215,13093.0,"Dooly, Georgia, US",4/8/20,28,27
+216,13095.0,"Dougherty, Georgia, US",3/15/20,7,6
+217,13095.0,"Dougherty, Georgia, US",4/23/20,1479,1478
+218,13095.0,"Dougherty, Georgia, US",4/24/20,1478,1465
+219,13099.0,"Early, Georgia, US",4/30/20,214,213
+220,13103.0,"Effingham, Georgia, US",4/16/20,25,24
+221,13111.0,"Fannin, Georgia, US",4/8/20,10,9
+222,13113.0,"Fayette, Georgia, US",3/20/20,10,9
+223,13119.0,"Franklin, Georgia, US",4/7/20,5,3
+224,13121.0,"Fulton, Georgia, US",3/12/20,7,6
+225,13127.0,"Glynn, Georgia, US",4/25/20,52,51
+226,13129.0,"Gordon, Georgia, US",4/21/20,67,66
+227,13133.0,"Greene, Georgia, US",3/26/20,2,1
+228,13133.0,"Greene, Georgia, US",4/23/20,50,49
+229,13133.0,"Greene, Georgia, US",4/28/20,54,52
+230,13137.0,"Habersham, Georgia, US",3/28/20,1,0
+231,13137.0,"Habersham, Georgia, US",4/9/20,8,7
+232,13143.0,"Haralson, Georgia, US",4/9/20,17,15
+233,13143.0,"Haralson, Georgia, US",4/17/20,20,19
+234,13143.0,"Haralson, Georgia, US",4/30/20,28,27
+235,13145.0,"Harris, Georgia, US",4/1/20,4,3
+236,13145.0,"Harris, Georgia, US",4/4/20,7,6
+237,13145.0,"Harris, Georgia, US",4/21/20,45,44
+238,13147.0,"Hart, Georgia, US",4/2/20,4,3
+239,13149.0,"Heard, Georgia, US",4/2/20,3,2
+240,13149.0,"Heard, Georgia, US",4/9/20,3,2
+241,13149.0,"Heard, Georgia, US",4/20/20,8,7
+242,13149.0,"Heard, Georgia, US",4/29/20,10,9
+243,13153.0,"Houston, Georgia, US",3/22/20,2,1
+244,13155.0,"Irwin, Georgia, US",4/24/20,17,15
+245,13157.0,"Jackson, Georgia, US",4/26/20,75,73
+246,13159.0,"Jasper, Georgia, US",4/6/20,4,3
+247,13159.0,"Jasper, Georgia, US",4/8/20,6,5
+248,13159.0,"Jasper, Georgia, US",4/21/20,18,17
+249,13159.0,"Jasper, Georgia, US",4/30/20,22,21
+250,13167.0,"Johnson, Georgia, US",4/24/20,38,36
+251,13171.0,"Lamar, Georgia, US",3/28/20,3,2
+252,13171.0,"Lamar, Georgia, US",3/31/20,4,3
+253,13171.0,"Lamar, Georgia, US",4/3/20,7,6
+254,13171.0,"Lamar, Georgia, US",4/8/20,15,14
+255,13171.0,"Lamar, Georgia, US",4/22/20,29,28
+256,13177.0,"Lee, Georgia, US",4/24/20,298,297
+257,13179.0,"Liberty, Georgia, US",4/7/20,13,12
+258,13179.0,"Liberty, Georgia, US",4/10/20,15,14
+259,13185.0,"Lowndes, Georgia, US",3/20/20,8,7
+260,13187.0,"Lumpkin, Georgia, US",4/1/20,8,7
+261,13193.0,"Macon, Georgia, US",4/16/20,47,39
+262,13195.0,"Madison, Georgia, US",4/10/20,10,9
+263,13195.0,"Madison, Georgia, US",4/26/20,23,22
+264,13201.0,"Miller, Georgia, US",4/8/20,15,12
+265,13201.0,"Miller, Georgia, US",4/9/20,12,9
+266,13201.0,"Miller, Georgia, US",4/24/20,26,24
+267,13205.0,"Mitchell, Georgia, US",4/20/20,213,210
+268,13205.0,"Mitchell, Georgia, US",4/24/20,290,288
+269,13207.0,"Monroe, Georgia, US",4/8/20,13,12
+270,13211.0,"Morgan, Georgia, US",4/26/20,25,23
+271,13211.0,"Morgan, Georgia, US",4/28/20,25,24
+272,13213.0,"Murray, Georgia, US",4/16/20,17,16
+273,13217.0,"Newton, Georgia, US",3/16/20,2,1
+274,13219.0,"Oconee, Georgia, US",3/21/20,2,1
+275,13219.0,"Oconee, Georgia, US",4/26/20,55,53
+276,13221.0,"Oglethorpe, Georgia, US",4/23/20,37,36
+277,13221.0,"Oglethorpe, Georgia, US",4/26/20,48,47
+278,13221.0,"Oglethorpe, Georgia, US",4/30/20,49,48
+279,13223.0,"Paulding, Georgia, US",4/9/20,66,65
+280,13227.0,"Pickens, Georgia, US",4/11/20,11,10
+281,13227.0,"Pickens, Georgia, US",4/13/20,12,11
+282,13233.0,"Polk, Georgia, US",4/10/20,22,21
+283,13235.0,"Pulaski, Georgia, US",4/5/20,7,6
+284,13235.0,"Pulaski, Georgia, US",4/21/20,18,17
+285,13239.0,"Quitman, Georgia, US",4/11/20,4,3
+286,13239.0,"Quitman, Georgia, US",4/30/20,5,4
+287,13243.0,"Randolph, Georgia, US",4/2/20,5,4
+288,13245.0,"Richmond, Georgia, US",3/18/20,3,1
+289,13245.0,"Richmond, Georgia, US",3/26/20,11,10
+290,13247.0,"Rockdale, Georgia, US",4/9/20,86,85
+291,13247.0,"Rockdale, Georgia, US",4/26/20,162,161
+292,13249.0,"Schley, Georgia, US",4/1/20,5,4
+293,13249.0,"Schley, Georgia, US",4/2/20,4,3
+294,13253.0,"Seminole, Georgia, US",4/1/20,8,6
+295,13253.0,"Seminole, Georgia, US",4/10/20,13,12
+296,13253.0,"Seminole, Georgia, US",4/17/20,20,19
+297,13253.0,"Seminole, Georgia, US",4/30/20,30,29
+298,13255.0,"Spalding, Georgia, US",3/18/20,1,0
+299,13257.0,"Stephens, Georgia, US",3/26/20,2,1
+300,13257.0,"Stephens, Georgia, US",4/28/20,73,71
+301,13259.0,"Stewart, Georgia, US",4/23/20,18,17
+302,13263.0,"Talbot, Georgia, US",4/9/20,8,7
+303,13263.0,"Talbot, Georgia, US",4/23/20,22,21
+304,13271.0,"Telfair, Georgia, US",3/26/20,1,0
+305,13271.0,"Telfair, Georgia, US",4/23/20,18,16
+306,13271.0,"Telfair, Georgia, US",4/27/20,26,25
+307,13275.0,"Thomas, Georgia, US",4/20/20,127,126
+308,13275.0,"Thomas, Georgia, US",4/24/20,158,157
+309,13277.0,"Tift, Georgia, US",4/27/20,102,100
+310,13277.0,"Tift, Georgia, US",4/28/20,100,97
+311,13279.0,"Toombs, Georgia, US",4/1/20,3,2
+312,13285.0,"Troup, Georgia, US",3/28/20,11,9
+313,13285.0,"Troup, Georgia, US",4/11/20,56,55
+314,13287.0,"Turner, Georgia, US",4/13/20,38,37
+315,13289.0,"Twiggs, Georgia, US",4/26/20,8,7
+316,13291.0,"Union, Georgia, US",4/21/20,16,15
+317,13291.0,"Union, Georgia, US",4/30/20,34,33
+318,13295.0,"Walker, Georgia, US",4/8/20,4,3
+319,13295.0,"Walker, Georgia, US",4/28/20,59,58
+320,13297.0,"Walton, Georgia, US",3/26/20,1,0
+321,13297.0,"Walton, Georgia, US",3/30/20,5,4
+322,13297.0,"Walton, Georgia, US",4/18/20,59,58
+323,13303.0,"Washington, Georgia, US",4/4/20,6,5
+324,13303.0,"Washington, Georgia, US",4/9/20,17,16
+325,13303.0,"Washington, Georgia, US",4/14/20,23,22
+326,13305.0,"Wayne, Georgia, US",4/9/20,4,3
+327,13307.0,"Webster, Georgia, US",4/8/20,4,3
+328,13313.0,"Whitfield, Georgia, US",3/30/20,8,7
+329,13313.0,"Whitfield, Georgia, US",4/9/20,21,20
+330,13315.0,"Wilcox, Georgia, US",4/5/20,2,1
+331,13319.0,"Wilkinson, Georgia, US",4/2/20,2,1
+332,13321.0,"Worth, Georgia, US",4/1/20,29,28
+333,13321.0,"Worth, Georgia, US",4/24/20,142,138
+334,15001.0,"Hawaii, Hawaii, US",3/11/20,1,0
+335,15001.0,"Hawaii, Hawaii, US",3/24/20,3,2
+336,15007.0,"Kauai, Hawaii, US",3/24/20,3,1
+337,15009.0,"Maui, Hawaii, US",4/26/20,113,112
+338,16001.0,"Ada, Idaho, US",4/3/20,312,307
+339,16005.0,"Bannock, Idaho, US",3/27/20,3,2
+340,16011.0,"Bingham, Idaho, US",3/27/20,2,1
+341,16019.0,"Bonneville, Idaho, US",4/28/20,28,27
+342,16021.0,"Boundary, Idaho, US",4/15/20,1,0
+343,16027.0,"Canyon, Idaho, US",3/29/20,23,22
+344,16031.0,"Cassia, Idaho, US",4/16/20,10,9
+345,16039.0,"Elmore, Idaho, US",4/25/20,32,29
+346,16043.0,"Fremont, Idaho, US",3/21/20,1,0
+347,16045.0,"Gem, Idaho, US",4/2/20,5,4
+348,16049.0,"Idaho, Idaho, US",4/3/20,2,1
+349,16049.0,"Idaho, Idaho, US",4/6/20,3,2
+350,16055.0,"Kootenai, Idaho, US",4/8/20,43,42
+351,16061.0,"Lewis, Idaho, US",4/7/20,1,0
+352,16065.0,"Madison, Idaho, US",4/1/20,5,4
+353,16069.0,"Nez Perce, Idaho, US",4/3/20,14,13
+354,16075.0,"Payette, Idaho, US",3/28/20,4,1
+355,16083.0,"Twin Falls, Idaho, US",3/28/20,3,2
+356,16085.0,"Valley, Idaho, US",4/6/20,3,2
+357,16087.0,"Washington, Idaho, US",4/25/20,2,1
+358,17001.0,"Adams, Illinois, US",4/8/20,9,1
+359,17001.0,"Adams, Illinois, US",4/21/20,34,29
+360,17011.0,"Bureau, Illinois, US",4/30/20,11,10
+361,17017.0,"Cass, Illinois, US",4/27/20,27,25
+362,17019.0,"Champaign, Illinois, US",3/22/20,3,2
+363,17021.0,"Christian, Illinois, US",4/21/20,27,26
+364,17023.0,"Clark, Illinois, US",4/8/20,4,3
+365,17027.0,"Clinton, Illinois, US",4/14/20,39,38
+366,17029.0,"Coles, Illinois, US",3/16/20,1,0
+367,17033.0,"Crawford, Illinois, US",4/7/20,5,4
+368,17033.0,"Crawford, Illinois, US",4/19/20,5,4
+369,17037.0,"DeKalb, Illinois, US",3/30/20,8,4
+370,17039.0,"De Witt, Illinois, US",4/7/20,3,2
+371,17039.0,"De Witt, Illinois, US",4/9/20,2,1
+372,17049.0,"Effingham, Illinois, US",4/30/20,6,5
+373,17053.0,"Ford, Illinois, US",4/8/20,5,3
+374,17053.0,"Ford, Illinois, US",4/24/20,8,7
+375,17053.0,"Ford, Illinois, US",4/30/20,10,9
+376,17055.0,"Franklin, Illinois, US",3/30/20,2,1
+377,17057.0,"Fulton, Illinois, US",4/11/20,2,1
+378,17057.0,"Fulton, Illinois, US",4/25/20,3,2
+379,17061.0,"Greene, Illinois, US",4/11/20,2,1
+380,17075.0,"Iroquois, Illinois, US",3/30/20,2,1
+381,17079.0,"Jasper, Illinois, US",4/7/20,4,3
+382,17081.0,"Jefferson, Illinois, US",4/6/20,2,1
+383,17081.0,"Jefferson, Illinois, US",4/9/20,3,2
+384,17081.0,"Jefferson, Illinois, US",4/28/20,83,81
+385,17085.0,"Jo Daviess, Illinois, US",4/22/20,12,11
+386,17089.0,"Kane, Illinois, US",3/17/20,4,3
+387,17093.0,"Kendall, Illinois, US",3/19/20,2,1
+388,17099.0,"LaSalle,Illinois,US",3/27/20,3,0
+389,17099.0,"LaSalle,Illinois,US",4/11/20,19,18
+390,17103.0,"Lee, Illinois, US",4/14/20,14,13
+391,17105.0,"Livingston, Illinois, US",4/18/20,18,17
+392,17107.0,"Logan, Illinois, US",3/27/20,1,0
+393,17107.0,"Logan, Illinois, US",4/9/20,3,2
+394,17107.0,"Logan, Illinois, US",4/18/20,5,4
+395,17113.0,"McLean, Illinois, US",4/1/20,19,18
+396,17115.0,"Macon, Illinois, US",4/10/20,15,14
+397,17115.0,"Macon, Illinois, US",4/15/20,45,44
+398,17115.0,"Macon, Illinois, US",4/19/20,55,54
+399,17121.0,"Marion, Illinois, US",4/22/20,25,24
+400,17127.0,"Massac, Illinois, US",4/18/20,4,3
+401,17129.0,"Menard, Illinois, US",4/1/20,1,0
+402,17137.0,"Morgan, Illinois, US",4/15/20,11,10
+403,17139.0,"Moultrie, Illinois, US",4/12/20,3,2
+404,17143.0,"Peoria, Illinois, US",4/6/20,14,12
+405,17143.0,"Peoria, Illinois, US",4/9/20,16,15
+406,17153.0,"Pulaski, Illinois, US",4/17/20,6,5
+407,17163.0,"St. Clair, Illinois, US",3/17/20,4,2
+408,17167.0,"Sangamon, Illinois, US",3/18/20,4,3
+409,17173.0,"Shelby, Illinois, US",4/25/20,10,9
+410,17179.0,"Tazewell, Illinois, US",4/19/20,41,26
+411,17179.0,"Tazewell, Illinois, US",4/22/20,30,25
+412,17185.0,"Wabash, Illinois, US",4/15/20,2,1
+413,17195.0,"Whiteside, Illinois, US",4/15/20,30,29
+414,17199.0,"Williamson, Illinois, US",3/24/20,1,0
+415,17203.0,"Woodford, Illinois, US",3/30/20,4,3
+416,18001.0,"Adams, Indiana, US",4/27/20,8,7
+417,18007.0,"Benton, Indiana, US",4/2/20,1,0
+418,18007.0,"Benton, Indiana, US",4/24/20,6,5
+419,18015.0,"Carroll,Indiana,US",4/22/20,8,7
+420,18017.0,"Cass, Indiana, US",4/12/20,23,22
+421,18021.0,"Clay, Indiana, US",4/10/20,12,11
+422,18021.0,"Clay, Indiana, US",4/21/20,20,19
+423,18029.0,"Dearborn, Indiana, US",4/14/20,129,60
+424,18033.0,"DeKalb, Indiana, US",4/14/20,60,6
+425,18043.0,"Floyd, Indiana, US",3/22/20,5,3
+426,18055.0,"Greene, Indiana, US",3/25/20,1,0
+427,18059.0,"Hancock, Indiana, US",3/17/20,1,0
+428,18059.0,"Hancock, Indiana, US",3/31/20,28,26
+429,18059.0,"Hancock, Indiana, US",4/16/20,129,127
+430,18059.0,"Hancock, Indiana, US",4/21/20,151,149
+431,18061.0,"Harrison, Indiana, US",4/10/20,51,50
+432,18063.0,"Hendricks, Indiana, US",4/27/20,644,643
+433,18065.0,"Henry, Indiana, US",3/31/20,2,1
+434,18065.0,"Henry, Indiana, US",4/14/20,23,22
+435,18065.0,"Henry, Indiana, US",4/21/20,31,28
+436,18067.0,"Howard, Indiana, US",4/9/20,44,42
+437,18067.0,"Howard, Indiana, US",4/21/20,72,71
+438,18069.0,"Huntington, Indiana, US",4/5/20,5,4
+439,18069.0,"Huntington, Indiana, US",4/13/20,7,6
+440,18071.0,"Jackson, Indiana, US",4/20/20,90,89
+441,18071.0,"Jackson, Indiana, US",4/22/20,98,97
+442,18073.0,"Jasper, Indiana, US",4/5/20,15,12
+443,18073.0,"Jasper, Indiana, US",4/7/20,15,14
+444,18073.0,"Jasper, Indiana, US",4/10/20,16,15
+445,18073.0,"Jasper, Indiana, US",4/18/20,22,21
+446,18073.0,"Jasper, Indiana, US",4/22/20,26,24
+447,18073.0,"Jasper, Indiana, US",4/26/20,34,28
+448,18075.0,"Jay, Indiana, US",4/21/20,10,9
+449,18077.0,"Jefferson, Indiana, US",4/12/20,13,12
+450,18077.0,"Jefferson, Indiana, US",4/15/20,16,15
+451,18087.0,"LaGrange, Indiana, US",4/18/20,16,15
+452,18093.0,"Lawrence, Indiana, US",4/29/20,95,94
+453,18095.0,"Madison, Indiana, US",4/26/20,395,394
+454,18099.0,"Marshall, Indiana, US",3/28/20,4,3
+455,18099.0,"Marshall, Indiana, US",4/13/20,19,17
+456,18099.0,"Marshall, Indiana, US",4/23/20,26,25
+457,18099.0,"Marshall, Indiana, US",4/28/20,29,28
+458,18101.0,"Martin, Indiana, US",4/7/20,2,1
+459,18103.0,"Miami, Indiana, US",4/5/20,8,7
+460,18103.0,"Miami, Indiana, US",4/17/20,22,21
+461,18105.0,"Monroe, Indiana, US",3/20/20,1,0
+462,18109.0,"Morgan, Indiana, US",4/26/20,133,131
+463,18117.0,"Orange, Indiana, US",4/8/20,14,11
+464,18121.0,"Parke, Indiana, US",4/8/20,6,5
+465,18121.0,"Parke, Indiana, US",4/18/20,8,7
+466,18125.0,"Pike, Indiana, US",4/15/20,2,1
+467,18135.0,"Randolph, Indiana, US",4/16/20,11,10
+468,18135.0,"Randolph, Indiana, US",4/24/20,14,13
+469,18137.0,"Ripley, Indiana, US",4/15/20,89,88
+470,18137.0,"Ripley, Indiana, US",4/17/20,89,77
+471,18139.0,"Rush, Indiana, US",3/29/20,3,2
+472,18139.0,"Rush, Indiana, US",4/10/20,14,12
+473,18139.0,"Rush, Indiana, US",4/14/20,17,16
+474,18139.0,"Rush, Indiana, US",4/18/20,20,19
+475,18139.0,"Rush, Indiana, US",4/22/20,22,21
+476,18149.0,"Starke, Indiana, US",3/25/20,2,1
+477,18155.0,"Switzerland, Indiana, US",4/10/20,13,12
+478,18155.0,"Switzerland, Indiana, US",4/13/20,13,12
+479,18161.0,"Union, Indiana, US",4/14/20,9,6
+480,18161.0,"Union, Indiana, US",4/26/20,7,6
+481,18167.0,"Vigo, Indiana, US",4/3/20,10,9
+482,18173.0,"Warrick, Indiana, US",3/25/20,1,0
+483,18173.0,"Warrick, Indiana, US",4/22/20,69,68
+484,18175.0,"Washington, Indiana, US",4/17/20,28,27
+485,18177.0,"Wayne, Indiana, US",3/24/20,1,0
+486,18177.0,"Wayne, Indiana, US",4/30/20,36,34
+487,18179.0,"Wells, Indiana, US",4/23/20,6,5
+488,18179.0,"Wells, Indiana, US",4/26/20,6,5
+489,18183.0,"Whitley, Indiana, US",4/17/20,15,14
+490,19005.0,"Allamakee, Iowa, US",4/7/20,18,17
+491,19011.0,"Benton, Iowa, US",4/15/20,20,19
+492,19013.0,"Black Hawk, Iowa, US",3/28/20,7,6
+493,19019.0,"Buchanan, Iowa, US",4/25/20,13,12
+494,19039.0,"Clarke, Iowa, US",4/19/20,3,2
+495,19043.0,"Clayton, Iowa, US",4/28/20,13,12
+496,19049.0,"Dallas, Iowa, US",4/13/20,37,36
+497,19055.0,"Delaware, Iowa, US",4/3/20,1,0
+498,19057.0,"Des Moines, Iowa, US",4/2/20,2,1
+499,19057.0,"Des Moines, Iowa, US",4/30/20,17,16
+500,19063.0,"Emmet, Iowa, US",4/27/20,1,0
+501,19083.0,"Hardin, Iowa, US",4/15/20,2,1
+502,19101.0,"Jefferson, Iowa, US",4/24/20,7,6
+503,19107.0,"Keokuk, Iowa, US",4/1/20,2,1
+504,19107.0,"Keokuk, Iowa, US",4/19/20,4,3
+505,19107.0,"Keokuk, Iowa, US",4/26/20,4,2
+506,19121.0,"Madison, Iowa, US",4/23/20,4,3
+507,19129.0,"Mills, Iowa, US",4/28/20,3,2
+508,19141.0,"O'Brien, Iowa, US",4/25/20,5,4
+509,19145.0,"Page, Iowa, US",4/5/20,3,2
+510,19149.0,"Plymouth, Iowa, US",4/24/20,9,8
+511,19149.0,"Plymouth, Iowa, US",4/27/20,11,10
+512,19155.0,"Pottawattamie, Iowa, US",4/5/20,8,7
+513,19157.0,"Poweshiek, Iowa, US",4/3/20,7,6
+514,19169.0,"Story, Iowa, US",4/21/20,20,19
+515,19171.0,"Tama, Iowa, US",4/27/20,263,259
+516,19179.0,"Wapello, Iowa, US",4/16/20,7,6
+517,19179.0,"Wapello, Iowa, US",4/19/20,7,6
+518,19181.0,"Warren, Iowa, US",4/13/20,16,14
+519,19181.0,"Warren, Iowa, US",4/22/20,20,18
+520,19187.0,"Webster, Iowa, US",4/21/20,4,3
+521,19187.0,"Webster, Iowa, US",4/22/20,3,2
+522,19191.0,"Winneshiek, Iowa, US",4/28/20,24,15
+523,19197.0,"Wright, Iowa, US",4/30/20,4,3
+524,20003.0,"Anderson, Kansas, US",4/3/20,1,0
+525,20003.0,"Anderson, Kansas, US",4/14/20,1,0
+526,20011.0,"Bourbon, Kansas, US",4/23/20,7,6
+527,20027.0,"Clay, Kansas, US",4/22/20,5,4
+528,20027.0,"Clay, Kansas, US",4/29/20,5,4
+529,20037.0,"Crawford, Kansas, US",4/3/20,5,4
+530,20037.0,"Crawford, Kansas, US",4/6/20,6,4
+531,20037.0,"Crawford, Kansas, US",4/8/20,6,4
+532,20045.0,"Douglas, Kansas, US",3/24/20,8,6
+533,20057.0,"Ford, Kansas, US",3/19/20,1,0
+534,20057.0,"Ford, Kansas, US",4/1/20,1,0
+535,20061.0,"Geary, Kansas, US",4/15/20,10,9
+536,20069.0,"Gray, Kansas, US",4/21/20,1,0
+537,20087.0,"Jefferson, Kansas, US",4/18/20,6,5
+538,20093.0,"Kearny, Kansas, US",4/14/20,1,0
+539,20107.0,"Linn, Kansas, US",4/3/20,6,5
+540,20111.0,"Lyon, Kansas, US",4/6/20,24,23
+541,20111.0,"Lyon, Kansas, US",4/17/20,48,47
+542,20111.0,"Lyon, Kansas, US",4/22/20,111,110
+543,20123.0,"Mitchell, Kansas, US",3/24/20,2,1
+544,20125.0,"Montgomery, Kansas, US",4/14/20,14,11
+545,20133.0,"Neosho, Kansas, US",4/30/20,3,2
+546,20155.0,"Reno, Kansas, US",4/8/20,11,10
+547,20161.0,"Riley, Kansas, US",3/23/20,1,0
+548,20171.0,"Scott, Kansas, US",4/28/20,1,0
+549,20173.0,"Sedgwick, Kansas, US",3/14/20,1,0
+550,20189.0,"Stevens, Kansas, US",4/1/20,2,1
+551,20189.0,"Stevens, Kansas, US",4/3/20,2,1
+552,20197.0,"Wabaunsee, Kansas, US",4/11/20,7,1
+553,21001.0,"Adair, Kentucky, US",4/27/20,83,77
+554,21003.0,"Allen, Kentucky, US",4/14/20,4,2
+555,21005.0,"Anderson, Kentucky, US",4/19/20,7,6
+556,21007.0,"Ballard, Kentucky, US",4/17/20,4,3
+557,21009.0,"Barren, Kentucky, US",4/5/20,1,0
+558,21015.0,"Boone, Kentucky, US",4/15/20,58,56
+559,21017.0,"Bourbon, Kentucky, US",4/17/20,7,5
+560,21017.0,"Bourbon, Kentucky, US",4/22/20,7,6
+561,21019.0,"Boyd, Kentucky, US",4/14/20,26,23
+562,21019.0,"Boyd, Kentucky, US",4/30/20,33,31
+563,21021.0,"Boyle, Kentucky, US",4/15/20,14,12
+564,21023.0,"Bracken, Kentucky, US",4/14/20,6,5
+565,21025.0,"Breathitt, Kentucky, US",4/4/20,2,1
+566,21025.0,"Breathitt, Kentucky, US",4/15/20,3,1
+567,21025.0,"Breathitt, Kentucky, US",4/19/20,2,1
+568,21027.0,"Breckinridge, Kentucky, US",4/4/20,2,0
+569,21029.0,"Bullitt, Kentucky, US",4/15/20,34,30
+570,21031.0,"Butler, Kentucky, US",4/20/20,73,72
+571,21031.0,"Butler, Kentucky, US",4/27/20,104,103
+572,21033.0,"Caldwell, Kentucky, US",4/5/20,3,2
+573,21033.0,"Caldwell, Kentucky, US",4/14/20,10,9
+574,21035.0,"Calloway, Kentucky, US",4/15/20,16,15
+575,21035.0,"Calloway, Kentucky, US",4/18/20,22,21
+576,21037.0,"Campbell, Kentucky, US",4/14/20,47,45
+577,21043.0,"Carter, Kentucky, US",4/17/20,5,4
+578,21047.0,"Christian, Kentucky, US",4/24/20,86,85
+579,21053.0,"Clinton, Kentucky, US",4/14/20,3,2
+580,21057.0,"Cumberland, Kentucky, US",4/14/20,3,2
+581,21059.0,"Daviess, Kentucky, US",4/17/20,106,105
+582,21059.0,"Daviess, Kentucky, US",4/23/20,134,133
+583,21071.0,"Floyd, Kentucky, US",3/31/20,1,0
+584,21071.0,"Floyd, Kentucky, US",4/15/20,1,0
+585,21073.0,"Franklin, Kentucky, US",4/19/20,21,13
+586,21079.0,"Garrard, Kentucky, US",4/18/20,3,1
+587,21081.0,"Grant, Kentucky, US",4/23/20,19,18
+588,21087.0,"Green, Kentucky, US",4/14/20,2,1
+589,21089.0,"Greenup, Kentucky, US",4/17/20,11,10
+590,21091.0,"Hancock, Kentucky, US",4/15/20,2,1
+591,21091.0,"Hancock, Kentucky, US",4/17/20,6,5
+592,21097.0,"Harrison, Kentucky, US",4/15/20,15,14
+593,21097.0,"Harrison, Kentucky, US",4/27/20,18,17
+594,21101.0,"Henderson, Kentucky, US",4/14/20,29,23
+595,21101.0,"Henderson, Kentucky, US",4/15/20,23,20
+596,21101.0,"Henderson, Kentucky, US",4/17/20,26,25
+597,21103.0,"Henry, Kentucky, US",4/15/20,4,3
+598,21103.0,"Henry, Kentucky, US",4/22/20,4,3
+599,21105.0,"Hickman, Kentucky, US",4/26/20,2,1
+600,21109.0,"Jackson, Kentucky, US",4/28/20,60,59
+601,21111.0,"Jefferson, Kentucky, US",3/29/20,103,97
+602,21111.0,"Jefferson, Kentucky, US",4/14/20,550,531
+603,21111.0,"Jefferson, Kentucky, US",4/17/20,600,599
+604,21111.0,"Jefferson, Kentucky, US",4/26/20,1121,1120
+605,21113.0,"Jessamine, Kentucky, US",4/19/20,33,32
+606,21113.0,"Jessamine, Kentucky, US",4/22/20,32,31
+607,21119.0,"Knott, Kentucky, US",4/24/20,4,3
+608,21125.0,"Laurel, Kentucky, US",4/23/20,14,13
+609,21141.0,"Logan, Kentucky, US",4/16/20,10,9
+610,21141.0,"Logan, Kentucky, US",4/17/20,9,8
+611,21143.0,"Lyon, Kentucky, US",4/28/20,14,13
+612,21145.0,"McCracken, Kentucky, US",4/17/20,28,27
+613,21147.0,"McCreary, Kentucky, US",4/14/20,8,7
+614,21149.0,"McLean, Kentucky, US",4/14/20,7,6
+615,21151.0,"Madison, Kentucky, US",4/30/20,29,28
+616,21155.0,"Marion, Kentucky, US",4/14/20,11,10
+617,21159.0,"Martin, Kentucky, US",3/31/20,2,1
+618,21159.0,"Martin, Kentucky, US",4/14/20,4,1
+619,21173.0,"Montgomery, Kentucky, US",3/16/20,2,1
+620,21177.0,"Muhlenberg, Kentucky, US",4/4/20,10,0
+621,21177.0,"Muhlenberg, Kentucky, US",4/9/20,27,26
+622,21177.0,"Muhlenberg, Kentucky, US",4/17/20,55,54
+623,21177.0,"Muhlenberg, Kentucky, US",4/22/20,76,74
+624,21177.0,"Muhlenberg, Kentucky, US",4/23/20,74,72
+625,21179.0,"Nelson, Kentucky, US",4/17/20,14,13
+626,21183.0,"Ohio, Kentucky, US",4/15/20,8,7
+627,21183.0,"Ohio, Kentucky, US",4/30/20,40,39
+628,21185.0,"Oldham, Kentucky, US",4/19/20,23,22
+629,21189.0,"Owsley, Kentucky, US",4/27/20,3,2
+630,21193.0,"Perry, Kentucky, US",4/23/20,5,3
+631,21197.0,"Powell, Kentucky, US",4/14/20,2,1
+632,21199.0,"Pulaski, Kentucky, US",4/14/20,33,31
+633,21205.0,"Rowan, Kentucky, US",4/19/20,2,1
+634,21207.0,"Russell, Kentucky, US",4/14/20,8,7
+635,21207.0,"Russell, Kentucky, US",4/17/20,12,11
+636,21209.0,"Scott, Kentucky, US",4/15/20,26,21
+637,21209.0,"Scott, Kentucky, US",4/20/20,23,22
+638,21209.0,"Scott, Kentucky, US",4/27/20,25,24
+639,21211.0,"Shelby, Kentucky, US",4/20/20,23,22
+640,21211.0,"Shelby, Kentucky, US",4/22/20,24,23
+641,21213.0,"Simpson, Kentucky, US",4/14/20,17,16
+642,21215.0,"Spencer, Kentucky, US",4/16/20,9,8
+643,21217.0,"Taylor, Kentucky, US",4/20/20,5,4
+644,21219.0,"Todd, Kentucky, US",4/17/20,10,9
+645,21219.0,"Todd, Kentucky, US",4/19/20,11,9
+646,21223.0,"Trimble, Kentucky, US",4/14/20,2,1
+647,21227.0,"Warren, Kentucky, US",4/14/20,49,47
+648,21227.0,"Warren, Kentucky, US",4/23/20,131,130
+649,21231.0,"Wayne, Kentucky, US",4/23/20,7,6
+650,21233.0,"Webster, Kentucky, US",4/14/20,8,7
+651,21233.0,"Webster, Kentucky, US",4/27/20,20,19
+652,21239.0,"Woodford, Kentucky, US",4/7/20,9,8
+653,21239.0,"Woodford, Kentucky, US",4/14/20,17,16
+654,21239.0,"Woodford, Kentucky, US",4/17/20,20,18
+655,21239.0,"Woodford, Kentucky, US",4/19/20,19,18
+656,21239.0,"Woodford, Kentucky, US",4/28/20,19,17
+657,22001.0,"Acadia, Louisiana, US",4/4/20,72,65
+658,22005.0,"Ascension, Louisiana, US",3/27/20,91,90
+659,22009.0,"Avoyelles, Louisiana, US",4/4/20,37,36
+660,22009.0,"Avoyelles, Louisiana, US",4/15/20,65,64
+661,22009.0,"Avoyelles, Louisiana, US",4/24/20,71,69
+662,22011.0,"Beauregard, Louisiana, US",4/23/20,36,35
+663,22021.0,"Caldwell, Louisiana, US",3/31/20,1,0
+664,22021.0,"Caldwell, Louisiana, US",4/18/20,19,15
+665,22029.0,"Concordia, Louisiana, US",4/4/20,10,5
+666,22031.0,"De Soto, Louisiana, US",4/30/20,191,190
+667,22037.0,"East Feliciana, Louisiana, US",4/24/20,106,105
+668,22039.0,"Evangeline, Louisiana, US",4/11/20,35,34
+669,22043.0,"Grant, Louisiana, US",4/5/20,9,8
+670,22043.0,"Grant, Louisiana, US",4/23/20,12,11
+671,22045.0,"Iberia, Louisiana, US",3/13/20,1,0
+672,22045.0,"Iberia, Louisiana, US",3/24/20,3,2
+673,22045.0,"Iberia, Louisiana, US",4/4/20,78,68
+674,22047.0,"Iberville, Louisiana, US",4/21/20,282,281
+675,22049.0,"Jackson, Louisiana, US",3/28/20,3,2
+676,22049.0,"Jackson, Louisiana, US",4/4/20,4,1
+677,22051.0,"Jefferson, Louisiana, US",3/13/20,2,0
+678,22053.0,"Jefferson Davis, Louisiana, US",4/4/20,14,9
+679,22055.0,"Lafayette, Louisiana, US",4/4/20,276,229
+680,22061.0,"Lincoln, Louisiana, US",3/28/20,7,6
+681,22061.0,"Lincoln, Louisiana, US",4/15/20,42,41
+682,22067.0,"Morehouse, Louisiana, US",3/27/20,3,2
+683,22069.0,"Natchitoches, Louisiana, US",4/5/20,15,14
+684,22073.0,"Ouachita, Louisiana, US",3/24/20,9,7
+685,22079.0,"Rapides, Louisiana, US",3/21/20,3,2
+686,22083.0,"Richland, Louisiana, US",3/24/20,2,1
+687,22085.0,"Sabine, Louisiana, US",4/23/20,14,13
+688,22089.0,"St. Charles, Louisiana, US",4/17/20,486,471
+689,22097.0,"St. Landry, Louisiana, US",4/4/20,68,45
+690,22099.0,"St. Martin, Louisiana, US",4/4/20,69,64
+691,22113.0,"Vermilion, Louisiana, US",3/29/20,3,2
+692,22113.0,"Vermilion, Louisiana, US",4/4/20,18,15
+693,22115.0,"Vernon, Louisiana, US",4/5/20,11,10
+694,22119.0,"Webster, Louisiana, US",4/7/20,51,50
+695,22119.0,"Webster, Louisiana, US",4/24/20,81,80
+696,22121.0,"West Baton Rouge, Louisiana, US",4/25/20,93,92
+697,22121.0,"West Baton Rouge, Louisiana, US",4/26/20,92,91
+698,22127.0,"Winn, Louisiana, US",4/17/20,17,16
+699,23003.0,"Aroostook, Maine, US",4/17/20,3,2
+700,23009.0,"Hancock, Maine, US",3/20/20,1,0
+701,23013.0,"Knox, Maine, US",3/18/20,1,0
+702,23013.0,"Knox, Maine, US",4/14/20,12,11
+703,23025.0,"Somerset, Maine, US",4/30/20,18,17
+704,24001.0,"Allegany, Maryland, US",4/8/20,7,6
+705,24001.0,"Allegany, Maryland, US",4/20/20,33,32
+706,24003.0,"Anne Arundel, Maryland, US",3/16/20,2,1
+707,24009.0,"Calvert, Maryland, US",3/23/20,2,1
+708,24009.0,"Calvert, Maryland, US",3/28/20,9,8
+709,24013.0,"Carroll, Maryland, US",3/18/20,2,1
+710,24013.0,"Carroll, Maryland, US",3/21/20,4,3
+711,24013.0,"Carroll, Maryland, US",4/21/20,335,330
+712,24019.0,"Dorchester, Maryland, US",4/29/20,52,51
+713,24023.0,"Garrett, Maryland, US",4/10/20,5,4
+714,24035.0,"Queen Anne's, Maryland, US",4/30/20,55,52
+715,24037.0,"St. Mary's, Maryland, US",4/16/20,99,98
+716,24037.0,"St. Mary's, Maryland, US",4/20/20,122,107
+717,24039.0,"Somerset, Maryland, US",4/14/20,6,5
+718,24041.0,"Talbot, Maryland, US",3/31/20,4,3
+719,24041.0,"Talbot, Maryland, US",4/15/20,16,14
+720,24041.0,"Talbot, Maryland, US",4/24/20,25,23
+721,24047.0,"Worcester, Maryland, US",4/21/20,34,33
+722,25011.0,"Franklin, Massachusetts, US",4/8/20,118,117
+723,26001.0,"Alcona, Michigan, US",4/26/20,4,3
+724,26009.0,"Antrim, Michigan, US",4/17/20,9,8
+725,26009.0,"Antrim, Michigan, US",4/27/20,10,9
+726,26011.0,"Arenac, Michigan, US",4/27/20,16,15
+727,26019.0,"Benzie, Michigan, US",4/6/20,1,0
+728,26023.0,"Branch, Michigan, US",4/22/20,43,42
+729,26025.0,"Calhoun, Michigan, US",4/6/20,42,41
+730,26027.0,"Cass, Michigan, US",4/12/20,12,11
+731,26031.0,"Cheboygan, Michigan, US",4/12/20,11,10
+732,26033.0,"Chippewa, Michigan, US",3/28/20,1,0
+733,26033.0,"Chippewa, Michigan, US",4/6/20,2,1
+734,26033.0,"Chippewa, Michigan, US",4/11/20,1,0
+735,26033.0,"Chippewa, Michigan, US",4/22/20,2,1
+736,26035.0,"Clare, Michigan, US",4/4/20,2,1
+737,26035.0,"Clare, Michigan, US",4/7/20,3,2
+738,26037.0,"Clinton, Michigan, US",4/23/20,106,105
+739,26041.0,"Delta, Michigan, US",4/22/20,13,12
+740,26047.0,"Emmet, Michigan, US",4/2/20,7,6
+741,26047.0,"Emmet, Michigan, US",4/23/20,22,21
+742,26051.0,"Gladwin, Michigan, US",3/30/20,3,2
+743,26051.0,"Gladwin, Michigan, US",4/30/20,16,15
+744,26057.0,"Gratiot, Michigan, US",4/4/20,5,4
+745,26057.0,"Gratiot, Michigan, US",4/8/20,6,5
+746,26061.0,"Houghton, Michigan, US",4/5/20,2,1
+747,26063.0,"Huron, Michigan, US",4/22/20,10,9
+748,26067.0,"Ionia, Michigan, US",4/2/20,6,5
+749,26067.0,"Ionia, Michigan, US",4/20/20,24,23
+750,26069.0,"Iosco, Michigan, US",4/12/20,5,4
+751,26069.0,"Iosco, Michigan, US",4/29/20,48,47
+752,26075.0,"Jackson, Michigan, US",3/27/20,17,16
+753,26087.0,"Lapeer, Michigan, US",4/27/20,165,164
+754,26089.0,"Leelanau, Michigan, US",4/20/20,8,7
+755,26089.0,"Leelanau, Michigan, US",4/30/20,10,9
+756,26095.0,"Luce, Michigan, US",3/26/20,1,0
+757,26097.0,"Mackinac, Michigan, US",4/18/20,5,4
+758,26101.0,"Manistee, Michigan, US",4/26/20,12,11
+759,26103.0,"Marquette, Michigan, US",4/8/20,19,18
+760,26107.0,"Mecosta, Michigan, US",4/22/20,14,13
+761,26107.0,"Mecosta, Michigan, US",4/29/20,15,14
+762,26111.0,"Midland, Michigan, US",4/22/20,48,47
+763,26111.0,"Midland, Michigan, US",4/24/20,51,50
+764,26119.0,"Montmorency, Michigan, US",4/23/20,6,5
+765,26119.0,"Montmorency, Michigan, US",4/26/20,6,5
+766,26123.0,"Newaygo, Michigan, US",3/27/20,2,1
+767,26123.0,"Newaygo, Michigan, US",4/27/20,15,14
+768,26125.0,"Oakland, Michigan, US",4/27/20,6928,6913
+769,26127.0,"Oceana, Michigan, US",4/18/20,4,3
+770,26129.0,"Ogemaw, Michigan, US",3/31/20,4,1
+771,26131.0,"Ontonagon, Michigan, US",4/7/20,1,0
+772,26133.0,"Osceola, Michigan, US",4/5/20,4,3
+773,26135.0,"Oscoda, Michigan, US",4/20/20,5,4
+774,26139.0,"Ottawa, Michigan, US",4/14/20,69,67
+775,26141.0,"Presque Isle, Michigan, US",4/4/20,1,0
+776,26141.0,"Presque Isle, Michigan, US",4/30/20,12,11
+777,26149.0,"St. Joseph, Michigan, US",4/4/20,10,9
+778,26151.0,"Sanilac, Michigan, US",3/26/20,2,1
+779,26151.0,"Sanilac, Michigan, US",4/9/20,22,21
+780,26151.0,"Sanilac, Michigan, US",4/20/20,33,32
+781,26153.0,"Schoolcraft, Michigan, US",4/1/20,1,0
+782,26155.0,"Shiawassee, Michigan, US",4/13/20,54,53
+783,26157.0,"Tuscola, Michigan, US",4/11/20,41,40
+784,26159.0,"Van Buren, Michigan, US",4/23/20,36,35
+785,26159.0,"Van Buren, Michigan, US",4/24/20,35,34
+786,26161.0,"Washtenaw, Michigan, US",4/26/20,1002,1001
+787,26165.0,"Wexford, Michigan, US",4/30/20,10,9
+788,27003.0,"Anoka, Minnesota, US",3/20/20,6,5
+789,27005.0,"Becker, Minnesota, US",4/15/20,2,1
+790,27007.0,"Beltrami, Minnesota, US",4/9/20,6,5
+791,27013.0,"Blue Earth, Minnesota, US",4/8/20,22,21
+792,27025.0,"Chisago, Minnesota, US",3/28/20,2,1
+793,27029.0,"Clearwater, Minnesota, US",4/23/20,3,2
+794,27037.0,"Dakota, Minnesota, US",3/20/20,8,7
+795,27045.0,"Fillmore,Minnesota,US",4/19/20,11,10
+796,27047.0,"Freeborn, Minnesota, US",4/20/20,34,33
+797,27059.0,"Isanti, Minnesota, US",4/26/20,7,6
+798,27083.0,"Lyon, Minnesota, US",4/18/20,6,5
+799,27099.0,"Mower, Minnesota, US",4/20/20,27,26
+800,27105.0,"Nobles, Minnesota, US",4/15/20,3,2
+801,27125.0,"Red Lake, Minnesota, US",4/21/20,2,1
+802,27131.0,"Rice, Minnesota, US",4/2/20,4,3
+803,27131.0,"Rice, Minnesota, US",4/20/20,8,7
+804,27141.0,"Sherburne, Minnesota, US",4/9/20,10,9
+805,27159.0,"Wadena, Minnesota, US",3/20/20,1,0
+806,27161.0,"Waseca, Minnesota, US",3/24/20,2,1
+807,28001.0,"Adams, Mississippi, US",3/22/20,2,1
+808,28003.0,"Alcorn, Mississippi, US",3/30/20,1,0
+809,28003.0,"Alcorn, Mississippi, US",4/20/20,8,7
+810,28003.0,"Alcorn, Mississippi, US",4/27/20,9,8
+811,28005.0,"Amite, Mississippi, US",3/27/20,1,0
+812,28005.0,"Amite, Mississippi, US",4/18/20,17,16
+813,28005.0,"Amite, Mississippi, US",4/24/20,24,23
+814,28009.0,"Benton, Mississippi, US",4/18/20,6,5
+815,28009.0,"Benton, Mississippi, US",4/22/20,9,8
+816,28013.0,"Calhoun, Mississippi, US",4/30/20,51,50
+817,28017.0,"Chickasaw, Mississippi, US",4/2/20,15,14
+818,28021.0,"Claiborne, Mississippi, US",4/14/20,7,6
+819,28023.0,"Clarke, Mississippi, US",4/2/20,5,4
+820,28025.0,"Clay, Mississippi, US",4/26/20,32,31
+821,28029.0,"Copiah, Mississippi, US",4/11/20,30,28
+822,28033.0,"DeSoto, Mississippi, US",4/26/20,263,261
+823,28035.0,"Forrest, Mississippi, US",4/2/20,27,26
+824,28037.0,"Franklin, Mississippi, US",3/26/20,3,2
+825,28037.0,"Franklin, Mississippi, US",4/22/20,17,16
+826,28037.0,"Franklin, Mississippi, US",4/24/20,17,16
+827,28037.0,"Franklin, Mississippi, US",4/28/20,17,16
+828,28039.0,"George, Mississippi, US",4/15/20,10,8
+829,28045.0,"Hancock, Mississippi, US",3/19/20,2,1
+830,28045.0,"Hancock, Mississippi, US",4/6/20,31,30
+831,28047.0,"Harrison, Mississippi, US",4/8/20,89,88
+832,28047.0,"Harrison, Mississippi, US",4/22/20,151,150
+833,28057.0,"Itawamba, Mississippi, US",4/2/20,4,3
+834,28061.0,"Jasper, Mississippi, US",4/26/20,32,31
+835,28063.0,"Jefferson, Mississippi, US",4/21/20,6,5
+836,28063.0,"Jefferson, Mississippi, US",4/30/20,23,18
+837,28077.0,"Lawrence, Mississippi, US",4/4/20,5,4
+838,28077.0,"Lawrence, Mississippi, US",4/10/20,8,7
+839,28077.0,"Lawrence, Mississippi, US",4/11/20,7,6
+840,28081.0,"Lee, Mississippi, US",4/2/20,25,24
+841,28081.0,"Lee, Mississippi, US",4/27/20,72,70
+842,28081.0,"Lee, Mississippi, US",4/29/20,71,70
+843,28081.0,"Lee, Mississippi, US",4/30/20,70,69
+844,28085.0,"Lincoln, Mississippi, US",4/19/20,102,101
+845,28087.0,"Lowndes, Mississippi, US",4/2/20,11,10
+846,28091.0,"Marion, Mississippi, US",4/2/20,6,5
+847,28093.0,"Marshall, Mississippi, US",4/19/20,39,38
+848,28097.0,"Montgomery, Mississippi, US",4/22/20,17,16
+849,28099.0,"Neshoba, Mississippi, US",4/2/20,5,4
+850,28099.0,"Neshoba, Mississippi, US",4/14/20,34,33
+851,28101.0,"Newton, Mississippi, US",4/12/20,12,10
+852,28107.0,"Panola, Mississippi, US",4/25/20,38,36
+853,28115.0,"Pontotoc, Mississippi, US",3/29/20,4,3
+854,28117.0,"Prentiss, Mississippi, US",4/28/20,32,31
+855,28119.0,"Quitman, Mississippi, US",3/31/20,4,3
+856,28123.0,"Scott, Mississippi, US",4/17/20,100,96
+857,28127.0,"Simpson, Mississippi, US",4/8/20,7,6
+858,28141.0,"Tishomingo, Mississippi, US",4/28/20,8,7
+859,28143.0,"Tunica, Mississippi, US",4/7/20,18,17
+860,28149.0,"Warren, Mississippi, US",4/11/20,12,11
+861,28151.0,"Washington, Mississippi, US",4/27/20,78,77
+862,28153.0,"Wayne, Mississippi, US",4/22/20,12,11
+863,28153.0,"Wayne, Mississippi, US",4/24/20,17,16
+864,28155.0,"Webster, Mississippi, US",4/18/20,17,15
+865,28155.0,"Webster, Mississippi, US",4/25/20,17,16
+866,28157.0,"Wilkinson, Mississippi, US",4/23/20,66,65
+867,28159.0,"Winston, Mississippi, US",4/8/20,17,16
+868,28159.0,"Winston, Mississippi, US",4/21/20,36,34
+869,28159.0,"Winston, Mississippi, US",4/30/20,43,42
+870,29001.0,"Adair, Missouri, US",3/24/20,2,1
+871,29013.0,"Bates, Missouri, US",3/30/20,2,1
+872,29019.0,"Boone, Missouri, US",4/25/20,99,98
+873,29023.0,"Butler, Missouri, US",4/24/20,26,25
+874,29027.0,"Callaway, Missouri, US",4/12/20,21,20
+875,29027.0,"Callaway, Missouri, US",4/27/20,21,20
+876,29035.0,"Carter, Missouri, US",4/4/20,4,3
+877,29035.0,"Carter, Missouri, US",4/6/20,4,3
+878,29037.0,"Cass, Missouri, US",4/7/20,26,25
+879,29039.0,"Cedar, Missouri, US",4/6/20,5,4
+880,29039.0,"Cedar, Missouri, US",4/10/20,8,5
+881,29043.0,"Christian, Missouri, US",3/25/20,2,1
+882,29047.0,"Clay, Missouri, US",3/25/20,3,2
+883,29049.0,"Clinton, Missouri, US",4/10/20,11,10
+884,29055.0,"Crawford, Missouri, US",4/10/20,5,4
+885,29055.0,"Crawford, Missouri, US",4/21/20,6,5
+886,29095.0,"Jackson, Missouri, US",4/23/20,288,287
+887,29097.0,"Jasper,Missouri,US",4/12/20,22,18
+888,29097.0,"Jasper,Missouri,US",4/24/20,30,24
+889,29101.0,"Johnson, Missouri, US",4/12/20,41,37
+890,29107.0,"Lafayette, Missouri, US",4/9/20,28,27
+891,29113.0,"Lincoln, Missouri, US",4/23/20,59,58
+892,29113.0,"Lincoln, Missouri, US",4/30/20,71,70
+893,29119.0,"McDonald, Missouri, US",4/12/20,4,3
+894,29119.0,"McDonald, Missouri, US",4/24/20,5,4
+895,29121.0,"Macon, Missouri, US",4/6/20,3,2
+896,29135.0,"Moniteau, Missouri, US",3/30/20,4,2
+897,29135.0,"Moniteau, Missouri, US",4/27/20,59,52
+898,29139.0,"Montgomery, Missouri, US",3/30/20,3,2
+899,29157.0,"Perry, Missouri, US",4/21/20,41,38
+900,29159.0,"Pettis, Missouri, US",4/12/20,4,3
+901,29159.0,"Pettis, Missouri, US",4/23/20,21,16
+902,29169.0,"Pulaski, Missouri, US",4/10/20,12,11
+903,29169.0,"Pulaski, Missouri, US",4/23/20,31,30
+904,29181.0,"Ripley, Missouri, US",4/21/20,4,3
+905,29187.0,"St. Francois, Missouri, US",3/30/20,4,3
+906,29209.0,"Stone, Missouri, US",4/12/20,4,3
+907,29215.0,"Texas, Missouri, US",4/6/20,1,0
+908,30023.0,"Deer Lodge, Montana, US",4/10/20,4,3
+909,30047.0,"Lake, Montana, US",4/10/20,6,5
+910,30049.0,"Lewis and Clark, Montana, US",3/17/20,1,0
+911,30049.0,"Lewis and Clark, Montana, US",4/2/20,14,13
+912,30057.0,"Madison, Montana, US",4/8/20,9,8
+913,30065.0,"Musselshell, Montana, US",4/17/20,3,1
+914,30101.0,"Toole, Montana, US",4/2/20,7,6
+915,30101.0,"Toole, Montana, US",4/7/20,16,15
+916,31001.0,"Adams, Nebraska, US",4/17/20,65,64
+917,31019.0,"Buffalo, Nebraska, US",4/28/20,91,90
+918,31023.0,"Butler, Nebraska, US",4/27/20,2,1
+919,31025.0,"Cass, Nebraska, US",4/20/20,5,4
+920,31025.0,"Cass, Nebraska, US",4/22/20,4,3
+921,31033.0,"Cheyenne, Nebraska, US",4/14/20,3,2
+922,31035.0,"Clay, Nebraska, US",4/23/20,5,4
+923,31035.0,"Clay, Nebraska, US",4/26/20,5,4
+924,31041.0,"Custer, Nebraska, US",4/18/20,19,18
+925,31045.0,"Dawes, Nebraska, US",4/27/20,2,0
+926,31055.0,"Douglas, Nebraska, US",3/15/20,16,15
+927,31055.0,"Douglas, Nebraska, US",3/20/20,23,22
+928,31067.0,"Gage, Nebraska, US",3/30/20,1,0
+929,31081.0,"Hamilton, Nebraska, US",4/27/20,46,41
+930,31093.0,"Howard, Nebraska, US",4/27/20,12,10
+931,31097.0,"Johnson, Nebraska, US",4/6/20,1,0
+932,31105.0,"Kimball, Nebraska, US",4/10/20,10,9
+933,31113.0,"Logan, Nebraska, US",4/8/20,1,0
+934,31143.0,"Polk, Nebraska, US",4/24/20,6,5
+935,31173.0,"Thurston, Nebraska, US",4/20/20,1,0
+936,31173.0,"Thurston, Nebraska, US",4/24/20,1,0
+937,31177.0,"Washington, Nebraska, US",4/6/20,20,19
+938,31177.0,"Washington, Nebraska, US",4/16/20,22,20
+939,32017.0,"Lincoln, Nevada, US",4/17/20,1,0
+940,32510.0,"Carson City, Nevada, US",3/24/20,3,2
+941,33001.0,"Belknap, New Hampshire, US",4/28/20,35,34
+942,33003.0,"Carroll, New Hampshire, US",4/18/20,32,30
+943,33007.0,"Coos, New Hampshire, US",3/22/20,1,0
+944,33009.0,"Grafton, New Hampshire, US",4/15/20,45,44
+945,33011.0,"Hillsborough, New Hampshire, US",4/14/20,385,271
+946,33013.0,"Merrimack, New Hampshire, US",4/26/20,129,126
+947,34001.0,"Atlantic, New Jersey, US",3/26/20,12,10
+948,34007.0,"Camden, New Jersey, US",3/20/20,13,11
+949,35013.0,"Dona Ana, New Mexico, US",4/4/20,23,22
+950,35015.0,"Eddy, New Mexico, US",4/28/20,13,12
+951,35023.0,"Hidalgo, New Mexico, US",4/12/20,1,0
+952,35035.0,"Otero, New Mexico, US",4/14/20,4,3
+953,35035.0,"Otero, New Mexico, US",4/24/20,5,4
+954,35039.0,"Rio Arriba, New Mexico, US",3/29/20,3,2
+955,35049.0,"Santa Fe, New Mexico, US",4/24/20,96,94
+956,36013.0,"Chautauqua, New York, US",4/23/20,36,26
+957,36019.0,"Clinton, New York, US",4/23/20,56,52
+958,36025.0,"Delaware, New York, US",4/23/20,62,50
+959,36031.0,"Essex, New York, US",4/9/20,9,8
+960,36053.0,"Madison, New York, US",4/23/20,121,106
+961,36055.0,"Monroe, New York, US",3/13/20,2,1
+962,36063.0,"Niagara, New York, US",4/17/20,229,227
+963,36067.0,"Onondaga, New York, US",4/23/20,667,600
+964,36071.0,"Orange, New York, US",4/23/20,7152,6816
+965,36075.0,"Oswego, New York, US",4/23/20,52,49
+966,36079.0,"Putnam, New York, US",4/23/20,831,615
+967,36083.0,"Rensselaer, New York, US",4/23/20,202,191
+968,36091.0,"Saratoga, New York, US",4/23/20,277,265
+969,36093.0,"Schenectady, New York, US",4/23/20,352,288
+970,36095.0,"Schoharie, New York, US",3/21/20,2,1
+971,36097.0,"Schuyler, New York, US",4/23/20,8,7
+972,36101.0,"Steuben, New York, US",4/23/20,214,171
+973,36105.0,"Sullivan, New York, US",4/23/20,592,580
+974,36109.0,"Tompkins, New York, US",4/23/20,123,119
+975,36111.0,"Ulster, New York, US",4/23/20,1018,942
+976,36121.0,"Wyoming, New York, US",4/23/20,44,41
+977,37001.0,"Alamance, North Carolina, US",4/15/20,73,43
+978,37013.0,"Beaufort, North Carolina, US",4/26/20,31,20
+979,37015.0,"Bertie, North Carolina, US",4/26/20,40,37
+980,37021.0,"Buncombe, North Carolina, US",4/10/20,37,36
+981,37023.0,"Burke, North Carolina, US",4/8/20,39,34
+982,37023.0,"Burke, North Carolina, US",4/15/20,61,60
+983,37031.0,"Carteret, North Carolina, US",4/8/20,25,19
+984,37039.0,"Cherokee, North Carolina, US",4/9/20,12,11
+985,37039.0,"Cherokee, North Carolina, US",4/10/20,11,10
+986,37039.0,"Cherokee, North Carolina, US",4/23/20,18,16
+987,37041.0,"Chowan, North Carolina, US",3/25/20,1,0
+988,37041.0,"Chowan, North Carolina, US",4/26/20,9,7
+989,37043.0,"Clay, North Carolina, US",4/10/20,4,3
+990,37045.0,"Cleveland, North Carolina, US",3/21/20,1,0
+991,37045.0,"Cleveland, North Carolina, US",3/31/20,7,6
+992,37053.0,"Currituck, North Carolina, US",4/23/20,3,2
+993,37055.0,"Dare, North Carolina, US",3/30/20,2,1
+994,37063.0,"Durham, North Carolina, US",3/30/20,113,107
+995,37067.0,"Forsyth, North Carolina, US",3/13/20,3,2
+996,37067.0,"Forsyth, North Carolina, US",4/10/20,113,111
+997,37069.0,"Franklin, North Carolina, US",4/11/20,33,27
+998,37077.0,"Granville, North Carolina, US",4/28/20,240,133
+999,37079.0,"Greene, North Carolina, US",4/17/20,16,14
+1000,37079.0,"Greene, North Carolina, US",4/26/20,16,15
+1001,37083.0,"Halifax, North Carolina, US",4/28/20,56,52
+1002,37089.0,"Henderson, North Carolina, US",4/23/20,147,145
+1003,37091.0,"Hertford, North Carolina, US",3/29/20,3,2
+1004,37091.0,"Hertford, North Carolina, US",4/11/20,5,4
+1005,37091.0,"Hertford, North Carolina, US",4/13/20,5,4
+1006,37091.0,"Hertford, North Carolina, US",4/26/20,32,27
+1007,37095.0,"Hyde, North Carolina, US",3/30/20,1,0
+1008,37099.0,"Jackson, North Carolina, US",4/11/20,3,2
+1009,37103.0,"Jones, North Carolina, US",4/27/20,14,12
+1010,37105.0,"Lee, North Carolina, US",4/9/20,5,4
+1011,37105.0,"Lee, North Carolina, US",4/23/20,66,65
+1012,37107.0,"Lenoir, North Carolina, US",4/26/20,47,43
+1013,37109.0,"Lincoln, North Carolina, US",4/19/20,20,19
+1014,37117.0,"Martin, North Carolina, US",4/26/20,16,15
+1015,37119.0,"Mecklenburg, North Carolina, US",3/13/20,2,1
+1016,37121.0,"Mitchell, North Carolina, US",4/23/20,7,5
+1017,37127.0,"Nash, North Carolina, US",4/27/20,88,85
+1018,37127.0,"Nash, North Carolina, US",4/28/20,85,84
+1019,37131.0,"Northampton, North Carolina, US",4/26/20,83,82
+1020,37133.0,"Onslow, North Carolina, US",4/26/20,44,42
+1021,37135.0,"Orange, North Carolina, US",3/18/20,1,0
+1022,37135.0,"Orange, North Carolina, US",4/26/20,209,208
+1023,37141.0,"Pender, North Carolina, US",4/28/20,12,11
+1024,37143.0,"Perquimans, North Carolina, US",4/17/20,12,8
+1025,37147.0,"Pitt, North Carolina, US",4/26/20,143,111
+1026,37149.0,"Polk, North Carolina, US",4/26/20,13,12
+1027,37157.0,"Rockingham, North Carolina, US",4/17/20,18,16
+1028,37171.0,"Surry, North Carolina, US",4/23/20,17,12
+1029,37173.0,"Swain, North Carolina, US",3/30/20,1,0
+1030,37173.0,"Swain, North Carolina, US",4/11/20,1,0
+1031,37175.0,"Transylvania, North Carolina, US",4/23/20,8,7
+1032,37177.0,"Tyrrell, North Carolina, US",4/26/20,5,4
+1033,37187.0,"Washington, North Carolina, US",4/26/20,25,24
+1034,37189.0,"Watauga, North Carolina, US",3/19/20,3,2
+1035,37197.0,"Yadkin, North Carolina, US",4/15/20,14,11
+1036,38057.0,"Mercer, North Dakota, US",3/30/20,1,0
+1037,38071.0,"Ramsey, North Dakota, US",4/29/20,4,3
+1038,38079.0,"Rolette, North Dakota, US",4/2/20,1,0
+1039,38085.0,"Sioux, North Dakota, US",4/22/20,2,1
+1040,38105.0,"Williams, North Dakota, US",4/19/20,10,9
+1041,39001.0,"Adams, Ohio, US",4/30/20,5,4
+1042,39003.0,"Allen, Ohio, US",4/27/20,108,103
+1043,39005.0,"Ashland, Ohio, US",3/29/20,3,2
+1044,39005.0,"Ashland, Ohio, US",4/4/20,4,3
+1045,39005.0,"Ashland, Ohio, US",4/16/20,6,5
+1046,39005.0,"Ashland, Ohio, US",4/20/20,6,5
+1047,39007.0,"Ashtabula, Ohio, US",4/9/20,20,19
+1048,39009.0,"Athens, Ohio, US",4/24/20,4,3
+1049,39015.0,"Brown, Ohio, US",4/13/20,6,5
+1050,39019.0,"Carroll, Ohio, US",4/27/20,20,19
+1051,39021.0,"Champaign, Ohio, US",4/21/20,8,7
+1052,39023.0,"Clark, Ohio, US",3/30/20,7,6
+1053,39023.0,"Clark, Ohio, US",4/19/20,26,25
+1054,39025.0,"Clermont, Ohio, US",4/7/20,27,22
+1055,39025.0,"Clermont, Ohio, US",4/13/20,41,39
+1056,39025.0,"Clermont, Ohio, US",4/22/20,74,73
+1057,39025.0,"Clermont, Ohio, US",4/27/20,77,76
+1058,39031.0,"Coshocton, Ohio, US",4/4/20,10,8
+1059,39033.0,"Crawford, Ohio, US",4/20/20,41,37
+1060,39033.0,"Crawford, Ohio, US",4/22/20,37,36
+1061,39041.0,"Delaware, Ohio, US",4/20/20,123,122
+1062,39043.0,"Erie, Ohio, US",4/23/20,44,43
+1063,39045.0,"Fairfield, Ohio, US",3/30/20,14,13
+1064,39045.0,"Fairfield, Ohio, US",4/17/20,96,95
+1065,39045.0,"Fairfield, Ohio, US",4/24/20,109,108
+1066,39049.0,"Franklin, Ohio, US",4/20/20,1513,1510
+1067,39051.0,"Fulton, Ohio, US",4/20/20,17,16
+1068,39053.0,"Gallia, Ohio, US",4/16/20,8,6
+1069,39055.0,"Geauga, Ohio, US",3/25/20,5,4
+1070,39055.0,"Geauga, Ohio, US",4/4/20,41,38
+1071,39057.0,"Greene, Ohio, US",4/19/20,39,38
+1072,39059.0,"Guernsey, Ohio, US",4/7/20,2,1
+1073,39063.0,"Hancock, Ohio, US",4/9/20,17,16
+1074,39063.0,"Hancock, Ohio, US",4/12/20,20,19
+1075,39063.0,"Hancock, Ohio, US",4/19/20,30,29
+1076,39063.0,"Hancock, Ohio, US",4/21/20,30,29
+1077,39065.0,"Hardin, Ohio, US",4/27/20,23,22
+1078,39075.0,"Holmes, Ohio, US",4/4/20,2,1
+1079,39077.0,"Huron, Ohio, US",4/8/20,10,9
+1080,39077.0,"Huron, Ohio, US",4/12/20,15,14
+1081,39077.0,"Huron, Ohio, US",4/18/20,16,15
+1082,39077.0,"Huron, Ohio, US",4/23/20,25,24
+1083,39077.0,"Huron, Ohio, US",4/30/20,30,29
+1084,39079.0,"Jackson, Ohio, US",4/20/20,5,4
+1085,39081.0,"Jefferson, Ohio, US",4/4/20,16,14
+1086,39087.0,"Lawrence, Ohio, US",4/7/20,10,9
+1087,39087.0,"Lawrence, Ohio, US",4/22/20,23,22
+1088,39089.0,"Licking, Ohio, US",4/1/20,25,24
+1089,39089.0,"Licking, Ohio, US",4/20/20,102,100
+1090,39093.0,"Lorain, Ohio, US",4/7/20,117,116
+1091,39097.0,"Madison, Ohio, US",4/17/20,29,27
+1092,39103.0,"Medina, Ohio, US",4/4/20,79,74
+1093,39103.0,"Medina, Ohio, US",4/27/20,160,159
+1094,39119.0,"Muskingum, Ohio, US",4/25/20,12,11
+1095,39119.0,"Muskingum, Ohio, US",4/28/20,11,10
+1096,39121.0,"Noble, Ohio, US",4/20/20,6,4
+1097,39121.0,"Noble, Ohio, US",4/21/20,4,3
+1098,39123.0,"Ottawa, Ohio, US",4/4/20,6,5
+1099,39123.0,"Ottawa, Ohio, US",4/29/20,38,37
+1100,39125.0,"Paulding, Ohio, US",4/23/20,8,7
+1101,39127.0,"Perry, Ohio, US",4/27/20,13,12
+1102,39127.0,"Perry, Ohio, US",4/29/20,13,12
+1103,39129.0,"Pickaway, Ohio, US",4/2/20,12,11
+1104,39129.0,"Pickaway, Ohio, US",4/24/20,1661,1659
+1105,39137.0,"Putnam, Ohio, US",4/7/20,1,0
+1106,39139.0,"Richland, Ohio, US",4/20/20,65,64
+1107,39139.0,"Richland, Ohio, US",4/27/20,78,76
+1108,39141.0,"Ross, Ohio, US",4/20/20,36,29
+1109,39143.0,"Sandusky, Ohio, US",4/20/20,18,17
+1110,39143.0,"Sandusky, Ohio, US",4/27/20,20,19
+1111,39145.0,"Scioto, Ohio, US",4/20/20,9,6
+1112,39147.0,"Seneca, Ohio, US",4/21/20,13,11
+1113,39149.0,"Shelby, Ohio, US",4/20/20,29,28
+1114,39155.0,"Trumbull, Ohio, US",4/5/20,90,89
+1115,39165.0,"Warren, Ohio, US",4/27/20,133,124
+1116,39171.0,"Williams, Ohio, US",4/25/20,28,27
+1117,39175.0,"Wyandot, Ohio, US",4/30/20,25,24
+1118,40031.0,"Comanche, Oklahoma, US",4/22/20,72,71
+1119,40035.0,"Craig, Oklahoma, US",4/7/20,5,4
+1120,40035.0,"Craig, Oklahoma, US",4/15/20,9,8
+1121,40035.0,"Craig, Oklahoma, US",4/16/20,8,7
+1122,40037.0,"Creek, Oklahoma, US",4/15/20,60,57
+1123,40049.0,"Garvin, Oklahoma, US",4/5/20,11,9
+1124,40049.0,"Garvin, Oklahoma, US",4/8/20,12,11
+1125,40049.0,"Garvin, Oklahoma, US",4/10/20,13,11
+1126,40049.0,"Garvin, Oklahoma, US",4/11/20,11,10
+1127,40049.0,"Garvin, Oklahoma, US",4/14/20,11,10
+1128,40051.0,"Grady, Oklahoma, US",3/31/20,3,2
+1129,40055.0,"Greer, Oklahoma, US",4/14/20,50,49
+1130,40061.0,"Haskell, Oklahoma, US",4/29/20,5,4
+1131,40065.0,"Jackson, Oklahoma, US",4/15/20,7,6
+1132,40069.0,"Johnston, Oklahoma, US",4/26/20,4,3
+1133,40081.0,"Lincoln, Oklahoma, US",4/13/20,11,10
+1134,40081.0,"Lincoln, Oklahoma, US",4/19/20,11,10
+1135,40087.0,"McClain, Oklahoma, US",4/3/20,11,10
+1136,40087.0,"McClain, Oklahoma, US",4/8/20,16,15
+1137,40087.0,"McClain, Oklahoma, US",4/14/20,19,18
+1138,40087.0,"McClain, Oklahoma, US",4/19/20,20,0
+1139,40089.0,"McCurtain, Oklahoma, US",4/19/20,7,0
+1140,40091.0,"McIntosh, Oklahoma, US",4/8/20,2,1
+1141,40091.0,"McIntosh, Oklahoma, US",4/19/20,2,0
+1142,40097.0,"Mayes, Oklahoma, US",4/14/20,15,14
+1143,40101.0,"Muskogee, Oklahoma, US",4/16/20,26,25
+1144,40113.0,"Osage, Oklahoma, US",4/3/20,22,21
+1145,40113.0,"Osage, Oklahoma, US",4/8/20,34,33
+1146,40115.0,"Ottawa, Oklahoma, US",4/11/20,17,16
+1147,40115.0,"Ottawa, Oklahoma, US",4/14/20,23,22
+1148,40115.0,"Ottawa, Oklahoma, US",4/29/20,32,31
+1149,40119.0,"Payne, Oklahoma, US",4/14/20,29,28
+1150,40121.0,"Pittsburg, Oklahoma, US",4/25/20,22,21
+1151,40133.0,"Seminole, Oklahoma, US",4/23/20,9,8
+1152,40135.0,"Sequoyah, Oklahoma, US",4/11/20,10,9
+1153,40135.0,"Sequoyah, Oklahoma, US",4/15/20,11,10
+1154,40141.0,"Tillman, Oklahoma, US",4/21/20,2,1
+1155,40143.0,"Tulsa, Oklahoma, US",4/27/20,491,490
+1156,40149.0,"Washita, Oklahoma, US",4/4/20,1,0
+1157,40149.0,"Washita, Oklahoma, US",4/28/20,1,0
+1158,40153.0,"Woodward, Oklahoma, US",4/24/20,2,1
+1159,41003.0,"Benton, Oregon, US",3/21/20,3,2
+1160,41003.0,"Benton, Oregon, US",4/22/20,28,27
+1161,41009.0,"Columbia, Oregon, US",4/14/20,12,11
+1162,41017.0,"Deschutes, Oregon, US",3/31/20,25,24
+1163,41019.0,"Douglas, Oregon, US",4/2/20,10,9
+1164,41019.0,"Douglas, Oregon, US",4/24/20,24,23
+1165,41027.0,"Hood River, Oregon, US",4/1/20,3,2
+1166,41027.0,"Hood River, Oregon, US",4/5/20,3,2
+1167,41029.0,"Jackson, Oregon, US",4/21/20,49,48
+1168,41035.0,"Klamath, Oregon, US",4/19/20,31,30
+1169,41039.0,"Lane, Oregon, US",3/28/20,10,9
+1170,41053.0,"Polk, Oregon, US",3/18/20,2,1
+1171,41061.0,"Union, Oregon, US",4/11/20,4,3
+1172,41067.0,"Washington, Oregon, US",4/15/20,365,364
+1173,41067.0,"Washington, Oregon, US",4/28/20,475,474
+1174,41071.0,"Yamhill, Oregon, US",4/7/20,26,25
+1175,41071.0,"Yamhill, Oregon, US",4/11/20,29,28
+1176,41071.0,"Yamhill, Oregon, US",4/18/20,35,34
+1177,42009.0,"Bedford, Pennsylvania, US",4/10/20,4,3
+1178,42013.0,"Blair, Pennsylvania, US",3/31/20,6,4
+1179,42013.0,"Blair, Pennsylvania, US",4/19/20,14,13
+1180,42015.0,"Bradford, Pennsylvania, US",4/23/20,31,28
+1181,42021.0,"Cambria, Pennsylvania, US",4/23/20,21,20
+1182,42027.0,"Centre, Pennsylvania, US",4/23/20,77,76
+1183,42031.0,"Clarion, Pennsylvania, US",4/8/20,9,8
+1184,42039.0,"Crawford, Pennsylvania, US",4/7/20,9,8
+1185,42049.0,"Erie, Pennsylvania, US",4/26/20,79,77
+1186,42055.0,"Franklin, Pennsylvania, US",4/23/20,152,151
+1187,42063.0,"Indiana, Pennsylvania, US",4/28/20,63,62
+1188,42067.0,"Juniata, Pennsylvania, US",4/1/20,3,2
+1189,42071.0,"Lancaster, Pennsylvania, US",3/23/20,6,5
+1190,42073.0,"Lawrence, Pennsylvania, US",4/19/20,60,59
+1191,42081.0,"Lycoming, Pennsylvania, US",4/5/20,10,9
+1192,42085.0,"Mercer, Pennsylvania, US",4/29/20,66,65
+1193,42087.0,"Mifflin, Pennsylvania, US",3/30/20,2,1
+1194,42087.0,"Mifflin, Pennsylvania, US",4/1/20,2,1
+1195,42087.0,"Mifflin, Pennsylvania, US",4/7/20,9,6
+1196,42087.0,"Mifflin, Pennsylvania, US",4/11/20,11,10
+1197,42087.0,"Mifflin, Pennsylvania, US",4/14/20,17,16
+1198,42087.0,"Mifflin, Pennsylvania, US",4/15/20,16,15
+1199,42093.0,"Montour, Pennsylvania, US",3/29/20,5,4
+1200,42093.0,"Montour, Pennsylvania, US",3/31/20,10,9
+1201,42093.0,"Montour, Pennsylvania, US",4/19/20,49,48
+1202,42093.0,"Montour, Pennsylvania, US",4/21/20,48,47
+1203,42093.0,"Montour, Pennsylvania, US",4/28/20,48,47
+1204,42115.0,"Susquehanna, Pennsylvania, US",4/29/20,82,81
+1205,42117.0,"Tioga, Pennsylvania, US",4/14/20,14,13
+1206,42117.0,"Tioga, Pennsylvania, US",4/23/20,15,14
+1207,42119.0,"Union, Pennsylvania, US",3/28/20,1,0
+1208,42119.0,"Union, Pennsylvania, US",4/1/20,4,2
+1209,42123.0,"Warren, Pennsylvania, US",4/23/20,2,1
+1210,42131.0,"Wyoming, Pennsylvania, US",4/14/20,12,11
+1211,44001.0,"Bristol, Rhode Island, US",3/26/20,24,6
+1212,44001.0,"Bristol, Rhode Island, US",4/30/20,145,143
+1213,44007.0,"Providence, Rhode Island, US",3/12/20,5,3
+1214,44007.0,"Providence, Rhode Island, US",3/21/20,44,30
+1215,44009.0,"Washington, Rhode Island, US",4/1/20,28,25
+1216,44009.0,"Washington, Rhode Island, US",4/18/20,225,183
+1217,44009.0,"Washington, Rhode Island, US",4/23/20,268,256
+1218,45001.0,"Abbeville, South Carolina, US",3/28/20,4,3
+1219,45001.0,"Abbeville, South Carolina, US",4/7/20,6,5
+1220,45007.0,"Anderson, South Carolina, US",4/19/20,133,132
+1221,45007.0,"Anderson, South Carolina, US",4/25/20,140,138
+1222,45013.0,"Beaufort, South Carolina, US",4/27/20,255,254
+1223,45015.0,"Berkeley, South Carolina, US",4/27/20,181,171
+1224,45017.0,"Calhoun, South Carolina, US",4/15/20,6,5
+1225,45019.0,"Charleston, South Carolina, US",4/27/20,436,435
+1226,45021.0,"Cherokee, South Carolina, US",4/23/20,14,13
+1227,45029.0,"Colleton, South Carolina, US",4/5/20,9,8
+1228,45035.0,"Dorchester, South Carolina, US",4/5/20,45,44
+1229,45035.0,"Dorchester, South Carolina, US",4/7/20,52,51
+1230,45035.0,"Dorchester, South Carolina, US",4/21/20,88,83
+1231,45035.0,"Dorchester, South Carolina, US",4/23/20,85,84
+1232,45035.0,"Dorchester, South Carolina, US",4/28/20,92,91
+1233,45037.0,"Edgefield, South Carolina, US",4/14/20,10,9
+1234,45043.0,"Georgetown, South Carolina, US",4/12/20,32,31
+1235,45043.0,"Georgetown, South Carolina, US",4/19/20,34,33
+1236,45045.0,"Greenville, South Carolina, US",4/24/20,558,557
+1237,45047.0,"Greenwood, South Carolina, US",3/23/20,3,2
+1238,45049.0,"Hampton, South Carolina, US",3/23/20,1,0
+1239,45051.0,"Horry, South Carolina, US",4/15/20,151,150
+1240,45053.0,"Jasper, South Carolina, US",4/19/20,16,15
+1241,45055.0,"Kershaw, South Carolina, US",3/12/20,7,4
+1242,45057.0,"Lancaster, South Carolina, US",3/25/20,7,6
+1243,45057.0,"Lancaster, South Carolina, US",4/23/20,80,79
+1244,45063.0,"Lexington, South Carolina, US",3/25/20,19,18
+1245,45063.0,"Lexington, South Carolina, US",4/14/20,212,208
+1246,45067.0,"Marion, South Carolina, US",4/18/20,14,13
+1247,45067.0,"Marion, South Carolina, US",4/28/20,33,32
+1248,45069.0,"Marlboro, South Carolina, US",3/23/20,1,0
+1249,45071.0,"Newberry, South Carolina, US",4/5/20,8,7
+1250,45071.0,"Newberry, South Carolina, US",4/19/20,23,21
+1251,45071.0,"Newberry, South Carolina, US",4/21/20,21,20
+1252,45075.0,"Orangeburg, South Carolina, US",4/27/20,61,60
+1253,45077.0,"Pickens, South Carolina, US",4/17/20,37,36
+1254,45077.0,"Pickens, South Carolina, US",4/21/20,39,38
+1255,45081.0,"Saluda, South Carolina, US",4/12/20,7,6
+1256,46005.0,"Beadle, South Dakota, US",4/11/20,22,21
+1257,46011.0,"Brookings, South Dakota, US",4/11/20,7,6
+1258,46015.0,"Brule, South Dakota, US",4/15/20,1,0
+1259,46019.0,"Butte, South Dakota, US",3/31/20,1,0
+1260,46027.0,"Clay, South Dakota, US",4/13/20,6,5
+1261,46035.0,"Davison, South Dakota, US",3/12/20,1,0
+1262,46037.0,"Day, South Dakota, US",4/19/20,1,0
+1263,46077.0,"Kingsbury, South Dakota, US",4/1/20,1,0
+1264,46127.0,"Union, South Dakota, US",4/15/20,5,4
+1265,46135.0,"Yankton, South Dakota, US",4/7/20,18,15
+1266,46135.0,"Yankton, South Dakota, US",4/29/20,27,26
+1267,47001.0,"Anderson, Tennessee, US",4/27/20,25,24
+1268,47007.0,"Bledsoe, Tennessee, US",4/16/20,8,7
+1269,47009.0,"Blount, Tennessee, US",4/17/20,47,46
+1270,47011.0,"Bradley, Tennessee, US",3/23/20,2,1
+1271,47011.0,"Bradley, Tennessee, US",3/28/20,6,5
+1272,47011.0,"Bradley, Tennessee, US",4/19/20,38,37
+1273,47013.0,"Campbell, Tennessee, US",4/19/20,13,12
+1274,47015.0,"Cannon, Tennessee, US",3/29/20,3,2
+1275,47015.0,"Cannon, Tennessee, US",4/19/20,9,8
+1276,47017.0,"Carroll, Tennessee, US",4/21/20,15,14
+1277,47023.0,"Chester, Tennessee, US",4/8/20,7,6
+1278,47023.0,"Chester, Tennessee, US",4/13/20,6,5
+1279,47025.0,"Claiborne, Tennessee, US",4/13/20,5,4
+1280,47033.0,"Crockett, Tennessee, US",4/27/20,7,6
+1281,47035.0,"Cumberland, Tennessee, US",4/25/20,67,66
+1282,47037.0,"Davidson, Tennessee, US",3/23/20,167,164
+1283,47037.0,"Davidson, Tennessee, US",4/3/20,785,685
+1284,47037.0,"Davidson, Tennessee, US",4/13/20,1349,1207
+1285,47039.0,"Decatur, Tennessee, US",3/31/20,1,0
+1286,47039.0,"Decatur, Tennessee, US",4/19/20,5,4
+1287,47041.0,"DeKalb,Tennessee,US",4/23/20,12,10
+1288,47041.0,"DeKalb,Tennessee,US",4/25/20,12,11
+1289,47043.0,"Dickson, Tennessee, US",4/8/20,27,26
+1290,47047.0,"Fayette, Tennessee, US",3/23/20,3,2
+1291,47051.0,"Franklin, Tennessee, US",3/31/20,6,5
+1292,47051.0,"Franklin, Tennessee, US",4/13/20,22,21
+1293,47053.0,"Gibson, Tennessee, US",4/30/20,44,43
+1294,47055.0,"Giles, Tennessee, US",4/25/20,6,5
+1295,47057.0,"Grainger, Tennessee, US",4/28/20,6,5
+1296,47063.0,"Hamblen, Tennessee, US",3/24/20,3,2
+1297,47065.0,"Hamilton, Tennessee, US",3/24/20,12,8
+1298,47065.0,"Hamilton, Tennessee, US",4/16/20,110,109
+1299,47075.0,"Haywood, Tennessee, US",4/13/20,13,12
+1300,47083.0,"Houston, Tennessee, US",3/27/20,3,2
+1301,47083.0,"Houston, Tennessee, US",3/31/20,2,1
+1302,47085.0,"Humphreys, Tennessee, US",4/20/20,7,6
+1303,47087.0,"Jackson, Tennessee, US",4/16/20,7,6
+1304,47089.0,"Jefferson, Tennessee, US",4/19/20,16,15
+1305,47093.0,"Knox, Tennessee, US",4/20/20,194,193
+1306,47097.0,"Lauderdale, Tennessee, US",4/25/20,17,16
+1307,47097.0,"Lauderdale, Tennessee, US",4/27/20,18,17
+1308,47113.0,"Madison, Tennessee, US",4/17/20,75,73
+1309,47119.0,"Maury, Tennessee, US",4/28/20,41,40
+1310,47123.0,"Monroe, Tennessee, US",3/23/20,3,2
+1311,47123.0,"Monroe, Tennessee, US",4/28/20,15,14
+1312,47129.0,"Morgan, Tennessee, US",4/16/20,6,5
+1313,47135.0,"Perry, Tennessee, US",3/24/20,2,1
+1314,47139.0,"Polk, Tennessee, US",4/24/20,7,6
+1315,47139.0,"Polk, Tennessee, US",4/29/20,8,7
+1316,47141.0,"Putnam, Tennessee, US",4/21/20,96,95
+1317,47143.0,"Rhea, Tennessee, US",4/2/20,1,0
+1318,47143.0,"Rhea, Tennessee, US",4/25/20,4,3
+1319,47145.0,"Roane, Tennessee, US",4/25/20,8,7
+1320,47147.0,"Robertson, Tennessee, US",4/24/20,126,125
+1321,47151.0,"Scott, Tennessee, US",3/23/20,2,1
+1322,47151.0,"Scott, Tennessee, US",4/23/20,12,11
+1323,47153.0,"Sequatchie, Tennessee, US",4/8/20,2,1
+1324,47155.0,"Sevier, Tennessee, US",3/22/20,2,1
+1325,47157.0,"Shelby, Tennessee, US",3/20/20,10,4
+1326,47157.0,"Shelby, Tennessee, US",4/17/20,1508,1492
+1327,47161.0,"Stewart, Tennessee, US",4/24/20,7,6
+1328,47163.0,"Sullivan, Tennessee, US",4/26/20,48,47
+1329,47169.0,"Trousdale, Tennessee, US",4/16/20,20,19
+1330,47169.0,"Trousdale, Tennessee, US",4/20/20,22,21
+1331,47171.0,"Unicoi, Tennessee, US",4/10/20,2,1
+1332,47173.0,"Union, Tennessee, US",4/9/20,2,1
+1333,47177.0,"Warren, Tennessee, US",4/21/20,5,4
+1334,47179.0,"Washington, Tennessee, US",4/2/20,21,20
+1335,47183.0,"Weakley, Tennessee, US",3/24/20,1,0
+1336,47183.0,"Weakley, Tennessee, US",4/27/20,19,18
+1337,47187.0,"Williamson, Tennessee, US",4/16/20,322,321
+1338,47189.0,"Wilson, Tennessee, US",3/22/20,3,2
+1339,48003.0,"Andrews, Texas, US",3/29/20,1,0
+1340,48005.0,"Angelina, Texas, US",3/28/20,2,1
+1341,48005.0,"Angelina, Texas, US",4/15/20,18,17
+1342,48007.0,"Aransas, Texas, US",3/31/20,2,0
+1343,48025.0,"Bee, Texas, US",4/28/20,6,5
+1344,48029.0,"Bexar, Texas, US",4/28/20,1334,1275
+1345,48037.0,"Bowie, Texas, US",4/6/20,17,14
+1346,48061.0,"Cameron, Texas, US",3/19/20,2,0
+1347,48067.0,"Cass, Texas, US",4/6/20,4,3
+1348,48077.0,"Clay, Texas, US",4/6/20,3,1
+1349,48089.0,"Colorado, Texas, US",4/4/20,4,2
+1350,48093.0,"Comanche, Texas, US",4/2/20,2,1
+1351,48123.0,"DeWitt, Texas, US",4/2/20,6,4
+1352,48123.0,"DeWitt, Texas, US",4/14/20,9,0
+1353,48125.0,"Dickens, Texas, US",4/14/20,2,1
+1354,48129.0,"Donley, Texas, US",4/12/20,23,22
+1355,48133.0,"Eastland, Texas, US",4/2/20,4,3
+1356,48139.0,"Ellis, Texas, US",4/6/20,32,29
+1357,48141.0,"El Paso, Texas, US",3/30/20,42,40
+1358,48143.0,"Erath, Texas, US",4/28/20,13,12
+1359,48149.0,"Fayette, Texas, US",4/6/20,11,9
+1360,48149.0,"Fayette, Texas, US",4/9/20,9,8
+1361,48171.0,"Gillespie, Texas, US",4/7/20,3,1
+1362,48183.0,"Gregg, Texas, US",3/15/20,4,1
+1363,48185.0,"Grimes, Texas, US",4/9/20,6,5
+1364,48187.0,"Guadalupe, Texas, US",3/27/20,9,8
+1365,48203.0,"Harrison, Texas, US",4/28/20,86,83
+1366,48213.0,"Henderson, Texas, US",4/8/20,6,4
+1367,48221.0,"Hood, Texas, US",3/29/20,3,2
+1368,48225.0,"Houston, Texas, US",4/28/20,6,5
+1369,48231.0,"Hunt, Texas, US",4/6/20,8,1
+1370,48251.0,"Johnson, Texas, US",4/6/20,23,21
+1371,48251.0,"Johnson, Texas, US",4/20/20,44,41
+1372,48257.0,"Kaufman, Texas, US",4/6/20,10,9
+1373,48259.0,"Kendall, Texas, US",4/6/20,10,9
+1374,48265.0,"Kerr, Texas, US",4/28/20,6,5
+1375,48273.0,"Kleberg, Texas, US",4/3/20,2,1
+1376,48277.0,"Lamar, Texas, US",4/15/20,8,7
+1377,48281.0,"Lampasas, Texas, US",4/11/20,3,2
+1378,48281.0,"Lampasas, Texas, US",4/16/20,3,2
+1379,48285.0,"Lavaca, Texas, US",3/29/20,3,1
+1380,48299.0,"Llano, Texas, US",4/6/20,3,2
+1381,48303.0,"Lubbock, Texas, US",3/20/20,3,2
+1382,48307.0,"McCulloch, Texas, US",4/8/20,1,0
+1383,48339.0,"Montgomery, Texas, US",3/13/20,4,3
+1384,48349.0,"Navarro, Texas, US",4/6/20,6,4
+1385,48375.0,"Potter, Texas, US",3/20/20,2,0
+1386,48389.0,"Reeves, Texas, US",3/28/20,1,0
+1387,48397.0,"Rockwall, Texas, US",4/6/20,11,10
+1388,48407.0,"San Jacinto, Texas, US",4/15/20,8,7
+1389,48407.0,"San Jacinto, Texas, US",4/28/20,10,9
+1390,48409.0,"San Patricio, Texas, US",4/6/20,5,2
+1391,48409.0,"San Patricio, Texas, US",4/15/20,9,8
+1392,48451.0,"Tom Green, Texas, US",3/26/20,3,2
+1393,48457.0,"Tyler, Texas, US",4/2/20,1,0
+1394,48459.0,"Upshur, Texas, US",3/23/20,1,0
+1395,48463.0,"Uvalde, Texas, US",4/11/20,7,6
+1396,48471.0,"Walker, Texas, US",3/27/20,3,2
+1397,48471.0,"Walker, Texas, US",4/3/20,7,5
+1398,48471.0,"Walker, Texas, US",4/20/20,77,73
+1399,48473.0,"Waller, Texas, US",3/26/20,1,0
+1400,48481.0,"Wharton, Texas, US",4/28/20,37,36
+1401,48489.0,"Willacy, Texas, US",4/9/20,7,5
+1402,48501.0,"Yoakum, Texas, US",3/28/20,1,0
+1403,49001.0,"Beaver, Utah, US",3/30/20,1,0
+1404,49003.0,"Box Elder, Utah, US",3/25/20,1,0
+1405,49003.0,"Box Elder, Utah, US",4/9/20,13,12
+1406,49003.0,"Box Elder, Utah, US",4/18/20,54,52
+1407,49003.0,"Box Elder, Utah, US",4/19/20,52,0
+1408,49005.0,"Cache, Utah, US",3/25/20,3,0
+1409,49005.0,"Cache, Utah, US",3/30/20,5,0
+1410,49005.0,"Cache, Utah, US",4/12/20,34,33
+1411,49005.0,"Cache, Utah, US",4/17/20,37,0
+1412,49007.0,"Carbon, Utah, US",4/17/20,2,0
+1413,49013.0,"Duchesne, Utah, US",4/17/20,3,0
+1414,49015.0,"Emery, Utah, US",4/17/20,3,0
+1415,49017.0,"Garfield, Utah, US",3/30/20,1,0
+1416,49017.0,"Garfield, Utah, US",4/17/20,1,0
+1417,49019.0,"Grand, Utah, US",3/30/20,4,0
+1418,49019.0,"Grand, Utah, US",4/17/20,1,0
+1419,49021.0,"Iron, Utah, US",3/30/20,2,0
+1420,49021.0,"Iron, Utah, US",4/17/20,15,0
+1421,49025.0,"Kane, Utah, US",4/17/20,3,0
+1422,49043.0,"Summit, Utah, US",3/15/20,5,2
+1423,49045.0,"Tooele, Utah, US",3/23/20,3,2
+1424,49045.0,"Tooele, Utah, US",4/20/20,42,41
+1425,49047.0,"Uintah, Utah, US",4/17/20,6,0
+1426,49051.0,"Wasatch, Utah, US",4/14/20,103,102
+1427,49053.0,"Washington,Utah,US",3/29/20,13,8
+1428,49053.0,"Washington,Utah,US",3/31/20,15,14
+1429,49053.0,"Washington,Utah,US",4/19/20,77,0
+1430,49057.0,"Weber,Utah,US",3/15/20,1,0
+1431,49057.0,"Weber,Utah,US",3/18/20,4,0
+1432,49057.0,"Weber,Utah,US",4/19/20,112,0
+1433,50003.0,"Bennington, Vermont, US",4/2/20,18,17
+1434,50011.0,"Franklin, Vermont, US",4/21/20,93,92
+1435,50011.0,"Franklin, Vermont, US",4/23/20,92,90
+1436,50017.0,"Orange, Vermont, US",3/22/20,4,3
+1437,50021.0,"Rutland, Vermont, US",4/14/20,39,8
+1438,50023.0,"Washington, Vermont, US",4/27/20,33,32
+1439,50027.0,"Windsor, Vermont, US",3/22/20,9,8
+1440,51001.0,"Accomack, Virginia, US",4/3/20,10,8
+1441,51009.0,"Amherst, Virginia, US",4/23/20,10,9
+1442,51019.0,"Bedford, Virginia, US",3/30/20,3,2
+1443,51023.0,"Botetourt, Virginia, US",4/15/20,24,23
+1444,51025.0,"Brunswick, Virginia, US",4/28/20,14,13
+1445,51031.0,"Campbell, Virginia, US",4/16/20,11,9
+1446,51037.0,"Charlotte, Virginia, US",4/25/20,8,7
+1447,51049.0,"Cumberland, Virginia, US",4/16/20,8,7
+1448,51061.0,"Fauquier, Virginia, US",4/8/20,18,17
+1449,51063.0,"Floyd, Virginia, US",4/10/20,1,0
+1450,51065.0,"Fluvanna, Virginia, US",4/10/20,16,15
+1451,51069.0,"Frederick, Virginia, US",4/16/20,73,72
+1452,51075.0,"Goochland, Virginia, US",4/3/20,9,8
+1453,51079.0,"Greene, Virginia, US",4/28/20,10,9
+1454,51085.0,"Hanover, Virginia, US",3/24/20,2,1
+1455,51099.0,"King George, Virginia, US",4/11/20,14,13
+1456,51105.0,"Lee, Virginia, US",4/15/20,7,6
+1457,51111.0,"Lunenburg, Virginia, US",4/15/20,4,3
+1458,51113.0,"Madison, Virginia, US",4/3/20,3,2
+1459,51115.0,"Mathews, Virginia, US",3/30/20,4,2
+1460,51127.0,"New Kent, Virginia, US",4/8/20,12,11
+1461,51127.0,"New Kent, Virginia, US",4/11/20,13,12
+1462,51137.0,"Orange, Virginia, US",4/11/20,14,13
+1463,51145.0,"Powhatan, Virginia, US",4/1/20,4,3
+1464,51145.0,"Powhatan, Virginia, US",4/20/20,9,8
+1465,51149.0,"Prince George, Virginia, US",4/16/20,27,26
+1466,51153.0,"Prince William, Virginia, US",4/12/20,390,389
+1467,51155.0,"Pulaski, Virginia, US",4/28/20,10,9
+1468,51159.0,"Richmond, Virginia, US",3/23/20,6,0
+1469,51159.0,"Richmond, Virginia, US",4/4/20,1,0
+1470,51161.0,"Roanoke, Virginia, US",4/4/20,9,5
+1471,51161.0,"Roanoke, Virginia, US",4/15/20,18,17
+1472,51165.0,"Rockingham, Virginia, US",4/6/20,16,15
+1473,51165.0,"Rockingham, Virginia, US",4/12/20,44,43
+1474,51179.0,"Stafford, Virginia, US",4/2/20,28,27
+1475,51179.0,"Stafford, Virginia, US",4/8/20,49,48
+1476,51183.0,"Sussex, Virginia, US",4/16/20,10,9
+1477,51191.0,"Washington, Virginia, US",4/15/20,28,27
+1478,51191.0,"Washington, Virginia, US",4/18/20,28,27
+1479,51193.0,"Westmoreland, Virginia, US",3/13/20,1,0
+1480,51193.0,"Westmoreland, Virginia, US",4/30/20,22,21
+1481,51195.0,"Wise, Virginia, US",4/4/20,1,0
+1482,51195.0,"Wise, Virginia, US",4/17/20,18,17
+1483,51199.0,"York, Virginia, US",4/21/20,44,43
+1484,51510.0,"Alexandria, Virginia, US",3/20/20,4,3
+1485,51540.0,"Charlottesville, Virginia, US",4/6/20,23,22
+1486,51590.0,"Danville, Virginia, US",3/30/20,5,4
+1487,51595.0,"Emporia, Virginia, US",4/15/20,8,7
+1488,51600.0,"Fairfax City, Virginia, US",3/27/20,1,0
+1489,51600.0,"Fairfax City, Virginia, US",4/1/20,1,0
+1490,51600.0,"Fairfax City, Virginia, US",4/15/20,1,0
+1491,51610.0,"Falls Church, Virginia, US",4/15/20,2,0
+1492,51610.0,"Falls Church, Virginia, US",4/24/20,25,24
+1493,51620.0,"Franklin City, Virginia, US",4/20/20,15,12
+1494,51680.0,"Lynchburg, Virginia, US",3/20/20,1,0
+1495,51700.0,"Newport News, Virginia, US",4/21/20,102,101
+1496,51710.0,"Norfolk, Virginia, US",3/12/20,2,0
+1497,51710.0,"Norfolk, Virginia, US",3/27/20,9,8
+1498,51730.0,"Petersburg, Virginia, US",4/8/20,10,9
+1499,51760.0,"Richmond City, Virginia, US",3/22/20,6,0
+1500,51770.0,"Roanoke City, Virginia, US",3/28/20,1,0
+1501,51770.0,"Roanoke City, Virginia, US",4/3/20,9,4
+1502,51790.0,"Staunton, Virginia, US",4/3/20,1,0
+1503,51820.0,"Waynesboro, Virginia, US",4/4/20,3,2
+1504,51820.0,"Waynesboro, Virginia, US",4/8/20,3,2
+1505,51830.0,"Williamsburg, Virginia, US",4/15/20,20,19
+1506,51830.0,"Williamsburg, Virginia, US",4/21/20,19,15
+1507,51830.0,"Williamsburg, Virginia, US",4/22/20,15,14
+1508,53005.0,"Benton, Washington, US",3/31/20,102,89
+1509,53009.0,"Clallam, Washington, US",4/20/20,15,14
+1510,53011.0,"Clark, Washington, US",4/23/20,313,291
+1511,53017.0,"Douglas, Washington, US",4/20/20,34,32
+1512,53021.0,"Franklin, Washington, US",3/31/20,37,33
+1513,53021.0,"Franklin, Washington, US",4/16/20,185,152
+1514,53023.0,"Garfield, Washington, US",3/23/20,1,0
+1515,53025.0,"Grant, Washington, US",4/23/20,147,146
+1516,53029.0,"Island, Washington, US",4/23/20,168,160
+1517,53029.0,"Island, Washington, US",4/26/20,161,160
+1518,53031.0,"Jefferson, Washington, US",4/20/20,29,28
+1519,53033.0,"King, Washington, US",3/18/20,569,562
+1520,53035.0,"Kitsap, Washington, US",4/24/20,144,143
+1521,53037.0,"Kittitas, Washington, US",3/26/20,18,8
+1522,53037.0,"Kittitas, Washington, US",4/12/20,15,13
+1523,53037.0,"Kittitas, Washington, US",4/29/20,15,14
+1524,53041.0,"Lewis, Washington, US",4/12/20,18,17
+1525,53047.0,"Okanogan, Washington, US",4/20/20,15,14
+1526,53053.0,"Pierce, Washington, US",4/23/20,1236,1192
+1527,53055.0,"San Juan, Washington, US",4/23/20,15,14
+1528,53061.0,"Snohomish, Washington, US",3/29/20,913,912
+1529,53065.0,"Stevens, Washington, US",4/26/20,10,9
+1530,53067.0,"Thurston, Washington, US",4/26/20,101,100
+1531,53073.0,"Whatcom, Washington, US",4/17/20,273,271
+1532,53073.0,"Whatcom, Washington, US",4/27/20,288,287
+1533,53075.0,"Whitman, Washington, US",4/20/20,15,13
+1534,53077.0,"Yakima, Washington, US",4/23/20,886,879
+1535,54001.0,"Barbour, West Virginia, US",4/10/20,5,4
+1536,54003.0,"Berkeley, West Virginia, US",4/15/20,100,99
+1537,54009.0,"Brooke, West Virginia, US",4/28/20,4,3
+1538,54019.0,"Fayette, West Virginia, US",4/11/20,3,2
+1539,54027.0,"Hampshire, West Virginia, US",4/17/20,7,6
+1540,54029.0,"Hancock, West Virginia, US",3/27/20,1,0
+1541,54029.0,"Hancock, West Virginia, US",4/2/20,6,5
+1542,54033.0,"Harrison, West Virginia, US",4/10/20,29,28
+1543,54033.0,"Harrison, West Virginia, US",4/17/20,29,28
+1544,54039.0,"Kanawha, West Virginia, US",4/14/20,86,85
+1545,54049.0,"Marion, West Virginia, US",4/22/20,44,43
+1546,54053.0,"Mason, West Virginia, US",4/15/20,10,9
+1547,54053.0,"Mason, West Virginia, US",4/22/20,11,10
+1548,54061.0,"Monongalia, West Virginia, US",3/28/20,24,23
+1549,54061.0,"Monongalia, West Virginia, US",4/14/20,83,81
+1550,54061.0,"Monongalia, West Virginia, US",4/21/20,90,89
+1551,54061.0,"Monongalia, West Virginia, US",4/23/20,90,89
+1552,54061.0,"Monongalia, West Virginia, US",4/30/20,103,102
+1553,54065.0,"Morgan, West Virginia, US",4/22/20,9,7
+1554,54069.0,"Ohio, West Virginia, US",3/27/20,2,1
+1555,54069.0,"Ohio, West Virginia, US",4/2/20,11,10
+1556,54069.0,"Ohio, West Virginia, US",4/6/20,18,15
+1557,54069.0,"Ohio, West Virginia, US",4/8/20,19,18
+1558,54069.0,"Ohio, West Virginia, US",4/14/20,25,23
+1559,54069.0,"Ohio, West Virginia, US",4/15/20,23,22
+1560,54069.0,"Ohio, West Virginia, US",4/19/20,23,22
+1561,54071.0,"Pendleton, West Virginia, US",4/22/20,2,1
+1562,54077.0,"Preston, West Virginia, US",3/27/20,2,1
+1563,54077.0,"Preston, West Virginia, US",4/6/20,5,4
+1564,54079.0,"Putnam, West Virginia, US",4/24/20,19,16
+1565,54081.0,"Raleigh, West Virginia, US",4/27/20,9,8
+1566,54087.0,"Roane, West Virginia, US",4/23/20,5,4
+1567,54087.0,"Roane, West Virginia, US",4/24/20,4,3
+1568,54107.0,"Wood, West Virginia, US",4/27/20,36,35
+1569,54107.0,"Wood, West Virginia, US",4/30/20,39,38
+1570,55017.0,"Chippewa, Wisconsin, US",4/19/20,21,20
+1571,55021.0,"Columbia, Wisconsin, US",4/10/20,25,24
+1572,55025.0,"Dane, Wisconsin, US",4/18/20,359,358
+1573,55027.0,"Dodge, Wisconsin, US",4/18/20,20,19
+1574,55039.0,"Fond du Lac, Wisconsin, US",3/26/20,18,17
+1575,55061.0,"Kewaunee, Wisconsin, US",4/24/20,10,9
+1576,55063.0,"La Crosse, Wisconsin, US",4/22/20,26,25
+1577,55071.0,"Manitowoc, Wisconsin, US",4/10/20,4,3
+1578,55073.0,"Marathon, Wisconsin, US",4/27/20,18,17
+1579,55075.0,"Marinette, Wisconsin, US",4/25/20,8,7
+1580,55081.0,"Monroe, Wisconsin, US",4/7/20,7,5
+1581,55091.0,"Pepin, Wisconsin, US",4/5/20,7,0
+1582,55093.0,"Pierce, Wisconsin, US",3/12/20,2,1
+1583,55105.0,"Rock, Wisconsin, US",4/14/20,60,59
+1584,55117.0,"Sheboygan, Wisconsin, US",4/9/20,32,31
+1585,55117.0,"Sheboygan, Wisconsin, US",4/25/20,45,44
+1586,55127.0,"Walworth, Wisconsin, US",4/20/20,89,86
+1587,55139.0,"Winnebago, Wisconsin, US",4/5/20,24,20
+1588,56003.0,"Big Horn, Wyoming, US",4/22/20,3,2
+1589,56007.0,"Carbon, Wyoming, US",4/27/20,6,4
+1590,56013.0,"Fremont, Wyoming, US",4/22/20,58,57
+1591,56031.0,"Platte, Wyoming, US",4/8/20,1,0
+1592,56043.0,"Washakie, Wyoming, US",4/17/20,6,5
+1593,,"Dukes and Nantucket,Massachusetts,US",4/8/20,18,17
+1594,,"Dukes and Nantucket,Massachusetts,US",4/15/20,21,20
+1595,,"Kansas City,Missouri,US",3/30/20,102,100
+1596,80013.0,"Out of GA, Georgia, US",4/23/20,1003,978
+1597,80013.0,"Out of GA, Georgia, US",4/24/20,978,916
+1598,80013.0,"Out of GA, Georgia, US",4/28/20,1027,972
+1599,80013.0,"Out of GA, Georgia, US",4/30/20,1018,962
+1600,80015.0,"Out of HI, Hawaii, US",4/14/20,2,0
+1601,80026.0,"Out of MI, Michigan, US",3/30/20,18,17
+1602,80026.0,"Out of MI, Michigan, US",4/17/20,166,71
+1603,80026.0,"Out of MI, Michigan, US",4/20/20,76,69
+1604,80026.0,"Out of MI, Michigan, US",4/22/20,69,37
+1605,80026.0,"Out of MI, Michigan, US",4/25/20,39,19
+1606,80026.0,"Out of MI, Michigan, US",4/27/20,27,20
+1607,80026.0,"Out of MI, Michigan, US",4/30/20,39,32
+1608,80040.0,"Out of OK, Oklahoma, US",4/10/20,2,0
+1609,80047.0,"Out of TN, Tennessee, US",4/3/20,243,187
+1610,80047.0,"Out of TN, Tennessee, US",4/8/20,290,282
+1611,80047.0,"Out of TN, Tennessee, US",4/9/20,282,275
+1612,80047.0,"Out of TN, Tennessee, US",4/13/20,276,260
+1613,80047.0,"Out of TN, Tennessee, US",4/16/20,260,243
+1614,80047.0,"Out of TN, Tennessee, US",4/20/20,274,273
+1615,80047.0,"Out of TN, Tennessee, US",4/21/20,273,265
+1616,80047.0,"Out of TN, Tennessee, US",4/24/20,277,260
+1617,80047.0,"Out of TN, Tennessee, US",4/27/20,332,283
+1618,80047.0,"Out of TN, Tennessee, US",4/28/20,283,251
+1619,80047.0,"Out of TN, Tennessee, US",4/29/20,251,234
+1620,80049.0,"Out of UT, Utah, US",4/3/20,22,0
+1621,90001.0,"Unassigned, Alabama, US",3/14/20,3,1
+1622,90001.0,"Unassigned, Alabama, US",3/15/20,1,0
+1623,90002.0,"Unassigned, Alaska, US",3/14/20,1,0
+1624,90002.0,"Unassigned, Alaska, US",4/9/20,1,0
+1625,90005.0,"Unassigned, Arkansas, US",3/15/20,9,0
+1626,90005.0,"Unassigned, Arkansas, US",3/23/20,121,3
+1627,90005.0,"Unassigned, Arkansas, US",3/28/20,35,32
+1628,90005.0,"Unassigned, Arkansas, US",3/29/20,32,31
+1629,90005.0,"Unassigned, Arkansas, US",3/31/20,49,34
+1630,90005.0,"Unassigned, Arkansas, US",4/2/20,44,43
+1631,90005.0,"Unassigned, Arkansas, US",4/7/20,67,44
+1632,90005.0,"Unassigned, Arkansas, US",4/9/20,44,13
+1633,90005.0,"Unassigned, Arkansas, US",4/11/20,21,19
+1634,90005.0,"Unassigned, Arkansas, US",4/16/20,48,44
+1635,90005.0,"Unassigned, Arkansas, US",4/17/20,44,43
+1636,90005.0,"Unassigned, Arkansas, US",4/18/20,43,42
+1637,90005.0,"Unassigned, Arkansas, US",4/20/20,46,45
+1638,90005.0,"Unassigned, Arkansas, US",4/27/20,216,203
+1639,90005.0,"Unassigned, Arkansas, US",4/30/20,228,168
+1640,90006.0,"Unassigned, California, US",3/15/20,1,0
+1641,90006.0,"Unassigned, California, US",3/28/20,12,0
+1642,90006.0,"Unassigned, California, US",4/7/20,43,42
+1643,90006.0,"Unassigned, California, US",4/9/20,167,4
+1644,90006.0,"Unassigned, California, US",4/13/20,8,0
+1645,90008.0,"Unassigned, Colorado, US",3/15/20,2,0
+1646,90008.0,"Unassigned, Colorado, US",3/20/20,57,20
+1647,90008.0,"Unassigned, Colorado, US",3/21/20,20,1
+1648,90008.0,"Unassigned, Colorado, US",3/31/20,186,129
+1649,90008.0,"Unassigned, Colorado, US",4/2/20,129,128
+1650,90008.0,"Unassigned, Colorado, US",4/7/20,276,252
+1651,90008.0,"Unassigned, Colorado, US",4/8/20,252,238
+1652,90008.0,"Unassigned, Colorado, US",4/10/20,238,235
+1653,90008.0,"Unassigned, Colorado, US",4/11/20,235,145
+1654,90008.0,"Unassigned, Colorado, US",4/13/20,156,145
+1655,90008.0,"Unassigned, Colorado, US",4/14/20,145,119
+1656,90008.0,"Unassigned, Colorado, US",4/16/20,119,111
+1657,90008.0,"Unassigned, Colorado, US",4/17/20,111,96
+1658,90008.0,"Unassigned, Colorado, US",4/18/20,96,67
+1659,90008.0,"Unassigned, Colorado, US",4/22/20,126,95
+1660,90008.0,"Unassigned, Colorado, US",4/24/20,108,103
+1661,90008.0,"Unassigned, Colorado, US",4/28/20,176,165
+1662,90008.0,"Unassigned, Colorado, US",4/29/20,165,145
+1663,90009.0,"Unassigned, Connecticut, US",3/20/20,2,0
+1664,90009.0,"Unassigned, Connecticut, US",3/31/20,176,77
+1665,90009.0,"Unassigned, Connecticut, US",4/2/20,185,174
+1666,90009.0,"Unassigned, Connecticut, US",4/5/20,241,222
+1667,90009.0,"Unassigned, Connecticut, US",4/13/20,501,491
+1668,90009.0,"Unassigned, Connecticut, US",4/16/20,537,534
+1669,90009.0,"Unassigned, Connecticut, US",4/17/20,534,495
+1670,90009.0,"Unassigned, Connecticut, US",4/20/20,529,514
+1671,90009.0,"Unassigned, Connecticut, US",4/21/20,514,503
+1672,90009.0,"Unassigned, Connecticut, US",4/23/20,550,522
+1673,90009.0,"Unassigned, Connecticut, US",4/27/20,522,484
+1674,90009.0,"Unassigned, Connecticut, US",4/30/20,507,462
+1675,90010.0,"Unassigned, Delaware, US",4/12/20,13,0
+1676,90010.0,"Unassigned, Delaware, US",4/21/20,31,30
+1677,90010.0,"Unassigned, Delaware, US",4/22/20,30,28
+1678,90010.0,"Unassigned, Delaware, US",4/23/20,28,3
+1679,90010.0,"Unassigned, Delaware, US",4/25/20,4,3
+1680,90010.0,"Unassigned, Delaware, US",4/29/20,32,26
+1681,90010.0,"Unassigned, Delaware, US",4/30/20,26,25
+1682,90012.0,"Unassigned, Florida, US",3/15/20,12,0
+1683,90012.0,"Unassigned, Florida, US",3/23/20,1,0
+1684,90012.0,"Unassigned, Florida, US",4/4/20,10,1
+1685,90012.0,"Unassigned, Florida, US",4/7/20,7,2
+1686,90012.0,"Unassigned, Florida, US",4/9/20,3,2
+1687,90012.0,"Unassigned, Florida, US",4/17/20,6,4
+1688,90012.0,"Unassigned, Florida, US",4/18/20,4,3
+1689,90012.0,"Unassigned, Florida, US",4/22/20,4,0
+1690,90013.0,"Unassigned, Georgia, US",3/22/20,37,36
+1691,90013.0,"Unassigned, Georgia, US",3/30/20,262,164
+1692,90013.0,"Unassigned, Georgia, US",4/3/20,778,507
+1693,90013.0,"Unassigned, Georgia, US",4/4/20,507,245
+1694,90013.0,"Unassigned, Georgia, US",4/12/20,1397,1218
+1695,90013.0,"Unassigned, Georgia, US",4/14/20,1219,287
+1696,90013.0,"Unassigned, Georgia, US",4/15/20,287,263
+1697,90013.0,"Unassigned, Georgia, US",4/16/20,263,144
+1698,90013.0,"Unassigned, Georgia, US",4/18/20,255,220
+1699,90013.0,"Unassigned, Georgia, US",4/23/20,667,361
+1700,90013.0,"Unassigned, Georgia, US",4/28/20,633,608
+1701,90013.0,"Unassigned, Georgia, US",4/29/20,608,579
+1702,90013.0,"Unassigned, Georgia, US",4/30/20,579,394
+1703,90015.0,"Unassigned, Hawaii, US",3/20/20,10,0
+1704,90015.0,"Unassigned, Hawaii, US",3/26/20,21,8
+1705,90015.0,"Unassigned, Hawaii, US",3/27/20,8,6
+1706,90015.0,"Unassigned, Hawaii, US",3/28/20,6,4
+1707,90015.0,"Unassigned, Hawaii, US",4/3/20,18,11
+1708,90015.0,"Unassigned, Hawaii, US",4/4/20,11,8
+1709,90015.0,"Unassigned, Hawaii, US",4/5/20,8,7
+1710,90015.0,"Unassigned, Hawaii, US",4/7/20,9,7
+1711,90015.0,"Unassigned, Hawaii, US",4/9/20,7,3
+1712,90015.0,"Unassigned, Hawaii, US",4/12/20,4,3
+1713,90015.0,"Unassigned, Hawaii, US",4/15/20,3,1
+1714,90015.0,"Unassigned, Hawaii, US",4/18/20,5,0
+1715,90016.0,"Unassigned, Idaho, US",3/14/20,1,0
+1716,90016.0,"Unassigned, Idaho, US",4/3/20,9,0
+1717,90017.0,"Unassigned, Illinois, US",3/21/20,167,3
+1718,90017.0,"Unassigned, Illinois, US",3/22/20,3,2
+1719,90017.0,"Unassigned, Illinois, US",3/24/20,63,0
+1720,90017.0,"Unassigned, Illinois, US",3/27/20,668,0
+1721,90017.0,"Unassigned, Illinois, US",4/4/20,415,58
+1722,90017.0,"Unassigned, Illinois, US",4/7/20,72,65
+1723,90017.0,"Unassigned, Illinois, US",4/9/20,73,68
+1724,90017.0,"Unassigned, Illinois, US",4/13/20,101,65
+1725,90017.0,"Unassigned, Illinois, US",4/14/20,65,54
+1726,90017.0,"Unassigned, Illinois, US",4/15/20,54,45
+1727,90017.0,"Unassigned, Illinois, US",4/23/20,228,193
+1728,90017.0,"Unassigned, Illinois, US",4/28/20,338,335
+1729,90018.0,"Unassigned, Indiana, US",3/24/20,56,0
+1730,90018.0,"Unassigned, Indiana, US",4/7/20,20,0
+1731,90019.0,"Unassigned, Iowa, US",3/25/20,2,0
+1732,90019.0,"Unassigned, Iowa, US",4/1/20,2,0
+1733,90019.0,"Unassigned, Iowa, US",4/20/20,7,2
+1734,90019.0,"Unassigned, Iowa, US",4/22/20,21,4
+1735,90019.0,"Unassigned, Iowa, US",4/23/20,4,3
+1736,90021.0,"Unassigned, Kentucky, US",3/14/20,2,0
+1737,90021.0,"Unassigned, Kentucky, US",3/20/20,19,0
+1738,90021.0,"Unassigned, Kentucky, US",3/23/20,39,15
+1739,90021.0,"Unassigned, Kentucky, US",3/28/20,158,150
+1740,90021.0,"Unassigned, Kentucky, US",3/29/20,150,69
+1741,90021.0,"Unassigned, Kentucky, US",3/30/20,69,53
+1742,90021.0,"Unassigned, Kentucky, US",3/31/20,53,14
+1743,90021.0,"Unassigned, Kentucky, US",4/4/20,113,29
+1744,90021.0,"Unassigned, Kentucky, US",4/9/20,152,76
+1745,90021.0,"Unassigned, Kentucky, US",4/12/20,385,112
+1746,90021.0,"Unassigned, Kentucky, US",4/14/20,112,23
+1747,90021.0,"Unassigned, Kentucky, US",4/16/20,78,77
+1748,90021.0,"Unassigned, Kentucky, US",4/18/20,87,73
+1749,90021.0,"Unassigned, Kentucky, US",4/20/20,79,73
+1750,90021.0,"Unassigned, Kentucky, US",4/22/20,73,72
+1751,90021.0,"Unassigned, Kentucky, US",4/23/20,72,67
+1752,90021.0,"Unassigned, Kentucky, US",4/24/20,67,58
+1753,90021.0,"Unassigned, Kentucky, US",4/28/20,58,50
+1754,90022.0,"Unassigned, Louisiana, US",3/15/20,4,0
+1755,90022.0,"Unassigned, Louisiana, US",3/20/20,48,7
+1756,90022.0,"Unassigned, Louisiana, US",3/23/20,50,11
+1757,90022.0,"Unassigned, Louisiana, US",3/25/20,12,11
+1758,90022.0,"Unassigned, Louisiana, US",3/28/20,16,9
+1759,90022.0,"Unassigned, Louisiana, US",3/29/20,9,8
+1760,90022.0,"Unassigned, Louisiana, US",4/4/20,40,31
+1761,90022.0,"Unassigned, Louisiana, US",4/28/20,64,61
+1762,90023.0,"Unassigned, Maine, US",3/15/20,2,0
+1763,90023.0,"Unassigned, Maine, US",3/20/20,13,2
+1764,90023.0,"Unassigned, Maine, US",3/23/20,8,5
+1765,90023.0,"Unassigned, Maine, US",3/24/20,5,0
+1766,90023.0,"Unassigned, Maine, US",3/26/20,2,1
+1767,90023.0,"Unassigned, Maine, US",4/5/20,12,11
+1768,90023.0,"Unassigned, Maine, US",4/7/20,11,9
+1769,90023.0,"Unassigned, Maine, US",4/8/20,9,8
+1770,90023.0,"Unassigned, Maine, US",4/9/20,8,4
+1771,90023.0,"Unassigned, Maine, US",4/10/20,4,3
+1772,90023.0,"Unassigned, Maine, US",4/14/20,5,2
+1773,90023.0,"Unassigned, Maine, US",4/17/20,2,1
+1774,90023.0,"Unassigned, Maine, US",4/20/20,2,1
+1775,90023.0,"Unassigned, Maine, US",4/23/20,2,0
+1776,90023.0,"Unassigned, Maine, US",4/28/20,2,1
+1777,90023.0,"Unassigned, Maine, US",4/30/20,2,1
+1778,90024.0,"Unassigned, Maryland, US",3/15/20,7,0
+1779,90025.0,"Unassigned, Massachusetts, US",3/31/20,489,333
+1780,90025.0,"Unassigned, Massachusetts, US",4/1/20,333,251
+1781,90025.0,"Unassigned, Massachusetts, US",4/3/20,270,213
+1782,90025.0,"Unassigned, Massachusetts, US",4/5/20,274,215
+1783,90025.0,"Unassigned, Massachusetts, US",4/7/20,246,229
+1784,90025.0,"Unassigned, Massachusetts, US",4/8/20,229,223
+1785,90025.0,"Unassigned, Massachusetts, US",4/9/20,223,203
+1786,90025.0,"Unassigned, Massachusetts, US",4/10/20,203,129
+1787,90025.0,"Unassigned, Massachusetts, US",4/18/20,760,733
+1788,90025.0,"Unassigned, Massachusetts, US",4/22/20,929,854
+1789,90025.0,"Unassigned, Massachusetts, US",4/23/20,854,737
+1790,90025.0,"Unassigned, Massachusetts, US",4/25/20,791,753
+1791,90025.0,"Unassigned, Massachusetts, US",4/27/20,807,795
+1792,90025.0,"Unassigned, Massachusetts, US",4/28/20,795,625
+1793,90025.0,"Unassigned, Massachusetts, US",4/29/20,625,457
+1794,90025.0,"Unassigned, Massachusetts, US",4/30/20,457,415
+1795,90026.0,"Unassigned, Michigan, US",3/14/20,2,1
+1796,90026.0,"Unassigned, Michigan, US",3/15/20,1,0
+1797,90026.0,"Unassigned, Michigan, US",3/20/20,10,0
+1798,90026.0,"Unassigned, Michigan, US",4/8/20,409,364
+1799,90026.0,"Unassigned, Michigan, US",4/10/20,368,84
+1800,90026.0,"Unassigned, Michigan, US",4/13/20,86,78
+1801,90026.0,"Unassigned, Michigan, US",4/15/20,91,76
+1802,90026.0,"Unassigned, Michigan, US",4/17/20,76,46
+1803,90026.0,"Unassigned, Michigan, US",4/19/20,48,29
+1804,90026.0,"Unassigned, Michigan, US",4/20/20,29,28
+1805,90026.0,"Unassigned, Michigan, US",4/22/20,28,3
+1806,90026.0,"Unassigned, Michigan, US",4/26/20,9,3
+1807,90026.0,"Unassigned, Michigan, US",4/29/20,11,0
+1808,90027.0,"Unassigned, Minnesota, US",3/14/20,4,0
+1809,90027.0,"Unassigned, Minnesota, US",3/24/20,1,0
+1810,90027.0,"Unassigned, Minnesota, US",4/6/20,7,6
+1811,90027.0,"Unassigned, Minnesota, US",4/8/20,6,4
+1812,90027.0,"Unassigned, Minnesota, US",4/9/20,4,2
+1813,90027.0,"Unassigned, Minnesota, US",4/10/20,2,1
+1814,90027.0,"Unassigned, Minnesota, US",4/15/20,35,2
+1815,90027.0,"Unassigned, Minnesota, US",4/17/20,2,0
+1816,90027.0,"Unassigned, Minnesota, US",4/23/20,4,3
+1817,90027.0,"Unassigned, Minnesota, US",4/25/20,6,5
+1818,90027.0,"Unassigned, Minnesota, US",4/27/20,9,0
+1819,90028.0,"Unassigned, Mississippi, US",3/14/20,2,0
+1820,90028.0,"Unassigned, Mississippi, US",3/22/20,42,0
+1821,90028.0,"Unassigned, Mississippi, US",3/31/20,89,0
+1822,90029.0,"Unassigned, Missouri, US",3/14/20,1,0
+1823,90029.0,"Unassigned, Missouri, US",3/21/20,7,0
+1824,90029.0,"Unassigned, Missouri, US",3/25/20,6,0
+1825,90029.0,"Unassigned, Missouri, US",4/6/20,3,1
+1826,90029.0,"Unassigned, Missouri, US",4/9/20,1,0
+1827,90029.0,"Unassigned, Missouri, US",4/15/20,1,0
+1828,90030.0,"Unassigned, Montana, US",3/15/20,1,0
+1829,90030.0,"Unassigned, Montana, US",3/25/20,6,0
+1830,90031.0,"Unassigned, Nebraska, US",3/21/20,4,0
+1831,90031.0,"Unassigned, Nebraska, US",3/28/20,2,0
+1832,90031.0,"Unassigned, Nebraska, US",3/30/20,4,2
+1833,90031.0,"Unassigned, Nebraska, US",4/2/20,3,2
+1834,90031.0,"Unassigned, Nebraska, US",4/3/20,2,1
+1835,90031.0,"Unassigned, Nebraska, US",4/8/20,1,0
+1836,90031.0,"Unassigned, Nebraska, US",4/14/20,23,18
+1837,90031.0,"Unassigned, Nebraska, US",4/18/20,92,60
+1838,90031.0,"Unassigned, Nebraska, US",4/19/20,60,40
+1839,90031.0,"Unassigned, Nebraska, US",4/20/20,40,37
+1840,90031.0,"Unassigned, Nebraska, US",4/21/20,37,0
+1841,90031.0,"Unassigned, Nebraska, US",4/23/20,12,7
+1842,90031.0,"Unassigned, Nebraska, US",4/24/20,7,0
+1843,90031.0,"Unassigned, Nebraska, US",4/28/20,34,23
+1844,90032.0,"Unassigned, Nevada, US",3/21/20,18,10
+1845,90032.0,"Unassigned, Nevada, US",3/24/20,89,15
+1846,90032.0,"Unassigned, Nevada, US",3/26/20,15,4
+1847,90032.0,"Unassigned, Nevada, US",3/30/20,269,132
+1848,90032.0,"Unassigned, Nevada, US",3/31/20,132,102
+1849,90032.0,"Unassigned, Nevada, US",4/3/20,148,16
+1850,90032.0,"Unassigned, Nevada, US",4/5/20,34,25
+1851,90032.0,"Unassigned, Nevada, US",4/8/20,33,0
+1852,90032.0,"Unassigned, Nevada, US",4/11/20,146,96
+1853,90032.0,"Unassigned, Nevada, US",4/12/20,96,23
+1854,90032.0,"Unassigned, Nevada, US",4/13/20,23,0
+1855,90032.0,"Unassigned, Nevada, US",4/16/20,5,2
+1856,90032.0,"Unassigned, Nevada, US",4/18/20,98,34
+1857,90032.0,"Unassigned, Nevada, US",4/19/20,34,20
+1858,90032.0,"Unassigned, Nevada, US",4/21/20,36,34
+1859,90032.0,"Unassigned, Nevada, US",4/22/20,34,6
+1860,90032.0,"Unassigned, Nevada, US",4/23/20,6,4
+1861,90032.0,"Unassigned, Nevada, US",4/25/20,65,16
+1862,90032.0,"Unassigned, Nevada, US",4/27/20,95,0
+1863,90033.0,"Unassigned, New Hampshire, US",3/21/20,5,0
+1864,90033.0,"Unassigned, New Hampshire, US",3/24/20,23,0
+1865,90033.0,"Unassigned, New Hampshire, US",3/28/20,4,0
+1866,90033.0,"Unassigned, New Hampshire, US",3/31/20,56,0
+1867,90033.0,"Unassigned, New Hampshire, US",4/6/20,4,1
+1868,90033.0,"Unassigned, New Hampshire, US",4/11/20,32,0
+1869,90033.0,"Unassigned, New Hampshire, US",4/15/20,1,0
+1870,90033.0,"Unassigned, New Hampshire, US",4/18/20,2,0
+1871,90033.0,"Unassigned, New Hampshire, US",4/23/20,17,11
+1872,90033.0,"Unassigned, New Hampshire, US",4/24/20,11,3
+1873,90033.0,"Unassigned, New Hampshire, US",4/26/20,9,5
+1874,90033.0,"Unassigned, New Hampshire, US",4/28/20,11,7
+1875,90033.0,"Unassigned, New Hampshire, US",4/30/20,7,3
+1876,90034.0,"Unassigned, New Jersey, US",3/20/20,108,92
+1877,90034.0,"Unassigned, New Jersey, US",3/31/20,3847,3686
+1878,90034.0,"Unassigned, New Jersey, US",4/3/20,4866,4808
+1879,90034.0,"Unassigned, New Jersey, US",4/4/20,4808,3935
+1880,90034.0,"Unassigned, New Jersey, US",4/5/20,3935,3821
+1881,90034.0,"Unassigned, New Jersey, US",4/6/20,3821,3521
+1882,90034.0,"Unassigned, New Jersey, US",4/7/20,3521,2207
+1883,90034.0,"Unassigned, New Jersey, US",4/8/20,2207,1391
+1884,90034.0,"Unassigned, New Jersey, US",4/9/20,1391,996
+1885,90034.0,"Unassigned, New Jersey, US",4/10/20,996,649
+1886,90034.0,"Unassigned, New Jersey, US",4/13/20,1274,1203
+1887,90034.0,"Unassigned, New Jersey, US",4/15/20,1702,1189
+1888,90034.0,"Unassigned, New Jersey, US",4/16/20,1189,1048
+1889,90034.0,"Unassigned, New Jersey, US",4/17/20,1048,719
+1890,90034.0,"Unassigned, New Jersey, US",4/19/20,748,585
+1891,90034.0,"Unassigned, New Jersey, US",4/22/20,3073,1045
+1892,90034.0,"Unassigned, New Jersey, US",4/24/20,1108,532
+1893,90034.0,"Unassigned, New Jersey, US",4/28/20,818,718
+1894,90034.0,"Unassigned, New Jersey, US",4/30/20,718,478
+1895,90035.0,"Unassigned, New Mexico, US",4/4/20,3,2
+1896,90035.0,"Unassigned, New Mexico, US",4/5/20,2,0
+1897,90036.0,"Unassigned, New York, US",3/15/20,25,0
+1898,90036.0,"Unassigned, New York, US",3/21/20,449,0
+1899,90036.0,"Unassigned, New York, US",3/24/20,107,0
+1900,90037.0,"Unassigned, North Carolina, US",4/20/20,3,0
+1901,90037.0,"Unassigned, North Carolina, US",4/28/20,1,0
+1902,90039.0,"Unassigned, Ohio, US",4/13/20,2,0
+1903,90040.0,"Unassigned, Oklahoma, US",4/19/20,108,0
+1904,90041.0,"Unassigned, Oregon, US",4/13/20,1,0
+1905,90044.0,"Unassigned, Rhode Island, US",3/14/20,9,0
+1906,90044.0,"Unassigned, Rhode Island, US",3/22/20,12,8
+1907,90044.0,"Unassigned, Rhode Island, US",3/23/20,8,5
+1908,90044.0,"Unassigned, Rhode Island, US",3/29/20,107,57
+1909,90044.0,"Unassigned, Rhode Island, US",4/1/20,184,160
+1910,90044.0,"Unassigned, Rhode Island, US",4/2/20,160,80
+1911,90044.0,"Unassigned, Rhode Island, US",4/5/20,241,238
+1912,90044.0,"Unassigned, Rhode Island, US",4/8/20,353,274
+1913,90044.0,"Unassigned, Rhode Island, US",4/10/20,551,408
+1914,90044.0,"Unassigned, Rhode Island, US",4/15/20,1551,756
+1915,90044.0,"Unassigned, Rhode Island, US",4/17/20,902,790
+1916,90044.0,"Unassigned, Rhode Island, US",4/19/20,1146,1030
+1917,90044.0,"Unassigned, Rhode Island, US",4/20/20,1030,861
+1918,90044.0,"Unassigned, Rhode Island, US",4/22/20,1000,895
+1919,90044.0,"Unassigned, Rhode Island, US",4/26/20,1198,1109
+1920,90044.0,"Unassigned, Rhode Island, US",4/29/20,1267,1065
+1921,90047.0,"Unassigned, Tennessee, US",3/21/20,43,0
+1922,90047.0,"Unassigned, Tennessee, US",3/24/20,54,38
+1923,90047.0,"Unassigned, Tennessee, US",3/28/20,172,161
+1924,90047.0,"Unassigned, Tennessee, US",4/2/20,442,6
+1925,90047.0,"Unassigned, Tennessee, US",4/6/20,86,69
+1926,90047.0,"Unassigned, Tennessee, US",4/7/20,69,59
+1927,90047.0,"Unassigned, Tennessee, US",4/8/20,59,31
+1928,90047.0,"Unassigned, Tennessee, US",4/10/20,38,22
+1929,90047.0,"Unassigned, Tennessee, US",4/11/20,22,19
+1930,90047.0,"Unassigned, Tennessee, US",4/12/20,19,12
+1931,90047.0,"Unassigned, Tennessee, US",4/18/20,209,37
+1932,90047.0,"Unassigned, Tennessee, US",4/20/20,88,57
+1933,90047.0,"Unassigned, Tennessee, US",4/21/20,57,36
+1934,90047.0,"Unassigned, Tennessee, US",4/23/20,36,30
+1935,90047.0,"Unassigned, Tennessee, US",4/24/20,30,19
+1936,90047.0,"Unassigned, Tennessee, US",4/26/20,48,37
+1937,90047.0,"Unassigned, Tennessee, US",4/28/20,49,35
+1938,90047.0,"Unassigned, Tennessee, US",4/30/20,42,33
+1939,90048.0,"Unassigned, Texas, US",3/22/20,43,0
+1940,90049.0,"Unassigned, Utah, US",3/15/20,2,0
+1941,90049.0,"Unassigned, Utah, US",4/6/20,2,0
+1942,90049.0,"Unassigned, Utah, US",4/13/20,4,0
+1943,90050.0,"Unassigned, Vermont, US",3/21/20,11,0
+1944,90050.0,"Unassigned, Vermont, US",3/27/20,8,6
+1945,90050.0,"Unassigned, Vermont, US",3/31/20,28,11
+1946,90050.0,"Unassigned, Vermont, US",4/2/20,14,5
+1947,90050.0,"Unassigned, Vermont, US",4/7/20,21,3
+1948,90050.0,"Unassigned, Vermont, US",4/9/20,33,8
+1949,90050.0,"Unassigned, Vermont, US",4/11/20,59,11
+1950,90050.0,"Unassigned, Vermont, US",4/12/20,11,7
+1951,90050.0,"Unassigned, Vermont, US",4/15/20,39,15
+1952,90050.0,"Unassigned, Vermont, US",4/17/20,15,10
+1953,90050.0,"Unassigned, Vermont, US",4/21/20,11,3
+1954,90050.0,"Unassigned, Vermont, US",4/27/20,5,3
+1955,90051.0,"Unassigned, Virginia, US",3/14/20,1,0
+1956,90051.0,"Unassigned, Virginia, US",3/20/20,1,0
+1957,90051.0,"Unassigned, Virginia, US",4/6/20,3,0
+1958,90053.0,"Unassigned, Washington, US",3/11/20,5,0
+1959,90053.0,"Unassigned, Washington, US",3/14/20,65,39
+1960,90053.0,"Unassigned, Washington, US",3/15/20,39,0
+1961,90053.0,"Unassigned, Washington, US",3/20/20,151,130
+1962,90053.0,"Unassigned, Washington, US",3/23/20,164,145
+1963,90053.0,"Unassigned, Washington, US",3/24/20,145,112
+1964,90053.0,"Unassigned, Washington, US",3/25/20,112,51
+1965,90053.0,"Unassigned, Washington, US",3/27/20,69,67
+1966,90053.0,"Unassigned, Washington, US",3/28/20,67,0
+1967,90053.0,"Unassigned, Washington, US",4/4/20,501,483
+1968,90053.0,"Unassigned, Washington, US",4/9/20,915,838
+1969,90053.0,"Unassigned, Washington, US",4/11/20,908,848
+1970,90053.0,"Unassigned, Washington, US",4/12/20,848,732
+1971,90053.0,"Unassigned, Washington, US",4/13/20,732,619
+1972,90053.0,"Unassigned, Washington, US",4/14/20,619,484
+1973,90053.0,"Unassigned, Washington, US",4/15/20,484,383
+1974,90053.0,"Unassigned, Washington, US",4/16/20,383,272
+1975,90053.0,"Unassigned, Washington, US",4/19/20,444,159
+1976,90053.0,"Unassigned, Washington, US",4/23/20,159,134
+1977,90053.0,"Unassigned, Washington, US",4/24/20,134,100
+1978,90053.0,"Unassigned, Washington, US",4/26/20,137,123
+1979,90053.0,"Unassigned, Washington, US",4/27/20,123,103
+1980,90053.0,"Unassigned, Washington, US",4/28/20,103,79
+1981,90053.0,"Unassigned, Washington, US",4/29/20,79,76
+1982,90053.0,"Unassigned, Washington, US",4/30/20,76,60
+1983,90054.0,"Unassigned, West Virginia, US",4/9/20,21,0
+1984,90055.0,"Unassigned, Wisconsin, US",3/28/20,61,0
+1985,90055.0,"Unassigned, Wisconsin, US",4/16/20,1,0
+1986,99999.0,"Grand Princess, US",3/23/20,30,28
+1987,,"Bear River, Utah, US",4/25/20,59,58
+1988,,"Southeast Utah, Utah, US",4/30/20,14,12
+1989,,"TriCounty, Utah, US",4/22/20,10,9
