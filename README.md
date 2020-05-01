@@ -46,38 +46,7 @@ Geominr has been collecting data surrounding the COVID-19 outbreak in the United
 
 
 ## Data Quality
-The reporting of accurate coronavirus data from local health departments has been extremely difficult, especially in the areas that are hardest hit. Using the following code, we generate two data sets containing the locations and times at which cumulative counts of COVID-19 cases and deaths were less than they were on a previous day. These issues in the data can be deleterious to ongoing efforts to model the spread of the virus and guide policy decisions going forward.  
-```(python)
-url4 = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv"
-url5 = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv"
-dthsUS = pd.read_csv(url5)
-confUS = pd.read_csv(url4)
-days = dthsUS.columns[12:] # days holds all of the date columns
-ci, di=[],[] 
-dflags, cflags=[],[]
-cvals, cvals2=[],[]
-dvals, dvals2=[],[]
-ckey, dkey=[],[]
-for i in dthsUS.index:
-    for t in range(1, len(days)):
-        if dthsUS[days[t]][i] < dthsUS[days[t-1]][i]:
-            di.append(dthsUS.FIPS[i])
-            dkey.append(dthsUS.Combined_Key[i])
-            dflags.append(days[t])
-            dvals.append(dthsUS[days[t]][i])
-            dvals2.append(dthsUS[days[t-1]][i])
-        if confUS[days[t]][i] < confUS[days[t-1]][i]:
-            ci.append(confUS.FIPS[i])
-            ckey.append(confUS.Combined_Key[i])
-            cflags.append(days[t])
-            cvals.append(confUS[days[t]][i])
-            cvals2.append(confUS[days[t-1]][i])
-cases_flags = pd.DataFrame({'FIPS':ci,'Combined_Key':ckey,
-                            'Flagged Dates':cflags,'Value Day 1':cvals2,'Value Day 2':cvals})
-deaths_flags = pd.DataFrame({'FIPS':di,'Combined_Key':dkey,
-                             'Flagged Dates':dflags,'Value Day 1':dvals2,'Value Day 2':dvals})
-```
-These files are available in this repository and have been shared with the Johns Hopkins Center for Systems Science and Engineering.
+The reporting of accurate coronavirus data from local health departments has been extremely difficult, especially in the areas that are hardest hit. Using the code in [jhu-quick-qc-test.py](https://github.com/geominr/covid-19/blob/master/Data%20Quality/jhu-quick-qc-test.py), we generate two data sets containing the locations and times at which cumulative counts of COVID-19 cases and deaths were less than they were on a previous day. These issues in the data can be deleterious to ongoing efforts to model the spread of the virus and guide policy decisions going forward. Both files are available in this repository and have been shared with the Johns Hopkins Center for Systems Science and Engineering.
 
 
 
