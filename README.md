@@ -2,9 +2,8 @@
 Thank you for visiting the Geominr COVID-19 data repository. All materials in this repository have been collected and maintained by Raanan Gurewitsch. If you have any questions or comments, please contact me at raanan@geominr.com.
 
 ## Contents:
-* [Data Files](https://github.com/geominr/covid-19#data-files)
 * [Data Summary](https://github.com/geominr/covid-19#data-summary)
-* [Data Quality](https://github.com/geominr/covid-19#data-quality)
+* [Data Files](https://github.com/geominr/covid-19#data-files)
 
 ## Data Summary
 This repository contains daily coronavirus data for 345 total US counties from 32 states and the District of Columbia. Each county-level time series of daily cumulative* total COVID-19 cases and deaths was matched by five-digit FIPS code or county name to dynamic and static variables from eight additional data sources. By combining data from multiple sources, we are able to examine the impact of social distancing as well as various social and environmental determinants of health on the spread of the novel coronavirus in American metropolitan regions. This rich collection of contextual data can offer insights into which communities were most vulnerable to experience rapid spread of the virus or high case fatality rates and help guide local and national policies aimed at curbing the virus and allocating scarce resources to assist with response efforts.  
