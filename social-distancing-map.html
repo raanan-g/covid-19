@@ -1,0 +1,2238 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0e44273c50294523b30d484130b963fc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_0e44273c50294523b30d484130b963fc" ></div>
+        
+</body>
+<script>    
+    
+            var map_0e44273c50294523b30d484130b963fc = L.map(
+                "map_0e44273c50294523b30d484130b963fc",
+                {
+                    center: [38.0, -100.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4.25,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_52348a2493b1409fafd9ee5c79da8154 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+            var circle_marker_aa245102481f459a9d590e2ec8f4808f = L.circleMarker(
+                [41.84144849, -87.81658794],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.410676053040419, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_317f999e15914bc6963ce9da7f85447d = L.popup({"maxWidth": 160});
+
+        
+            var html_c469d5380173462483c9e9b17982b5eb = $(`<div id="html_c469d5380173462483c9e9b17982b5eb" style="width: 100.0%; height: 100.0%;"><h5>Cook, Illinois, US</h5><hr><b>Date of stay-at-home order:</b> 03-21-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 3705</div>`)[0];
+            popup_317f999e15914bc6963ce9da7f85447d.setContent(html_c469d5380173462483c9e9b17982b5eb);
+        
+
+        circle_marker_aa245102481f459a9d590e2ec8f4808f.bindPopup(popup_317f999e15914bc6963ce9da7f85447d)
+        ;
+
+        
+    
+    
+            var circle_marker_632549711bc24537ac6a2e024501c4ce = L.circleMarker(
+                [41.44619267, -87.97862712],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.983885116084098, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_972197bd7b744df894a7299ccdfab550 = L.popup({"maxWidth": 160});
+
+        
+            var html_c5115e651da0493f96c91c7ffd7f60b8 = $(`<div id="html_c5115e651da0493f96c91c7ffd7f60b8" style="width: 100.0%; height: 100.0%;"><h5>Will, Illinois, US</h5><hr><b>Date of stay-at-home order:</b> 03-21-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 223</div>`)[0];
+            popup_972197bd7b744df894a7299ccdfab550.setContent(html_c5115e651da0493f96c91c7ffd7f60b8);
+        
+
+        circle_marker_632549711bc24537ac6a2e024501c4ce.bindPopup(popup_972197bd7b744df894a7299ccdfab550)
+        ;
+
+        
+    
+    
+            var circle_marker_21c1a38ff1364b69916b455ffd9e7753 = L.circleMarker(
+                [41.85116968, -88.08642662],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.310279726430084, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_e6ab28046bfa45d49d0545caf096dae8 = L.popup({"maxWidth": 160});
+
+        
+            var html_691a65e205194413afc3761a174357af = $(`<div id="html_691a65e205194413afc3761a174357af" style="width: 100.0%; height: 100.0%;"><h5>DuPage, Illinois, US</h5><hr><b>Date of stay-at-home order:</b> 03-21-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 320</div>`)[0];
+            popup_e6ab28046bfa45d49d0545caf096dae8.setContent(html_691a65e205194413afc3761a174357af);
+        
+
+        circle_marker_21c1a38ff1364b69916b455ffd9e7753.bindPopup(popup_e6ab28046bfa45d49d0545caf096dae8)
+        ;
+
+        
+    
+    
+            var circle_marker_5c10bd3909ea4829aa9986ea89082530 = L.circleMarker(
+                [33.55554728, -86.89506300000002],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.540715360770662, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_c82ce479e28c4395b51a0dd86508b4df = L.popup({"maxWidth": 160});
+
+        
+            var html_20f9a7ba51f44af4b9a6b8d30024a0ad = $(`<div id="html_20f9a7ba51f44af4b9a6b8d30024a0ad" style="width: 100.0%; height: 100.0%;"><h5>Jefferson, Alabama, US</h5><hr><b>Date of stay-at-home order:</b> 04-04-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 483</div>`)[0];
+            popup_c82ce479e28c4395b51a0dd86508b4df.setContent(html_20f9a7ba51f44af4b9a6b8d30024a0ad);
+        
+
+        circle_marker_5c10bd3909ea4829aa9986ea89082530.bindPopup(popup_c82ce479e28c4395b51a0dd86508b4df)
+        ;
+
+        
+    
+    
+            var circle_marker_a9b8da2feca742588844503dd1693a8a = L.circleMarker(
+                [42.253105, -83.83853204],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.199914606392262, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_a5ca840ec61c4435a6e844ad12089da7 = L.popup({"maxWidth": 160});
+
+        
+            var html_ddf71488396b40c4942ac8c60f3117e6 = $(`<div id="html_ddf71488396b40c4942ac8c60f3117e6" style="width: 100.0%; height: 100.0%;"><h5>Washtenaw, Michigan, US</h5><hr><b>Date of stay-at-home order:</b> 03-24-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 435</div>`)[0];
+            popup_a5ca840ec61c4435a6e844ad12089da7.setContent(html_ddf71488396b40c4942ac8c60f3117e6);
+        
+
+        circle_marker_a9b8da2feca742588844503dd1693a8a.bindPopup(popup_a5ca840ec61c4435a6e844ad12089da7)
+        ;
+
+        
+    
+    
+            var circle_marker_f02658f975164a91a5f9804a61a0a069 = L.circleMarker(
+                [42.28098405, -83.281255],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26.89902151363729, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_c39798d5eebf4430ad1258c0a1e50b6b = L.popup({"maxWidth": 160});
+
+        
+            var html_00c7910fd0a94e7d89f9b281e8d5d009 = $(`<div id="html_00c7910fd0a94e7d89f9b281e8d5d009" style="width: 100.0%; height: 100.0%;"><h5>Wayne, Michigan, US</h5><hr><b>Date of stay-at-home order:</b> 03-24-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 5063</div>`)[0];
+            popup_c39798d5eebf4430ad1258c0a1e50b6b.setContent(html_00c7910fd0a94e7d89f9b281e8d5d009);
+        
+
+        circle_marker_f02658f975164a91a5f9804a61a0a069.bindPopup(popup_c39798d5eebf4430ad1258c0a1e50b6b)
+        ;
+
+        
+    
+    
+            var circle_marker_59417e77809d464eac490749c400fe7f = L.circleMarker(
+                [42.76249024, -78.73063652],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.652871201077213, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_a9b8a5c2221745cbbec9db4de4f04a4d = L.popup({"maxWidth": 160});
+
+        
+            var html_a6d2389ed353410e9d840868e3a49930 = $(`<div id="html_a6d2389ed353410e9d840868e3a49930" style="width: 100.0%; height: 100.0%;"><h5>Erie, New York, US</h5><hr><b>Date of stay-at-home order:</b> 03-22-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 499</div>`)[0];
+            popup_a9b8a5c2221745cbbec9db4de4f04a4d.setContent(html_a6d2389ed353410e9d840868e3a49930);
+        
+
+        circle_marker_59417e77809d464eac490749c400fe7f.bindPopup(popup_a9b8a5c2221745cbbec9db4de4f04a4d)
+        ;
+
+        
+    
+    
+            var circle_marker_5a6795c0469f48bb8e2cc5bdc04ec6c2 = L.circleMarker(
+                [42.35026951, -71.90493363],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.147480764549881, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_14f1ec8e2995497a9ba32866a35eeea0 = L.popup({"maxWidth": 160});
+
+        
+            var html_2b10a7ca87f6407ab02b4a96cf9123a8 = $(`<div id="html_2b10a7ca87f6407ab02b4a96cf9123a8" style="width: 100.0%; height: 100.0%;"><h5>Worcester, Massachusetts, US</h5><hr><b>Date of stay-at-home order:</b> 03-24-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 665</div>`)[0];
+            popup_14f1ec8e2995497a9ba32866a35eeea0.setContent(html_2b10a7ca87f6407ab02b4a96cf9123a8);
+        
+
+        circle_marker_5a6795c0469f48bb8e2cc5bdc04ec6c2.bindPopup(popup_14f1ec8e2995497a9ba32866a35eeea0)
+        ;
+
+        
+    
+    
+            var circle_marker_a6b856b401014b918fb1158bb7499646 = L.circleMarker(
+                [30.78472347, -88.20842409],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.64628522350297, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_eae51853f6da4c5bbb17c2d2e3fef093 = L.popup({"maxWidth": 160});
+
+        
+            var html_fc397db854ab4d0ebcddc283eb77cf4e = $(`<div id="html_fc397db854ab4d0ebcddc283eb77cf4e" style="width: 100.0%; height: 100.0%;"><h5>Mobile, Alabama, US</h5><hr><b>Date of stay-at-home order:</b> 04-04-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 458</div>`)[0];
+            popup_eae51853f6da4c5bbb17c2d2e3fef093.setContent(html_fc397db854ab4d0ebcddc283eb77cf4e);
+        
+
+        circle_marker_a6b856b401014b918fb1158bb7499646.bindPopup(popup_eae51853f6da4c5bbb17c2d2e3fef093)
+        ;
+
+        
+    
+    
+            var circle_marker_ab0e27a4246f45abbc39ffa31dcb52cf = L.circleMarker(
+                [42.13440424, -72.63235561],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.108033479952443, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_418b6a7fd2e549889ce382ecb9090398 = L.popup({"maxWidth": 160});
+
+        
+            var html_4407eb8ab7fb40ebb29551296049eae9 = $(`<div id="html_4407eb8ab7fb40ebb29551296049eae9" style="width: 100.0%; height: 100.0%;"><h5>Hampden, Massachusetts, US</h5><hr><b>Date of stay-at-home order:</b> 03-24-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 546</div>`)[0];
+            popup_418b6a7fd2e549889ce382ecb9090398.setContent(html_4407eb8ab7fb40ebb29551296049eae9);
+        
+
+        circle_marker_ab0e27a4246f45abbc39ffa31dcb52cf.bindPopup(popup_418b6a7fd2e549889ce382ecb9090398)
+        ;
+
+        
+    
+    
+            var circle_marker_ed7e83f421204c27b3026a0f20e957ad = L.circleMarker(
+                [42.6687626, -70.94687179],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.100160040432073, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_3c5d03467968451d9161063123243de1 = L.popup({"maxWidth": 160});
+
+        
+            var html_f8b1fc248934403cab4388498ad13d35 = $(`<div id="html_f8b1fc248934403cab4388498ad13d35" style="width: 100.0%; height: 100.0%;"><h5>Essex, Massachusetts, US</h5><hr><b>Date of stay-at-home order:</b> 03-24-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 1034</div>`)[0];
+            popup_3c5d03467968451d9161063123243de1.setContent(html_f8b1fc248934403cab4388498ad13d35);
+        
+
+        circle_marker_ed7e83f421204c27b3026a0f20e957ad.bindPopup(popup_3c5d03467968451d9161063123243de1)
+        ;
+
+        
+    
+    
+            var circle_marker_d7035f682eac410d80c8a6fff2b258c2 = L.circleMarker(
+                [41.16278376, -73.75741653],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50.370562512164064, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_05c9d975178941e886244f8b0063a0a1 = L.popup({"maxWidth": 160});
+
+        
+            var html_593c3566b46e467595dc1bd1a82466d0 = $(`<div id="html_593c3566b46e467595dc1bd1a82466d0" style="width: 100.0%; height: 100.0%;"><h5>Westchester, New York, US</h5><hr><b>Date of stay-at-home order:</b> 03-22-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 9819</div>`)[0];
+            popup_05c9d975178941e886244f8b0063a0a1.setContent(html_593c3566b46e467595dc1bd1a82466d0);
+        
+
+        circle_marker_d7035f682eac410d80c8a6fff2b258c2.bindPopup(popup_05c9d975178941e886244f8b0063a0a1)
+        ;
+
+        
+    
+    
+            var circle_marker_6c88ab57673440f2a48a270f85d33aa4 = L.circleMarker(
+                [41.79228404, -71.10872211],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.678314346963592, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_0cceb515609644b4a9a99b552a42050e = L.popup({"maxWidth": 160});
+
+        
+            var html_8083445d0c4e48ef9ab8be29e862b5eb = $(`<div id="html_8083445d0c4e48ef9ab8be29e862b5eb" style="width: 100.0%; height: 100.0%;"><h5>Bristol, Massachusetts, US</h5><hr><b>Date of stay-at-home order:</b> 03-24-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 423</div>`)[0];
+            popup_0cceb515609644b4a9a99b552a42050e.setContent(html_8083445d0c4e48ef9ab8be29e862b5eb);
+        
+
+        circle_marker_6c88ab57673440f2a48a270f85d33aa4.bindPopup(popup_0cceb515609644b4a9a99b552a42050e)
+        ;
+
+        
+    
+    
+            var circle_marker_9fe5b87b096a48e8857e35636b948c95 = L.circleMarker(
+                [42.16073095, -71.20530408],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.941143128158654, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_d4bee5859df24887aabd35e33cf20faa = L.popup({"maxWidth": 160});
+
+        
+            var html_65d815d6300a4fa7842e452097ad0840 = $(`<div id="html_65d815d6300a4fa7842e452097ad0840" style="width: 100.0%; height: 100.0%;"><h5>Norfolk, Massachusetts, US</h5><hr><b>Date of stay-at-home order:</b> 03-24-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 910</div>`)[0];
+            popup_d4bee5859df24887aabd35e33cf20faa.setContent(html_65d815d6300a4fa7842e452097ad0840);
+        
+
+        circle_marker_9fe5b87b096a48e8857e35636b948c95.bindPopup(popup_d4bee5859df24887aabd35e33cf20faa)
+        ;
+
+        
+    
+    
+            var circle_marker_d1b939dec1f84f1fb49aaad59230de29 = L.circleMarker(
+                [33.34835867, -112.49181540000001],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.560721360899663, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_d58dd2362aa64db59a8f79b73a38227d = L.popup({"maxWidth": 160});
+
+        
+            var html_7a5002236d4e4782a1e59390f325bb33 = $(`<div id="html_7a5002236d4e4782a1e59390f325bb33" style="width: 100.0%; height: 100.0%;"><h5>Maricopa, Arizona, US</h5><hr><b>Date of stay-at-home order:</b> 03-31-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 1640</div>`)[0];
+            popup_d58dd2362aa64db59a8f79b73a38227d.setContent(html_7a5002236d4e4782a1e59390f325bb33);
+        
+
+        circle_marker_d1b939dec1f84f1fb49aaad59230de29.bindPopup(popup_d58dd2362aa64db59a8f79b73a38227d)
+        ;
+
+        
+    
+    
+            var circle_marker_61b690abc89c431eb1d0ac6563dea35c = L.circleMarker(
+                [39.78163624, -86.13826325],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.36280726686195, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_9da78cec94ac45e7933ec67c4430cbbf = L.popup({"maxWidth": 160});
+
+        
+            var html_22cc8b06c9724dd281c1e2c396288822 = $(`<div id="html_22cc8b06c9724dd281c1e2c396288822" style="width: 100.0%; height: 100.0%;"><h5>Marion, Indiana, US</h5><hr><b>Date of stay-at-home order:</b> 03-24-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 1301</div>`)[0];
+            popup_9da78cec94ac45e7933ec67c4430cbbf.setContent(html_22cc8b06c9724dd281c1e2c396288822);
+        
+
+        circle_marker_61b690abc89c431eb1d0ac6563dea35c.bindPopup(popup_9da78cec94ac45e7933ec67c4430cbbf)
+        ;
+
+        
+    
+    
+            var circle_marker_d4ea0eef589e4c96b32f6e8bd9e6b87c = L.circleMarker(
+                [40.07306535, -86.05244729],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.3734201529605, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_0b0898e1f3b44d5fab95e344be858619 = L.popup({"maxWidth": 160});
+
+        
+            var html_f370ce9eb91a4bce9d8e52b1abb05a26 = $(`<div id="html_f370ce9eb91a4bce9d8e52b1abb05a26" style="width: 100.0%; height: 100.0%;"><h5>Hamilton, Indiana, US</h5><hr><b>Date of stay-at-home order:</b> 03-24-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 207</div>`)[0];
+            popup_0b0898e1f3b44d5fab95e344be858619.setContent(html_f370ce9eb91a4bce9d8e52b1abb05a26);
+        
+
+        circle_marker_d4ea0eef589e4c96b32f6e8bd9e6b87c.bindPopup(popup_0b0898e1f3b44d5fab95e344be858619)
+        ;
+
+        
+    
+    
+            var circle_marker_2b661381f6de43599d462745a0f39e49 = L.circleMarker(
+                [41.41874274, -87.38277575],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.521986688999142, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_045957d87d884815bb0ec830fce32bce = L.popup({"maxWidth": 160});
+
+        
+            var html_9b03b5cd70824c77935b86a1b93ec721 = $(`<div id="html_9b03b5cd70824c77935b86a1b93ec721" style="width: 100.0%; height: 100.0%;"><h5>Lake, Indiana, US</h5><hr><b>Date of stay-at-home order:</b> 03-24-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 215</div>`)[0];
+            popup_045957d87d884815bb0ec830fce32bce.setContent(html_9b03b5cd70824c77935b86a1b93ec721);
+        
+
+        circle_marker_2b661381f6de43599d462745a0f39e49.bindPopup(popup_045957d87d884815bb0ec830fce32bce)
+        ;
+
+        
+    
+    
+            var circle_marker_c68e6e6d12ae4a7491705d6971762002 = L.circleMarker(
+                [42.3224907, -88.00367925],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.079281203180734, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_87decc67cf56495f84d1a1dfb4628d61 = L.popup({"maxWidth": 160});
+
+        
+            var html_c20482bf1ae34361810e44f8df7d2d58 = $(`<div id="html_c20482bf1ae34361810e44f8df7d2d58" style="width: 100.0%; height: 100.0%;"><h5>Lake, Illinois, US</h5><hr><b>Date of stay-at-home order:</b> 03-21-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 342</div>`)[0];
+            popup_87decc67cf56495f84d1a1dfb4628d61.setContent(html_c20482bf1ae34361810e44f8df7d2d58);
+        
+
+        circle_marker_c68e6e6d12ae4a7491705d6971762002.bindPopup(popup_87decc67cf56495f84d1a1dfb4628d61)
+        ;
+
+        
+    
+    
+            var circle_marker_c6b268ba902e42ce967723c5ad215979 = L.circleMarker(
+                [40.73766234, -74.07515667],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.09486851795904, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_1b411a8d80d94993b48fa7bf0d1f0b11 = L.popup({"maxWidth": 160});
+
+        
+            var html_a6ccfdce4e1f4d318164c96aaf888e76 = $(`<div id="html_a6ccfdce4e1f4d318164c96aaf888e76" style="width: 100.0%; height: 100.0%;"><h5>Hudson, New Jersey, US</h5><hr><b>Date of stay-at-home order:</b> 03-21-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 1313</div>`)[0];
+            popup_1b411a8d80d94993b48fa7bf0d1f0b11.setContent(html_a6ccfdce4e1f4d318164c96aaf888e76);
+        
+
+        circle_marker_c6b268ba902e42ce967723c5ad215979.bindPopup(popup_1b411a8d80d94993b48fa7bf0d1f0b11)
+        ;
+
+        
+    
+    
+            var circle_marker_04f0393769f6488da362d80c2f06b23d = L.circleMarker(
+                [40.66562265, -119.6631594],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.386861054045523, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_6f934a9d93b341a896fce7e5d7ca9f64 = L.popup({"maxWidth": 160});
+
+        
+            var html_3659a5cc9a4e4a39bc081d210691d840 = $(`<div id="html_3659a5cc9a4e4a39bc081d210691d840" style="width: 100.0%; height: 100.0%;"><h5>Washoe, Nevada, US</h5><hr><b>Date of stay-at-home order:</b> 04-01-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 338</div>`)[0];
+            popup_6f934a9d93b341a896fce7e5d7ca9f64.setContent(html_3659a5cc9a4e4a39bc081d210691d840);
+        
+
+        circle_marker_04f0393769f6488da362d80c2f06b23d.bindPopup(popup_6f934a9d93b341a896fce7e5d7ca9f64)
+        ;
+
+        
+    
+    
+            var circle_marker_e48948c85dd24c67b3a44b6500625c4a = L.circleMarker(
+                [42.60060306, -73.97723916],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.538923723777064, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_bad2127665da42b2b56fe69f2109d71b = L.popup({"maxWidth": 160});
+
+        
+            var html_948c380312a04958afab92ffd05188ac = $(`<div id="html_948c380312a04958afab92ffd05188ac" style="width: 100.0%; height: 100.0%;"><h5>Albany, New York, US</h5><hr><b>Date of stay-at-home order:</b> 03-22-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 224</div>`)[0];
+            popup_bad2127665da42b2b56fe69f2109d71b.setContent(html_948c380312a04958afab92ffd05188ac);
+        
+
+        circle_marker_e48948c85dd24c67b3a44b6500625c4a.bindPopup(popup_bad2127665da42b2b56fe69f2109d71b)
+        ;
+
+        
+    
+    
+            var circle_marker_57ae6824c4f9413490703890f1705ce3 = L.circleMarker(
+                [36.21458855, -115.0130241],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.918739338823654, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_62fd6d0789134695a602ae8e684510ae = L.popup({"maxWidth": 160});
+
+        
+            var html_77d0e07effc8491d9ac6a76587e5336e = $(`<div id="html_77d0e07effc8491d9ac6a76587e5336e" style="width: 100.0%; height: 100.0%;"><h5>Clark, Nevada, US</h5><hr><b>Date of stay-at-home order:</b> 04-01-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 2018</div>`)[0];
+            popup_62fd6d0789134695a602ae8e684510ae.setContent(html_77d0e07effc8491d9ac6a76587e5336e);
+        
+
+        circle_marker_57ae6824c4f9413490703890f1705ce3.bindPopup(popup_62fd6d0789134695a602ae8e684510ae)
+        ;
+
+        
+    
+    
+            var circle_marker_a38757b86a7b4c37a500e4a5503caa50 = L.circleMarker(
+                [41.03238628, -74.29954144],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23.302723065618306, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_0611322576914d14bb7436c7aa7c008d = L.popup({"maxWidth": 160});
+
+        
+            var html_6bc86de0c69149cb894084b9b5560f75 = $(`<div id="html_6bc86de0c69149cb894084b9b5560f75" style="width: 100.0%; height: 100.0%;"><h5>Passaic, New Jersey, US</h5><hr><b>Date of stay-at-home order:</b> 03-21-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 1090</div>`)[0];
+            popup_0611322576914d14bb7436c7aa7c008d.setContent(html_6bc86de0c69149cb894084b9b5560f75);
+        
+
+        circle_marker_a38757b86a7b4c37a500e4a5503caa50.bindPopup(popup_0611322576914d14bb7436c7aa7c008d)
+        ;
+
+        
+    
+    
+            var circle_marker_9ec6d551ae0f4b4ca5c9b0e1eb19ddea = L.circleMarker(
+                [40.65835409, -74.30680092],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23.337309230136768, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_406dc05061074576834449b41bfddd41 = L.popup({"maxWidth": 160});
+
+        
+            var html_8072de9dbc83494892424e215b0b0145 = $(`<div id="html_8072de9dbc83494892424e215b0b0145" style="width: 100.0%; height: 100.0%;"><h5>Union, New Jersey, US</h5><hr><b>Date of stay-at-home order:</b> 03-21-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 1212</div>`)[0];
+            popup_406dc05061074576834449b41bfddd41.setContent(html_8072de9dbc83494892424e215b0b0145);
+        
+
+        circle_marker_9ec6d551ae0f4b4ca5c9b0e1eb19ddea.bindPopup(popup_406dc05061074576834449b41bfddd41)
+        ;
+
+        
+    
+    
+            var circle_marker_78bb389cbac443eda9fd650fc5d7331e = L.circleMarker(
+                [40.78681335, -74.24657979],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.121867333016247, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_34c9f0ac524e4a98b582922fda99797b = L.popup({"maxWidth": 160});
+
+        
+            var html_eb1b59e5c53e406caee976670a068129 = $(`<div id="html_eb1b59e5c53e406caee976670a068129" style="width: 100.0%; height: 100.0%;"><h5>Essex, New Jersey, US</h5><hr><b>Date of stay-at-home order:</b> 03-21-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 1564</div>`)[0];
+            popup_34c9f0ac524e4a98b582922fda99797b.setContent(html_eb1b59e5c53e406caee976670a068129);
+        
+
+        circle_marker_78bb389cbac443eda9fd650fc5d7331e.bindPopup(popup_34c9f0ac524e4a98b582922fda99797b)
+        ;
+
+        
+    
+    
+            var circle_marker_48ee2928ef3b4338ac4defbbd2b7ba2e = L.circleMarker(
+                [42.48607732, -71.39049229],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.73272367802693, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_b6a57cc9d1ac4b4a8303e70223767e5c = L.popup({"maxWidth": 160});
+
+        
+            var html_eb666ecbcecd49d6b139f7b2e9520e5a = $(`<div id="html_eb666ecbcecd49d6b139f7b2e9520e5a" style="width: 100.0%; height: 100.0%;"><h5>Middlesex, Massachusetts, US</h5><hr><b>Date of stay-at-home order:</b> 03-24-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 1805</div>`)[0];
+            popup_b6a57cc9d1ac4b4a8303e70223767e5c.setContent(html_eb666ecbcecd49d6b139f7b2e9520e5a);
+        
+
+        circle_marker_48ee2928ef3b4338ac4defbbd2b7ba2e.bindPopup(popup_b6a57cc9d1ac4b4a8303e70223767e5c)
+        ;
+
+        
+    
+    
+            var circle_marker_0650919f57d34084820a4ed370f95335 = L.circleMarker(
+                [40.28047017, -74.70479631],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.016144804937607, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_0dcd0cdf239b4dcb9e0028296022b873 = L.popup({"maxWidth": 160});
+
+        
+            var html_df8ff3b537a44707a3c8fcf9d4562d77 = $(`<div id="html_df8ff3b537a44707a3c8fcf9d4562d77" style="width: 100.0%; height: 100.0%;"><h5>Mercer, New Jersey, US</h5><hr><b>Date of stay-at-home order:</b> 03-21-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 249</div>`)[0];
+            popup_0dcd0cdf239b4dcb9e0028296022b873.setContent(html_df8ff3b537a44707a3c8fcf9d4562d77);
+        
+
+        circle_marker_0650919f57d34084820a4ed370f95335.bindPopup(popup_0dcd0cdf239b4dcb9e0028296022b873)
+        ;
+
+        
+    
+    
+            var circle_marker_458ad278c9674ea3bb935c4d05c1cee1 = L.circleMarker(
+                [37.64629437, -121.8929271],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.710409810011305, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_8fa86da7917746b9956f495d5a65f7d4 = L.popup({"maxWidth": 160});
+
+        
+            var html_f00d1834093c491a92ed456c5b105301 = $(`<div id="html_f00d1834093c491a92ed456c5b105301" style="width: 100.0%; height: 100.0%;"><h5>Alameda, California, US</h5><hr><b>Date of stay-at-home order:</b> 03-19-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 218</div>`)[0];
+            popup_8fa86da7917746b9956f495d5a65f7d4.setContent(html_f00d1834093c491a92ed456c5b105301);
+        
+
+        circle_marker_458ad278c9674ea3bb935c4d05c1cee1.bindPopup(popup_8fa86da7917746b9956f495d5a65f7d4)
+        ;
+
+        
+    
+    
+            var circle_marker_d19fe293146a4b98beb84f10da0b1049 = L.circleMarker(
+                [33.70147516, -117.76459979999998],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.604505048142543, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_f5a4505004da4564a7495ee27e85506f = L.popup({"maxWidth": 160});
+
+        
+            var html_e12914815d414709b6385fbf9ade0be7 = $(`<div id="html_e12914815d414709b6385fbf9ade0be7" style="width: 100.0%; height: 100.0%;"><h5>Orange, California, US</h5><hr><b>Date of stay-at-home order:</b> 03-19-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 399</div>`)[0];
+            popup_f5a4505004da4564a7495ee27e85506f.setContent(html_e12914815d414709b6385fbf9ade0be7);
+        
+
+        circle_marker_d19fe293146a4b98beb84f10da0b1049.bindPopup(popup_f5a4505004da4564a7495ee27e85506f)
+        ;
+
+        
+    
+    
+            var circle_marker_f5cc507fcb644b1fb560baa3de0f2a3b = L.circleMarker(
+                [37.91923498, -121.9289527],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.8702266889474375, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_b6aefdd9ece5486fbbab5e630e376832 = L.popup({"maxWidth": 160});
+
+        
+            var html_3ac052ef70af4c61b5b96b31ec9d7ad2 = $(`<div id="html_3ac052ef70af4c61b5b96b31ec9d7ad2" style="width: 100.0%; height: 100.0%;"><h5>Contra Costa, California, US</h5><hr><b>Date of stay-at-home order:</b> 03-19-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 159</div>`)[0];
+            popup_b6aefdd9ece5486fbbab5e630e376832.setContent(html_3ac052ef70af4c61b5b96b31ec9d7ad2);
+        
+
+        circle_marker_f5cc507fcb644b1fb560baa3de0f2a3b.bindPopup(popup_b6aefdd9ece5486fbbab5e630e376832)
+        ;
+
+        
+    
+    
+            var circle_marker_12fa27c034f9413585a0f833a361b1b4 = L.circleMarker(
+                [30.06971951, -89.92660315],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 37.92005551467746, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_13a6db37f53b43a69c4f2e39be55c953 = L.popup({"maxWidth": 160});
+
+        
+            var html_63d2ab754bff48e2ac1176bbf1ec2fad = $(`<div id="html_63d2ab754bff48e2ac1176bbf1ec2fad" style="width: 100.0%; height: 100.0%;"><h5>Orleans, Louisiana, US</h5><hr><b>Date of stay-at-home order:</b> 03-23-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 2244</div>`)[0];
+            popup_13a6db37f53b43a69c4f2e39be55c953.setContent(html_63d2ab754bff48e2ac1176bbf1ec2fad);
+        
+
+        circle_marker_12fa27c034f9413585a0f833a361b1b4.bindPopup(popup_13a6db37f53b43a69c4f2e39be55c953)
+        ;
+
+        
+    
+    
+            var circle_marker_20cebcee01684e588fec447597b902b4 = L.circleMarker(
+                [38.18664655, -85.65931031],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.774058628480006, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_69548f6e950c41a6a803c649cb6fcd59 = L.popup({"maxWidth": 160});
+
+        
+            var html_df95e62ef9a3449ca8985840d72e5704 = $(`<div id="html_df95e62ef9a3449ca8985840d72e5704" style="width: 100.0%; height: 100.0%;"><h5>Jefferson, Kentucky, US</h5><hr><b>Date of stay-at-home order:</b> 03-26-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 293</div>`)[0];
+            popup_69548f6e950c41a6a803c649cb6fcd59.setContent(html_df95e62ef9a3449ca8985840d72e5704);
+        
+
+        circle_marker_20cebcee01684e588fec447597b902b4.bindPopup(popup_69548f6e950c41a6a803c649cb6fcd59)
+        ;
+
+        
+    
+    
+            var circle_marker_9735a26df8d44a1488bd31cb4438db1d = L.circleMarker(
+                [29.74075478, -90.11115756],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28.760754822477665, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_257f30924cb348b39149b61a6df88257 = L.popup({"maxWidth": 160});
+
+        
+            var html_a0e005e563694392999e4efde5b8250b = $(`<div id="html_a0e005e563694392999e4efde5b8250b" style="width: 100.0%; height: 100.0%;"><h5>Jefferson, Louisiana, US</h5><hr><b>Date of stay-at-home order:</b> 03-23-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 1431</div>`)[0];
+            popup_257f30924cb348b39149b61a6df88257.setContent(html_a0e005e563694392999e4efde5b8250b);
+        
+
+        circle_marker_9735a26df8d44a1488bd31cb4438db1d.bindPopup(popup_257f30924cb348b39149b61a6df88257)
+        ;
+
+        
+    
+    
+            var circle_marker_a85723529bfc40729ce6aa12c51a7c89 = L.circleMarker(
+                [30.53842039, -91.09777565],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.773605066109944, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_5439f727de19499cb1df12539cb1fd60 = L.popup({"maxWidth": 160});
+
+        
+            var html_e3d461e7b3ad4e309e4f6f462af1f643 = $(`<div id="html_e3d461e7b3ad4e309e4f6f462af1f643" style="width: 100.0%; height: 100.0%;"><h5>East Baton Rouge, Louisiana, US</h5><hr><b>Date of stay-at-home order:</b> 03-23-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 244</div>`)[0];
+            popup_5439f727de19499cb1df12539cb1fd60.setContent(html_e3d461e7b3ad4e309e4f6f462af1f643);
+        
+
+        circle_marker_a85723529bfc40729ce6aa12c51a7c89.bindPopup(popup_5439f727de19499cb1df12539cb1fd60)
+        ;
+
+        
+    
+    
+            var circle_marker_145ae77de81e47bfa4bef4e86e47e6e4 = L.circleMarker(
+                [35.34329425, -118.72777959999999],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.612841813056868, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_ea15100b2d314ea2a1f759d799509a6f = L.popup({"maxWidth": 160});
+
+        
+            var html_6ffeff0409e341d48408dde53dd937bd = $(`<div id="html_6ffeff0409e341d48408dde53dd937bd" style="width: 100.0%; height: 100.0%;"><h5>Kern, California, US</h5><hr><b>Date of stay-at-home order:</b> 03-19-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 47</div>`)[0];
+            popup_ea15100b2d314ea2a1f759d799509a6f.setContent(html_6ffeff0409e341d48408dde53dd937bd);
+        
+
+        circle_marker_145ae77de81e47bfa4bef4e86e47e6e4.bindPopup(popup_ea15100b2d314ea2a1f759d799509a6f)
+        ;
+
+        
+    
+    
+            var circle_marker_f1c88d32c1da46a99a34aa956fb71a8b = L.circleMarker(
+                [34.30828379, -118.22824109999999],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.011130673243575, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_df81a5ebe34a4d5eb77d1b654b7225c6 = L.popup({"maxWidth": 160});
+
+        
+            var html_47c44e4c32d94cf187b22a0d7f31a8cf = $(`<div id="html_47c44e4c32d94cf187b22a0d7f31a8cf" style="width: 100.0%; height: 100.0%;"><h5>Los Angeles, California, US</h5><hr><b>Date of stay-at-home order:</b> 03-19-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 1451</div>`)[0];
+            popup_df81a5ebe34a4d5eb77d1b654b7225c6.setContent(html_47c44e4c32d94cf187b22a0d7f31a8cf);
+        
+
+        circle_marker_f1c88d32c1da46a99a34aa956fb71a8b.bindPopup(popup_df81a5ebe34a4d5eb77d1b654b7225c6)
+        ;
+
+        
+    
+    
+            var circle_marker_eb2d4c311ec8450a8ffa9ff1eee50290 = L.circleMarker(
+                [33.03484597, -116.73653259999999],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.541116741403482, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_9e7aba00c5be45da8ea615178fb01b82 = L.popup({"maxWidth": 160});
+
+        
+            var html_e2408e46ca8944908b680248f59b5f03 = $(`<div id="html_e2408e46ca8944908b680248f59b5f03" style="width: 100.0%; height: 100.0%;"><h5>San Diego, California, US</h5><hr><b>Date of stay-at-home order:</b> 03-19-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 410</div>`)[0];
+            popup_9e7aba00c5be45da8ea615178fb01b82.setContent(html_e2408e46ca8944908b680248f59b5f03);
+        
+
+        circle_marker_eb2d4c311ec8450a8ffa9ff1eee50290.bindPopup(popup_9e7aba00c5be45da8ea615178fb01b82)
+        ;
+
+        
+    
+    
+            var circle_marker_f61ad5952e4043899475db5ddca2cbc3 = L.circleMarker(
+                [40.76727260000001, -73.97152637],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 43.051793993496254, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_665d7e9c1fca4f87b9dfdb4ea21b5b7c = L.popup({"maxWidth": 160});
+
+        
+            var html_cbe52ce517154bc0bf8ff494ebed269a = $(`<div id="html_cbe52ce517154bc0bf8ff494ebed269a" style="width: 100.0%; height: 100.0%;"><h5>New York City, New York, US</h5><hr><b>Date of stay-at-home order:</b> 03-22-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 43024</div>`)[0];
+            popup_665d7e9c1fca4f87b9dfdb4ea21b5b7c.setContent(html_cbe52ce517154bc0bf8ff494ebed269a);
+        
+
+        circle_marker_f61ad5952e4043899475db5ddca2cbc3.bindPopup(popup_665d7e9c1fca4f87b9dfdb4ea21b5b7c)
+        ;
+
+        
+    
+    
+            var circle_marker_349a242407864af1aac065886de51a88 = L.circleMarker(
+                [34.84060306, -116.1774685],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.9521613294716156, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_c6d0fccc47384e1eb77de62413504141 = L.popup({"maxWidth": 160});
+
+        
+            var html_0980ac64c85f4b9a9ef289abf765c476 = $(`<div id="html_0980ac64c85f4b9a9ef289abf765c476" style="width: 100.0%; height: 100.0%;"><h5>San Bernardino, California, US</h5><hr><b>Date of stay-at-home order:</b> 03-19-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 76</div>`)[0];
+            popup_c6d0fccc47384e1eb77de62413504141.setContent(html_0980ac64c85f4b9a9ef289abf765c476);
+        
+
+        circle_marker_349a242407864af1aac065886de51a88.bindPopup(popup_c6d0fccc47384e1eb77de62413504141)
+        ;
+
+        
+    
+    
+            var circle_marker_de2597a67942433b939e868826072966 = L.circleMarker(
+                [38.45106826, -121.34253740000001],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.108266403385696, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_4b7f1399b1b346f48c1942070c51dba0 = L.popup({"maxWidth": 160});
+
+        
+            var html_a79194e8641241b0bac7394a17fd14a3 = $(`<div id="html_a79194e8641241b0bac7394a17fd14a3" style="width: 100.0%; height: 100.0%;"><h5>Sacramento, California, US</h5><hr><b>Date of stay-at-home order:</b> 03-19-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 162</div>`)[0];
+            popup_4b7f1399b1b346f48c1942070c51dba0.setContent(html_a79194e8641241b0bac7394a17fd14a3);
+        
+
+        circle_marker_de2597a67942433b939e868826072966.bindPopup(popup_4b7f1399b1b346f48c1942070c51dba0)
+        ;
+
+        
+    
+    
+            var circle_marker_830c360cc641439c8d9f5963da7a44df = L.circleMarker(
+                [42.327951399999996, -71.07850442],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.108586593704977, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_35ec6b8dbfdc40a386f53ec55dcea741 = L.popup({"maxWidth": 160});
+
+        
+            var html_8c81776cf6c34bfbb1898c0069142b6a = $(`<div id="html_8c81776cf6c34bfbb1898c0069142b6a" style="width: 100.0%; height: 100.0%;"><h5>Suffolk, Massachusetts, US</h5><hr><b>Date of stay-at-home order:</b> 03-24-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 1869</div>`)[0];
+            popup_35ec6b8dbfdc40a386f53ec55dcea741.setContent(html_8c81776cf6c34bfbb1898c0069142b6a);
+        
+
+        circle_marker_830c360cc641439c8d9f5963da7a44df.bindPopup(popup_35ec6b8dbfdc40a386f53ec55dcea741)
+        ;
+
+        
+    
+    
+            var circle_marker_5478bb359842429c90e22023838e2ea8 = L.circleMarker(
+                [32.57991587, -93.88375652],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.581588511383263, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_61635bbc91f241d38f39c28ce7dfe056 = L.popup({"maxWidth": 160});
+
+        
+            var html_9b5fa179a12d4e12b3d891b113cd5003 = $(`<div id="html_9b5fa179a12d4e12b3d891b113cd5003" style="width: 100.0%; height: 100.0%;"><h5>Caddo, Louisiana, US</h5><hr><b>Date of stay-at-home order:</b> 03-23-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 297</div>`)[0];
+            popup_61635bbc91f241d38f39c28ce7dfe056.setContent(html_9b5fa179a12d4e12b3d891b113cd5003);
+        
+
+        circle_marker_5478bb359842429c90e22023838e2ea8.bindPopup(popup_61635bbc91f241d38f39c28ce7dfe056)
+        ;
+
+        
+    
+    
+            var circle_marker_8d4d88460552406fa542955a29e5262b = L.circleMarker(
+                [39.30211911, -76.61151012],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.35880105628701, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_f60f154a1ba8410e983fff6a64bf1d2e = L.popup({"maxWidth": 160});
+
+        
+            var html_3c2d6c36bd8b40e2ac48cc0ae98da0d8 = $(`<div id="html_3c2d6c36bd8b40e2ac48cc0ae98da0d8" style="width: 100.0%; height: 100.0%;"><h5>Baltimore City, Maryland, US</h5><hr><b>Date of stay-at-home order:</b> 03-30-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 560</div>`)[0];
+            popup_f60f154a1ba8410e983fff6a64bf1d2e.setContent(html_3c2d6c36bd8b40e2ac48cc0ae98da0d8);
+        
+
+        circle_marker_8d4d88460552406fa542955a29e5262b.bindPopup(popup_f60f154a1ba8410e983fff6a64bf1d2e)
+        ;
+
+        
+    
+    
+            var circle_marker_d0b17e0c96074104859ff8af81b2fbff = L.circleMarker(
+                [41.94070556, -70.80802823],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.25888629942289, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_3b2a1a35d2e64d1dbfbda6d64c74538f = L.popup({"maxWidth": 160});
+
+        
+            var html_7fa1e5da29e44d1e9a52866f3363cb2c = $(`<div id="html_7fa1e5da29e44d1e9a52866f3363cb2c" style="width: 100.0%; height: 100.0%;"><h5>Plymouth, Massachusetts, US</h5><hr><b>Date of stay-at-home order:</b> 03-24-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 621</div>`)[0];
+            popup_3b2a1a35d2e64d1dbfbda6d64c74538f.setContent(html_7fa1e5da29e44d1e9a52866f3363cb2c);
+        
+
+        circle_marker_d0b17e0c96074104859ff8af81b2fbff.bindPopup(popup_3b2a1a35d2e64d1dbfbda6d64c74538f)
+        ;
+
+        
+    
+    
+            var circle_marker_6b48f2455a324c91878e6411d2c0c8af = L.circleMarker(
+                [39.80343818, -74.96388753],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.911040503189234, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_b36a5b5238404c339dbee39c4abd2ba1 = L.popup({"maxWidth": 160});
+
+        
+            var html_08fb779fa55a4bd49aebffc68af15186 = $(`<div id="html_08fb779fa55a4bd49aebffc68af15186" style="width: 100.0%; height: 100.0%;"><h5>Camden, New Jersey, US</h5><hr><b>Date of stay-at-home order:</b> 03-21-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 199</div>`)[0];
+            popup_b36a5b5238404c339dbee39c4abd2ba1.setContent(html_08fb779fa55a4bd49aebffc68af15186);
+        
+
+        circle_marker_6b48f2455a324c91878e6411d2c0c8af.bindPopup(popup_b36a5b5238404c339dbee39c4abd2ba1)
+        ;
+
+        
+    
+    
+            var circle_marker_d2f9606503f04956b0a81e501a9d54be = L.circleMarker(
+                [33.74314981, -115.9933578],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.291501078801049, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_ec382ae361b04322b4d7680fc7bd82bd = L.popup({"maxWidth": 160});
+
+        
+            var html_0a2e6ded60e0442c84c473286b4fdafd = $(`<div id="html_0a2e6ded60e0442c84c473286b4fdafd" style="width: 100.0%; height: 100.0%;"><h5>Riverside, California, US</h5><hr><b>Date of stay-at-home order:</b> 03-19-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 182</div>`)[0];
+            popup_ec382ae361b04322b4d7680fc7bd82bd.setContent(html_0a2e6ded60e0442c84c473286b4fdafd);
+        
+
+        circle_marker_d2f9606503f04956b0a81e501a9d54be.bindPopup(popup_ec382ae361b04322b4d7680fc7bd82bd)
+        ;
+
+        
+    
+    
+            var circle_marker_1ae7e8b3705245528626f3aedf20e87e = L.circleMarker(
+                [43.02244215, -83.70589709],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.662895524376488, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_d35033e2bbf44c32919f32ede5611a48 = L.popup({"maxWidth": 160});
+
+        
+            var html_24ee904252e34bfa8690a26b70085ada = $(`<div id="html_24ee904252e34bfa8690a26b70085ada" style="width: 100.0%; height: 100.0%;"><h5>Genesee, Michigan, US</h5><hr><b>Date of stay-at-home order:</b> 03-24-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 349</div>`)[0];
+            popup_d35033e2bbf44c32919f32ede5611a48.setContent(html_24ee904252e34bfa8690a26b70085ada);
+        
+
+        circle_marker_1ae7e8b3705245528626f3aedf20e87e.bindPopup(popup_d35033e2bbf44c32919f32ede5611a48)
+        ;
+
+        
+    
+    
+            var circle_marker_0da959b1e20f4b9995c191b0c7ae72ff = L.circleMarker(
+                [42.66090111, -83.38595416],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.80322744040698, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_49a121abbc3746db9f583df81fd04f12 = L.popup({"maxWidth": 160});
+
+        
+            var html_90c4e9c52af14a13b902bff820023c5f = $(`<div id="html_90c4e9c52af14a13b902bff820023c5f" style="width: 100.0%; height: 100.0%;"><h5>Oakland, Michigan, US</h5><hr><b>Date of stay-at-home order:</b> 03-24-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 2177</div>`)[0];
+            popup_49a121abbc3746db9f583df81fd04f12.setContent(html_90c4e9c52af14a13b902bff820023c5f);
+        
+
+        circle_marker_0da959b1e20f4b9995c191b0c7ae72ff.bindPopup(popup_49a121abbc3746db9f583df81fd04f12)
+        ;
+
+        
+    
+    
+            var circle_marker_06b085e0a8244664b307655a072c7920 = L.circleMarker(
+                [45.00761521, -93.47694895],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.927606626535232, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_4a85bfa334b84f6b899ee76ca1a505fb = L.popup({"maxWidth": 160});
+
+        
+            var html_4ab0864b749d4801a4d4dbc9789ac4d7 = $(`<div id="html_4ab0864b749d4801a4d4dbc9789ac4d7" style="width: 100.0%; height: 100.0%;"><h5>Hennepin, Minnesota, US</h5><hr><b>Date of stay-at-home order:</b> 03-27-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 243</div>`)[0];
+            popup_4a85bfa334b84f6b899ee76ca1a505fb.setContent(html_4ab0864b749d4801a4d4dbc9789ac4d7);
+        
+
+        circle_marker_06b085e0a8244664b307655a072c7920.bindPopup(popup_4a85bfa334b84f6b899ee76ca1a505fb)
+        ;
+
+        
+    
+    
+            var circle_marker_579c3a8ad82d4d6ba1bee9425e6d7510 = L.circleMarker(
+                [42.69158356, -82.92752801],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.512381228214743, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_f5632ca09ccf46b3b60c87d5b7d26791 = L.popup({"maxWidth": 160});
+
+        
+            var html_36c14fe451de4839935d568d8e0c3220 = $(`<div id="html_36c14fe451de4839935d568d8e0c3220" style="width: 100.0%; height: 100.0%;"><h5>Macomb, Michigan, US</h5><hr><b>Date of stay-at-home order:</b> 03-24-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 1331</div>`)[0];
+            popup_f5632ca09ccf46b3b60c87d5b7d26791.setContent(html_36c14fe451de4839935d568d8e0c3220);
+        
+
+        circle_marker_579c3a8ad82d4d6ba1bee9425e6d7510.bindPopup(popup_f5632ca09ccf46b3b60c87d5b7d26791)
+        ;
+
+        
+    
+    
+            var circle_marker_682c54937136438696b9b5072f9e2512 = L.circleMarker(
+                [38.63555736, -90.24349225],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23.269301580399958, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_b1d51e2765734187a52ea4c4de0d4b92 = L.popup({"maxWidth": 160});
+
+        
+            var html_7b5d91c9911a49f8a16178b0a9bc2f3b = $(`<div id="html_7b5d91c9911a49f8a16178b0a9bc2f3b" style="width: 100.0%; height: 100.0%;"><h5>St. Louis City, Missouri, US</h5><hr><b>Date of stay-at-home order:</b> 04-06-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 651</div>`)[0];
+            popup_b1d51e2765734187a52ea4c4de0d4b92.setContent(html_7b5d91c9911a49f8a16178b0a9bc2f3b);
+        
+
+        circle_marker_682c54937136438696b9b5072f9e2512.bindPopup(popup_b1d51e2765734187a52ea4c4de0d4b92)
+        ;
+
+        
+    
+    
+            var circle_marker_52efbcf03d0043df8ff6151cf8feaa5a = L.circleMarker(
+                [37.23104908, -121.6970462],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.468290051330172, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_84d6317159d843cdae1dcb5cdfd25055 = L.popup({"maxWidth": 160});
+
+        
+            var html_2abc41f690814febae524e6bf2e7a50f = $(`<div id="html_2abc41f690814febae524e6bf2e7a50f" style="width: 100.0%; height: 100.0%;"><h5>Santa Clara, California, US</h5><hr><b>Date of stay-at-home order:</b> 03-19-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 553</div>`)[0];
+            popup_84d6317159d843cdae1dcb5cdfd25055.setContent(html_2abc41f690814febae524e6bf2e7a50f);
+        
+
+        circle_marker_52efbcf03d0043df8ff6151cf8feaa5a.bindPopup(popup_84d6317159d843cdae1dcb5cdfd25055)
+        ;
+
+        
+    
+    
+            var circle_marker_857f2aba73d9413d986b98601ee7cc9a = L.circleMarker(
+                [37.422880799999994, -122.32755459999998],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.418412275584638, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_1eae9e881e8345519bd1f894a78709e5 = L.popup({"maxWidth": 160});
+
+        
+            var html_7736140aa99e48a08e107228336f2529 = $(`<div id="html_7736140aa99e48a08e107228336f2529" style="width: 100.0%; height: 100.0%;"><h5>San Mateo, California, US</h5><hr><b>Date of stay-at-home order:</b> 03-19-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 272</div>`)[0];
+            popup_1eae9e881e8345519bd1f894a78709e5.setContent(html_7736140aa99e48a08e107228336f2529);
+        
+
+        circle_marker_857f2aba73d9413d986b98601ee7cc9a.bindPopup(popup_1eae9e881e8345519bd1f894a78709e5)
+        ;
+
+        
+    
+    
+            var circle_marker_98ac106db0a24913a5990d8698603f81 = L.circleMarker(
+                [40.46809875, -79.98167747],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.55500327487871, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_c066b8ae651b4dbc902e3af9218087b8 = L.popup({"maxWidth": 160});
+
+        
+            var html_92cddaf3bf5949a08cef2fb5cc207562 = $(`<div id="html_92cddaf3bf5949a08cef2fb5cc207562" style="width: 100.0%; height: 100.0%;"><h5>Allegheny, Pennsylvania, US</h5><hr><b>Date of stay-at-home order:</b> 03-23-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 356</div>`)[0];
+            popup_c066b8ae651b4dbc902e3af9218087b8.setContent(html_92cddaf3bf5949a08cef2fb5cc207562);
+        
+
+        circle_marker_98ac106db0a24913a5990d8698603f81.bindPopup(popup_c066b8ae651b4dbc902e3af9218087b8)
+        ;
+
+        
+    
+    
+            var circle_marker_55332b7437c84b72ac5864b9c13c14d4 = L.circleMarker(
+                [40.00338507, -75.1379271],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.24432907639887, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_989bc4d8133246819af71c2f534bd88e = L.popup({"maxWidth": 160});
+
+        
+            var html_5fb601fa05c24f348b88c99e72f58798 = $(`<div id="html_5fb601fa05c24f348b88c99e72f58798" style="width: 100.0%; height: 100.0%;"><h5>Philadelphia, Pennsylvania, US</h5><hr><b>Date of stay-at-home order:</b> 03-23-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 1672</div>`)[0];
+            popup_989bc4d8133246819af71c2f534bd88e.setContent(html_5fb601fa05c24f348b88c99e72f58798);
+        
+
+        circle_marker_55332b7437c84b72ac5864b9c13c14d4.bindPopup(popup_989bc4d8133246819af71c2f534bd88e)
+        ;
+
+        
+    
+    
+            var circle_marker_fc85c99b3001447f8c84b21cd543ebd1 = L.circleMarker(
+                [40.75182733, -75.30471829],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28.227582895406947, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_3719772971114f6596f4a00d1fa153bc = L.popup({"maxWidth": 160});
+
+        
+            var html_dba7a7d4284b4981a20a5ae490a70e09 = $(`<div id="html_dba7a7d4284b4981a20a5ae490a70e09" style="width: 100.0%; height: 100.0%;"><h5>Northampton, Pennsylvania, US</h5><hr><b>Date of stay-at-home order:</b> 04-01-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 973</div>`)[0];
+            popup_3719772971114f6596f4a00d1fa153bc.setContent(html_dba7a7d4284b4981a20a5ae490a70e09);
+        
+
+        circle_marker_fc85c99b3001447f8c84b21cd543ebd1.bindPopup(popup_3719772971114f6596f4a00d1fa153bc)
+        ;
+
+        
+    
+    
+            var circle_marker_01588d1fee834b36a4bafdbdd9aac14d = L.circleMarker(
+                [39.96995815, -83.01115755],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.616000788849512, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_0a038113680c4c12890ccbf38df4c14f = L.popup({"maxWidth": 160});
+
+        
+            var html_46649f84615747d5b26c36847a312dd8 = $(`<div id="html_46649f84615747d5b26c36847a312dd8" style="width: 100.0%; height: 100.0%;"><h5>Franklin, Ohio, US</h5><hr><b>Date of stay-at-home order:</b> 03-23-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 391</div>`)[0];
+            popup_0a038113680c4c12890ccbf38df4c14f.setContent(html_46649f84615747d5b26c36847a312dd8);
+        
+
+        circle_marker_01588d1fee834b36a4bafdbdd9aac14d.bindPopup(popup_0a038113680c4c12890ccbf38df4c14f)
+        ;
+
+        
+    
+    
+            var circle_marker_0f3c7d1d50ae4c4dbb96dea2492a0935 = L.circleMarker(
+                [41.62101218, -83.65468618],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.990096602387712, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_ffd2a5657b814fb9a6328d9882000992 = L.popup({"maxWidth": 160});
+
+        
+            var html_507c4ecf5e95471398a68b02227fb508 = $(`<div id="html_507c4ecf5e95471398a68b02227fb508" style="width: 100.0%; height: 100.0%;"><h5>Lucas, Ohio, US</h5><hr><b>Date of stay-at-home order:</b> 03-23-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 171</div>`)[0];
+            popup_ffd2a5657b814fb9a6328d9882000992.setContent(html_507c4ecf5e95471398a68b02227fb508);
+        
+
+        circle_marker_0f3c7d1d50ae4c4dbb96dea2492a0935.bindPopup(popup_ffd2a5657b814fb9a6328d9882000992)
+        ;
+
+        
+    
+    
+            var circle_marker_0374aa284b274da3b3036e776e508c92 = L.circleMarker(
+                [39.58635604, -105.2517692],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.548834546297076, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_93f3dab4fc524b24aeb911c8c92a9d14 = L.popup({"maxWidth": 160});
+
+        
+            var html_d873e056bc4f46f3b743030aa25ad269 = $(`<div id="html_d873e056bc4f46f3b743030aa25ad269" style="width: 100.0%; height: 100.0%;"><h5>Jefferson, Colorado, US</h5><hr><b>Date of stay-at-home order:</b> 03-26-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 428</div>`)[0];
+            popup_93f3dab4fc524b24aeb911c8c92a9d14.setContent(html_d873e056bc4f46f3b743030aa25ad269);
+        
+
+        circle_marker_0374aa284b274da3b3036e776e508c92.bindPopup(popup_93f3dab4fc524b24aeb911c8c92a9d14)
+        ;
+
+        
+    
+    
+            var circle_marker_6f8c3f95ef33426d930e2b449fe557cb = L.circleMarker(
+                [39.64977461, -104.3353617],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.589195342899073, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_82a18d81d86341f9a6f3d9b1c3b2f767 = L.popup({"maxWidth": 160});
+
+        
+            var html_610032d4539d46af9b2b4f3a64f92bb3 = $(`<div id="html_610032d4539d46af9b2b4f3a64f92bb3" style="width: 100.0%; height: 100.0%;"><h5>Arapahoe, Colorado, US</h5><hr><b>Date of stay-at-home order:</b> 03-26-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 485</div>`)[0];
+            popup_82a18d81d86341f9a6f3d9b1c3b2f767.setContent(html_610032d4539d46af9b2b4f3a64f92bb3);
+        
+
+        circle_marker_6f8c3f95ef33426d930e2b449fe557cb.bindPopup(popup_82a18d81d86341f9a6f3d9b1c3b2f767)
+        ;
+
+        
+    
+    
+            var circle_marker_7bd89503ed554c9b93807ca65f669b50 = L.circleMarker(
+                [39.76018276, -104.87256950000001],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.412702948415909, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_3ba50e06f0e84d01a966ffb65efdc633 = L.popup({"maxWidth": 160});
+
+        
+            var html_cc984d0c518d4bf1aa0aa28722600fc9 = $(`<div id="html_cc984d0c518d4bf1aa0aa28722600fc9" style="width: 100.0%; height: 100.0%;"><h5>Denver, Colorado, US</h5><hr><b>Date of stay-at-home order:</b> 03-26-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 691</div>`)[0];
+            popup_3ba50e06f0e84d01a966ffb65efdc633.setContent(html_cc984d0c518d4bf1aa0aa28722600fc9);
+        
+
+        circle_marker_7bd89503ed554c9b93807ca65f669b50.bindPopup(popup_3ba50e06f0e84d01a966ffb65efdc633)
+        ;
+
+        
+    
+    
+            var circle_marker_38def10b8efb49bd81ed7ed7ecc60787 = L.circleMarker(
+                [40.55499405, -104.39296209999999],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.97476647534137, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_90dd86f66f6340b1b54b540fe37a8f35 = L.popup({"maxWidth": 160});
+
+        
+            var html_abbd4cb8ba084b25a79eca3070c142f0 = $(`<div id="html_abbd4cb8ba084b25a79eca3070c142f0" style="width: 100.0%; height: 100.0%;"><h5>Weld, Colorado, US</h5><hr><b>Date of stay-at-home order:</b> 03-26-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 374</div>`)[0];
+            popup_90dd86f66f6340b1b54b540fe37a8f35.setContent(html_abbd4cb8ba084b25a79eca3070c142f0);
+        
+
+        circle_marker_38def10b8efb49bd81ed7ed7ecc60787.bindPopup(popup_90dd86f66f6340b1b54b540fe37a8f35)
+        ;
+
+        
+    
+    
+            var circle_marker_6c21305dca6c4383962445a3c6b8a8b0 = L.circleMarker(
+                [35.24469268, -80.8317671],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.46284428568446, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_ef5979407665402ebe69568bbc9fafba = L.popup({"maxWidth": 160});
+
+        
+            var html_37f7755eaa0e43da98e0a9237c4de924 = $(`<div id="html_37f7755eaa0e43da98e0a9237c4de924" style="width: 100.0%; height: 100.0%;"><h5>Mecklenburg, North Carolina, US</h5><hr><b>Date of stay-at-home order:</b> 03-30-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 805</div>`)[0];
+            popup_ef5979407665402ebe69568bbc9fafba.setContent(html_37f7755eaa0e43da98e0a9237c4de924);
+        
+
+        circle_marker_6c21305dca6c4383962445a3c6b8a8b0.bindPopup(popup_ef5979407665402ebe69568bbc9fafba)
+        ;
+
+        
+    
+    
+            var circle_marker_11e20f0be8f041838104c316124d838a = L.circleMarker(
+                [43.00491923, -76.19971155],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.626303549796553, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_6e066eb509344e75bc279a080797318a = L.popup({"maxWidth": 160});
+
+        
+            var html_84279f143a944b2f906a72028a4baf72 = $(`<div id="html_84279f143a944b2f906a72028a4baf72" style="width: 100.0%; height: 100.0%;"><h5>Onondaga, New York, US</h5><hr><b>Date of stay-at-home order:</b> 03-22-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 249</div>`)[0];
+            popup_6e066eb509344e75bc279a080797318a.setContent(html_84279f143a944b2f906a72028a4baf72);
+        
+
+        circle_marker_11e20f0be8f041838104c316124d838a.bindPopup(popup_6e066eb509344e75bc279a080797318a)
+        ;
+
+        
+    
+    
+            var circle_marker_13a12e8b6ccf46ffa2f39b905a9d40ae = L.circleMarker(
+                [35.78879266, -78.65249174],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.653392513052843, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_d3afa08adf384461ad2bd0608a6893b7 = L.popup({"maxWidth": 160});
+
+        
+            var html_73e738a8aee945bb9365a7ff976e77c0 = $(`<div id="html_73e738a8aee945bb9365a7ff976e77c0" style="width: 100.0%; height: 100.0%;"><h5>Wake, North Carolina, US</h5><hr><b>Date of stay-at-home order:</b> 03-30-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 333</div>`)[0];
+            popup_d3afa08adf384461ad2bd0608a6893b7.setContent(html_73e738a8aee945bb9365a7ff976e77c0);
+        
+
+        circle_marker_13a12e8b6ccf46ffa2f39b905a9d40ae.bindPopup(popup_d3afa08adf384461ad2bd0608a6893b7)
+        ;
+
+        
+    
+    
+            var circle_marker_42a684a2cd9147a3a525ffa2415dd422 = L.circleMarker(
+                [40.6154815, -75.59435245],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 32.31861417053891, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_b10b25a0eb4543698607db60d59d8c5c = L.popup({"maxWidth": 160});
+
+        
+            var html_2594586feb9e489eb8533a602ec007a7 = $(`<div id="html_2594586feb9e489eb8533a602ec007a7" style="width: 100.0%; height: 100.0%;"><h5>Lehigh, Pennsylvania, US</h5><hr><b>Date of stay-at-home order:</b> 04-01-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 1543</div>`)[0];
+            popup_b10b25a0eb4543698607db60d59d8c5c.setContent(html_2594586feb9e489eb8533a602ec007a7);
+        
+
+        circle_marker_42a684a2cd9147a3a525ffa2415dd422.bindPopup(popup_b10b25a0eb4543698607db60d59d8c5c)
+        ;
+
+        
+    
+    
+            var circle_marker_9baff167045f4abc9a643d5e2c43ba2d = L.circleMarker(
+                [41.26809896, -73.3881171],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.895538603038666, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_778b1aec677a442583b5e54ad4fe5af9 = L.popup({"maxWidth": 160});
+
+        
+            var html_b446620d042b4e07bae525479da8943a = $(`<div id="html_b446620d042b4e07bae525479da8943a" style="width: 100.0%; height: 100.0%;"><h5>Fairfield, Connecticut, US</h5><hr><b>Date of stay-at-home order:</b> 03-23-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 1978</div>`)[0];
+            popup_778b1aec677a442583b5e54ad4fe5af9.setContent(html_b446620d042b4e07bae525479da8943a);
+        
+
+        circle_marker_9baff167045f4abc9a643d5e2c43ba2d.bindPopup(popup_778b1aec677a442583b5e54ad4fe5af9)
+        ;
+
+        
+    
+    
+            var circle_marker_380d3853fdc9475ebdc43803c3739da9 = L.circleMarker(
+                [41.80283011, -72.73103891],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.466798264212796, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_94e725aa9e7743dda70491b7ab1aff53 = L.popup({"maxWidth": 160});
+
+        
+            var html_942914c7130344faaf88f32ad0daced7 = $(`<div id="html_942914c7130344faaf88f32ad0daced7" style="width: 100.0%; height: 100.0%;"><h5>Hartford, Connecticut, US</h5><hr><b>Date of stay-at-home order:</b> 03-23-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 469</div>`)[0];
+            popup_94e725aa9e7743dda70491b7ab1aff53.setContent(html_942914c7130344faaf88f32ad0daced7);
+        
+
+        circle_marker_380d3853fdc9475ebdc43803c3739da9.bindPopup(popup_94e725aa9e7743dda70491b7ab1aff53)
+        ;
+
+        
+    
+    
+            var circle_marker_167504883be64c9cb7558005eea7904f = L.circleMarker(
+                [39.57992638, -75.64054974],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.340916250375331, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_c179e157471040709a341e969f19b070 = L.popup({"maxWidth": 160});
+
+        
+            var html_84bd9025a02840508f68b201129a213b = $(`<div id="html_84bd9025a02840508f68b201129a213b" style="width: 100.0%; height: 100.0%;"><h5>New Castle, Delaware, US</h5><hr><b>Date of stay-at-home order:</b> 03-24-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 239</div>`)[0];
+            popup_c179e157471040709a341e969f19b070.setContent(html_84bd9025a02840508f68b201129a213b);
+        
+
+        circle_marker_167504883be64c9cb7558005eea7904f.bindPopup(popup_c179e157471040709a341e969f19b070)
+        ;
+
+        
+    
+    
+            var circle_marker_a21dfd1db0b5400f9c902cfdfcc8fbb7 = L.circleMarker(
+                [38.90417773, -77.01655992],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23.492465366706863, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_672e2f3a5f364aa4b09ccd00ac684fba = L.popup({"maxWidth": 160});
+
+        
+            var html_dae06ba25856445d85fcc60bcc19e105 = $(`<div id="html_dae06ba25856445d85fcc60bcc19e105" style="width: 100.0%; height: 100.0%;"><h5>District of Columbia,District of Columbia,US</h5><hr><b>Date of stay-at-home order:</b> 04-01-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 1558</div>`)[0];
+            popup_672e2f3a5f364aa4b09ccd00ac684fba.setContent(html_dae06ba25856445d85fcc60bcc19e105);
+        
+
+        circle_marker_a21dfd1db0b5400f9c902cfdfcc8fbb7.bindPopup(popup_672e2f3a5f364aa4b09ccd00ac684fba)
+        ;
+
+        
+    
+    
+            var circle_marker_9ef2c3af6b9242e58b30865797d90891 = L.circleMarker(
+                [26.64676272, -80.46536002],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.064111550203425, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_8113040b14ce439e970557270191abee = L.popup({"maxWidth": 160});
+
+        
+            var html_8b462968fefd4122bb9842f449d25c45 = $(`<div id="html_8b462968fefd4122bb9842f449d25c45" style="width: 100.0%; height: 100.0%;"><h5>Palm Beach, Florida, US</h5><hr><b>Date of stay-at-home order:</b> 04-03-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 1545</div>`)[0];
+            popup_8113040b14ce439e970557270191abee.setContent(html_8b462968fefd4122bb9842f449d25c45);
+        
+
+        circle_marker_9ef2c3af6b9242e58b30865797d90891.bindPopup(popup_8113040b14ce439e970557270191abee)
+        ;
+
+        
+    
+    
+            var circle_marker_651eace70c5947f697853a9f605a41a9 = L.circleMarker(
+                [27.93130349, -82.72239666],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.253225659526619, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_c71fb39e403f47858d6532953533ab28 = L.popup({"maxWidth": 160});
+
+        
+            var html_2382312e534a4d84b1b97ed6752bd075 = $(`<div id="html_2382312e534a4d84b1b97ed6752bd075" style="width: 100.0%; height: 100.0%;"><h5>Pinellas, Florida, US</h5><hr><b>Date of stay-at-home order:</b> 04-03-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 410</div>`)[0];
+            popup_c71fb39e403f47858d6532953533ab28.setContent(html_2382312e534a4d84b1b97ed6752bd075);
+        
+
+        circle_marker_651eace70c5947f697853a9f605a41a9.bindPopup(popup_c71fb39e403f47858d6532953533ab28)
+        ;
+
+        
+    
+    
+            var circle_marker_3da7cb5eaf8a463981bc3a3f381730a4 = L.circleMarker(
+                [26.15184651, -80.48725556],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.36333059161252, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_0fe9fe7393cb4c419912d3c4c924ac1b = L.popup({"maxWidth": 160});
+
+        
+            var html_728b2f30401b4fa48e3896700188acca = $(`<div id="html_728b2f30401b4fa48e3896700188acca" style="width: 100.0%; height: 100.0%;"><h5>Broward, Florida, US</h5><hr><b>Date of stay-at-home order:</b> 04-03-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 2634</div>`)[0];
+            popup_0fe9fe7393cb4c419912d3c4c924ac1b.setContent(html_728b2f30401b4fa48e3896700188acca);
+        
+
+        circle_marker_3da7cb5eaf8a463981bc3a3f381730a4.bindPopup(popup_0fe9fe7393cb4c419912d3c4c924ac1b)
+        ;
+
+        
+    
+    
+            var circle_marker_24399cb6c22c406a9c1d5b5e266fdff2 = L.circleMarker(
+                [25.6112362, -80.55170587],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.866497428360884, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_21a0c4e5dec044ea87cabdee8003956d = L.popup({"maxWidth": 160});
+
+        
+            var html_c48f088968e843beb87e4af1498ace56 = $(`<div id="html_c48f088968e843beb87e4af1498ace56" style="width: 100.0%; height: 100.0%;"><h5>Miami-Dade, Florida, US</h5><hr><b>Date of stay-at-home order:</b> 04-03-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 6720</div>`)[0];
+            popup_21a0c4e5dec044ea87cabdee8003956d.setContent(html_c48f088968e843beb87e4af1498ace56);
+        
+
+        circle_marker_24399cb6c22c406a9c1d5b5e266fdff2.bindPopup(popup_21a0c4e5dec044ea87cabdee8003956d)
+        ;
+
+        
+    
+    
+            var circle_marker_f847fa51ebe640499a76693cd74aa0e6 = L.circleMarker(
+                [30.33225875, -81.66976468],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.70097402736681, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_e06367a53c1742aeadc6f393465b83d3 = L.popup({"maxWidth": 160});
+
+        
+            var html_e9a597c63a1848a59550d9ff52d7f250 = $(`<div id="html_e9a597c63a1848a59550d9ff52d7f250" style="width: 100.0%; height: 100.0%;"><h5>Duval, Florida, US</h5><hr><b>Date of stay-at-home order:</b> 04-03-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 618</div>`)[0];
+            popup_e06367a53c1742aeadc6f393465b83d3.setContent(html_e9a597c63a1848a59550d9ff52d7f250);
+        
+
+        circle_marker_f847fa51ebe640499a76693cd74aa0e6.bindPopup(popup_e06367a53c1742aeadc6f393465b83d3)
+        ;
+
+        
+    
+    
+            var circle_marker_61f1dfa642594e41aa4358be0803b7f9 = L.circleMarker(
+                [41.424119, -81.65918339],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.863209214441614, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_25ba69f22a8b446cb162927ca4d60f4d = L.popup({"maxWidth": 160});
+
+        
+            var html_477d1750461c4551bcd1bab719df540d = $(`<div id="html_477d1750461c4551bcd1bab719df540d" style="width: 100.0%; height: 100.0%;"><h5>Cuyahoga, Ohio, US</h5><hr><b>Date of stay-at-home order:</b> 03-23-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 583</div>`)[0];
+            popup_25ba69f22a8b446cb162927ca4d60f4d.setContent(html_477d1750461c4551bcd1bab719df540d);
+        
+
+        circle_marker_61f1dfa642594e41aa4358be0803b7f9.bindPopup(popup_25ba69f22a8b446cb162927ca4d60f4d)
+        ;
+
+        
+    
+    
+            var circle_marker_6b305495a0b14c8aad8d768047cc7299 = L.circleMarker(
+                [39.19673558, -84.54502924],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.862678536784501, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_496b6556524a43f4bdfa1677126a14a5 = L.popup({"maxWidth": 160});
+
+        
+            var html_971f9cca72be486f9f1e142b7a877cdd = $(`<div id="html_971f9cca72be486f9f1e142b7a877cdd" style="width: 100.0%; height: 100.0%;"><h5>Hamilton, Ohio, US</h5><hr><b>Date of stay-at-home order:</b> 03-23-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 154</div>`)[0];
+            popup_496b6556524a43f4bdfa1677126a14a5.setContent(html_971f9cca72be486f9f1e142b7a877cdd);
+        
+
+        circle_marker_6b305495a0b14c8aad8d768047cc7299.bindPopup(popup_496b6556524a43f4bdfa1677126a14a5)
+        ;
+
+        
+    
+    
+            var circle_marker_ddd26232f6194f5a909e038a705a8756 = L.circleMarker(
+                [28.51367621, -81.31799498],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.70000358595035, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_4588c223a2fa4b70a11c095498048263 = L.popup({"maxWidth": 160});
+
+        
+            var html_66af8719ecfd47b88af9ce2dd6972183 = $(`<div id="html_66af8719ecfd47b88af9ce2dd6972183" style="width: 100.0%; height: 100.0%;"><h5>Orange, Florida, US</h5><hr><b>Date of stay-at-home order:</b> 04-03-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 899</div>`)[0];
+            popup_4588c223a2fa4b70a11c095498048263.setContent(html_66af8719ecfd47b88af9ce2dd6972183);
+        
+
+        circle_marker_ddd26232f6194f5a909e038a705a8756.bindPopup(popup_4588c223a2fa4b70a11c095498048263)
+        ;
+
+        
+    
+    
+            var circle_marker_073a582a2dde4f1593f8e8c128f68d43 = L.circleMarker(
+                [29.44928723, -98.52019748],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.71006243156172, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_1105223ec2e8476d95e1bc8881860020 = L.popup({"maxWidth": 160});
+
+        
+            var html_565bf5de66f94ae5b5fee810573b59f2 = $(`<div id="html_565bf5de66f94ae5b5fee810573b59f2" style="width: 100.0%; height: 100.0%;"><h5>Bexar, Texas, US</h5><hr><b>Date of stay-at-home order:</b> 04-02-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 608</div>`)[0];
+            popup_1105223ec2e8476d95e1bc8881860020.setContent(html_565bf5de66f94ae5b5fee810573b59f2);
+        
+
+        circle_marker_073a582a2dde4f1593f8e8c128f68d43.bindPopup(popup_1105223ec2e8476d95e1bc8881860020)
+        ;
+
+        
+    
+    
+            var circle_marker_42c934f3a31b4c4695c7503f75657fe7 = L.circleMarker(
+                [33.79216944, -84.46319413],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.363024430900847, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_0894342bb90045f8bc04df42d5e92c08 = L.popup({"maxWidth": 160});
+
+        
+            var html_69fdd814940344c8abc116ab1a9c675b = $(`<div id="html_69fdd814940344c8abc116ab1a9c675b" style="width: 100.0%; height: 100.0%;"><h5>Fulton, Georgia, US</h5><hr><b>Date of stay-at-home order:</b> 04-03-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 1283</div>`)[0];
+            popup_0894342bb90045f8bc04df42d5e92c08.setContent(html_69fdd814940344c8abc116ab1a9c675b);
+        
+
+        circle_marker_42c934f3a31b4c4695c7503f75657fe7.bindPopup(popup_0894342bb90045f8bc04df42d5e92c08)
+        ;
+
+        
+    
+    
+            var circle_marker_551f925c357c4b2a81ad6c9e9151ed9a = L.circleMarker(
+                [43.4526575, -116.24155159999998],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.68567187224762, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_c68ef3ab2511401a99636b54ed3957f3 = L.popup({"maxWidth": 160});
+
+        
+            var html_ff247fb1e8214755be5b04b2e485af8b = $(`<div id="html_ff247fb1e8214755be5b04b2e485af8b" style="width: 100.0%; height: 100.0%;"><h5>Ada, Idaho, US</h5><hr><b>Date of stay-at-home order:</b> 03-25-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 310</div>`)[0];
+            popup_c68ef3ab2511401a99636b54ed3957f3.setContent(html_ff247fb1e8214755be5b04b2e485af8b);
+        
+
+        circle_marker_551f925c357c4b2a81ad6c9e9151ed9a.bindPopup(popup_c68ef3ab2511401a99636b54ed3957f3)
+        ;
+
+        
+    
+    
+            var circle_marker_a556a1cabdd54ea389b43c03befbb4ab = L.circleMarker(
+                [36.17007426, -86.78646056],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.640142476478132, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_a6134207b6724a95b226c114c65ef1a8 = L.popup({"maxWidth": 160});
+
+        
+            var html_afac5c57deb64cb1b6af43069d5707b7 = $(`<div id="html_afac5c57deb64cb1b6af43069d5707b7" style="width: 100.0%; height: 100.0%;"><h5>Davidson, Tennessee, US</h5><hr><b>Date of stay-at-home order:</b> 03-31-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 864</div>`)[0];
+            popup_a6134207b6724a95b226c114c65ef1a8.setContent(html_afac5c57deb64cb1b6af43069d5707b7);
+        
+
+        circle_marker_a556a1cabdd54ea389b43c03befbb4ab.bindPopup(popup_a6134207b6724a95b226c114c65ef1a8)
+        ;
+
+        
+    
+    
+            var circle_marker_779c20277b834d0b85eebf327d765063 = L.circleMarker(
+                [32.76670599, -96.77796049999999],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.884598779220228, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_7c0cf50735124737b49b9f7c3ee3305f = L.popup({"maxWidth": 160});
+
+        
+            var html_e916a9585c82475fa0db3b2c7195b9f4 = $(`<div id="html_e916a9585c82475fa0db3b2c7195b9f4" style="width: 100.0%; height: 100.0%;"><h5>Dallas, Texas, US</h5><hr><b>Date of stay-at-home order:</b> 04-02-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 1489</div>`)[0];
+            popup_7c0cf50735124737b49b9f7c3ee3305f.setContent(html_e916a9585c82475fa0db3b2c7195b9f4);
+        
+
+        circle_marker_779c20277b834d0b85eebf327d765063.bindPopup(popup_7c0cf50735124737b49b9f7c3ee3305f)
+        ;
+
+        
+    
+    
+            var circle_marker_5e27d6ce2d974408b268623bbfbe2a3e = L.circleMarker(
+                [32.77143818, -97.29101614],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.777845971577419, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_5ab03756425f401fb2ac6a983fa9e589 = L.popup({"maxWidth": 160});
+
+        
+            var html_db624e999c154897aaf6e7a3eb06cbdf = $(`<div id="html_db624e999c154897aaf6e7a3eb06cbdf" style="width: 100.0%; height: 100.0%;"><h5>Tarrant, Texas, US</h5><hr><b>Date of stay-at-home order:</b> 04-02-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 648</div>`)[0];
+            popup_5ab03756425f401fb2ac6a983fa9e589.setContent(html_db624e999c154897aaf6e7a3eb06cbdf);
+        
+
+        circle_marker_5e27d6ce2d974408b268623bbfbe2a3e.bindPopup(popup_5ab03756425f401fb2ac6a983fa9e589)
+        ;
+
+        
+    
+    
+            var circle_marker_2646e345a8554322b3e81b015b4f15bd = L.circleMarker(
+                [33.20521901, -97.11691153],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.930510676401536, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_f3096d77fc0b4c6a8f6cebc47dcdc320 = L.popup({"maxWidth": 160});
+
+        
+            var html_73901bf6de634484a2199ac1a5b1f535 = $(`<div id="html_73901bf6de634484a2199ac1a5b1f535" style="width: 100.0%; height: 100.0%;"><h5>Denton, Texas, US</h5><hr><b>Date of stay-at-home order:</b> 04-02-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 424</div>`)[0];
+            popup_f3096d77fc0b4c6a8f6cebc47dcdc320.setContent(html_73901bf6de634484a2199ac1a5b1f535);
+        
+
+        circle_marker_2646e345a8554322b3e81b015b4f15bd.bindPopup(popup_f3096d77fc0b4c6a8f6cebc47dcdc320)
+        ;
+
+        
+    
+    
+            var circle_marker_50a4fcaa74434b59bbc511d9e6982b49 = L.circleMarker(
+                [29.52704478, -95.77219463],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.272410432960193, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_ef9d164a51194e17b1875f5fa00e2671 = L.popup({"maxWidth": 160});
+
+        
+            var html_79969f5b2842430092eb5ddb6987e4c6 = $(`<div id="html_79969f5b2842430092eb5ddb6987e4c6" style="width: 100.0%; height: 100.0%;"><h5>Fort Bend, Texas, US</h5><hr><b>Date of stay-at-home order:</b> 04-02-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 489</div>`)[0];
+            popup_ef9d164a51194e17b1875f5fa00e2671.setContent(html_79969f5b2842430092eb5ddb6987e4c6);
+        
+
+        circle_marker_50a4fcaa74434b59bbc511d9e6982b49.bindPopup(popup_ef9d164a51194e17b1875f5fa00e2671)
+        ;
+
+        
+    
+    
+            var circle_marker_bd9586e7424246078e322b73fde2ab8b = L.circleMarker(
+                [43.00486062, -87.96733172],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.396374014410902, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_4a1d7bc2aa1e40e5aaf4797912c49cfc = L.popup({"maxWidth": 160});
+
+        
+            var html_9d266b82d90547d98eab037f8cf5450b = $(`<div id="html_9d266b82d90547d98eab037f8cf5450b" style="width: 100.0%; height: 100.0%;"><h5>Milwaukee, Wisconsin, US</h5><hr><b>Date of stay-at-home order:</b> 03-25-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 1017</div>`)[0];
+            popup_4a1d7bc2aa1e40e5aaf4797912c49cfc.setContent(html_9d266b82d90547d98eab037f8cf5450b);
+        
+
+        circle_marker_bd9586e7424246078e322b73fde2ab8b.bindPopup(popup_4a1d7bc2aa1e40e5aaf4797912c49cfc)
+        ;
+
+        
+    
+    
+            var circle_marker_8a842104844e484dad22c75dd0c9c910 = L.circleMarker(
+                [47.03892768, -122.14059579999999],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.944707798526899, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_5565fac73d3f45ba8b5b966ec0c2a6b8 = L.popup({"maxWidth": 160});
+
+        
+            var html_f78a094e9c0b426c8fe80c61667bf9ca = $(`<div id="html_f78a094e9c0b426c8fe80c61667bf9ca" style="width: 100.0%; height: 100.0%;"><h5>Pierce, Washington, US</h5><hr><b>Date of stay-at-home order:</b> 03-23-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 358</div>`)[0];
+            popup_5565fac73d3f45ba8b5b966ec0c2a6b8.setContent(html_f78a094e9c0b426c8fe80c61667bf9ca);
+        
+
+        circle_marker_8a842104844e484dad22c75dd0c9c910.bindPopup(popup_5565fac73d3f45ba8b5b966ec0c2a6b8)
+        ;
+
+        
+    
+    
+            var circle_marker_db440190a0b74c13906c28e42fde8599 = L.circleMarker(
+                [29.85864939, -95.39339521],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.591990055702547, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_4f80e95d318642519236dd16ec25d2b5 = L.popup({"maxWidth": 160});
+
+        
+            var html_217f4a3ada5643ef8dc559d21ed87afb = $(`<div id="html_217f4a3ada5643ef8dc559d21ed87afb" style="width: 100.0%; height: 100.0%;"><h5>Harris, Texas, US</h5><hr><b>Date of stay-at-home order:</b> 04-02-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 3483</div>`)[0];
+            popup_4f80e95d318642519236dd16ec25d2b5.setContent(html_217f4a3ada5643ef8dc559d21ed87afb);
+        
+
+        circle_marker_db440190a0b74c13906c28e42fde8599.bindPopup(popup_4f80e95d318642519236dd16ec25d2b5)
+        ;
+
+        
+    
+    
+            var circle_marker_1299f79698764a8f98cf13b37bc83fa5 = L.circleMarker(
+                [46.45738486, -120.73801259999999],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.587561483831985, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_a7d41ab912ba498a9cf48ac7865d2b87 = L.popup({"maxWidth": 160});
+
+        
+            var html_b41f54cfc77d45e68bd958e8090af754 = $(`<div id="html_b41f54cfc77d45e68bd958e8090af754" style="width: 100.0%; height: 100.0%;"><h5>Yakima, Washington, US</h5><hr><b>Date of stay-at-home order:</b> 03-23-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 159</div>`)[0];
+            popup_a7d41ab912ba498a9cf48ac7865d2b87.setContent(html_b41f54cfc77d45e68bd958e8090af754);
+        
+
+        circle_marker_1299f79698764a8f98cf13b37bc83fa5.bindPopup(popup_a7d41ab912ba498a9cf48ac7865d2b87)
+        ;
+
+        
+    
+    
+            var circle_marker_9787331ccef74e19be8c7569b7c320bc = L.circleMarker(
+                [30.33432034, -97.78535620000001],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.949990340894123, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_364ea74cc65f4b879b54a74c9651cea4 = L.popup({"maxWidth": 160});
+
+        
+            var html_33065e2de0054a38bae8b8761982c58c = $(`<div id="html_33065e2de0054a38bae8b8761982c58c" style="width: 100.0%; height: 100.0%;"><h5>Travis, Texas, US</h5><hr><b>Date of stay-at-home order:</b> 04-02-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 611</div>`)[0];
+            popup_364ea74cc65f4b879b54a74c9651cea4.setContent(html_33065e2de0054a38bae8b8761982c58c);
+        
+
+        circle_marker_9787331ccef74e19be8c7569b7c320bc.bindPopup(popup_364ea74cc65f4b879b54a74c9651cea4)
+        ;
+
+        
+    
+    
+            var circle_marker_97b4891fcb694d51aadc106356697246 = L.circleMarker(
+                [47.49137892, -121.8346131],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.905359569593651, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_54181af76f3b4ddabcc98696ce9c408c = L.popup({"maxWidth": 160});
+
+        
+            var html_717a0d2aaf9a4c49a1eba070df832ced = $(`<div id="html_717a0d2aaf9a4c49a1eba070df832ced" style="width: 100.0%; height: 100.0%;"><h5>King, Washington, US</h5><hr><b>Date of stay-at-home order:</b> 03-23-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 2002</div>`)[0];
+            popup_54181af76f3b4ddabcc98696ce9c408c.setContent(html_717a0d2aaf9a4c49a1eba070df832ced);
+        
+
+        circle_marker_97b4891fcb694d51aadc106356697246.bindPopup(popup_54181af76f3b4ddabcc98696ce9c408c)
+        ;
+
+        
+    
+    
+            var circle_marker_f0df28adbc87444fadcccb078ff8164a = L.circleMarker(
+                [48.04615983, -121.7170703],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.87081330984977, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_e045fe62b8424f53b07339b5c8b0f0b7 = L.popup({"maxWidth": 160});
+
+        
+            var html_78056efff1e64540b2fea7df5d3fdaf9 = $(`<div id="html_78056efff1e64540b2fea7df5d3fdaf9" style="width: 100.0%; height: 100.0%;"><h5>Snohomish, Washington, US</h5><hr><b>Date of stay-at-home order:</b> 03-23-2020<br><b>Social Distance Maintained:</b> Above Average<br><b>New Cases after stay-at-home:</b> 1171</div>`)[0];
+            popup_e045fe62b8424f53b07339b5c8b0f0b7.setContent(html_78056efff1e64540b2fea7df5d3fdaf9);
+        
+
+        circle_marker_f0df28adbc87444fadcccb078ff8164a.bindPopup(popup_e045fe62b8424f53b07339b5c8b0f0b7)
+        ;
+
+        
+    
+    
+            var circle_marker_afe1c1c42bd84b4698c36aebac2f5ae2 = L.circleMarker(
+                [41.43564672, -75.60379201],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.134329548807912, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_ad5d4183a62d4ebc9bdd6213ae567989 = L.popup({"maxWidth": 160});
+
+        
+            var html_412401e08ff6468bbfe23f542285daf3 = $(`<div id="html_412401e08ff6468bbfe23f542285daf3" style="width: 100.0%; height: 100.0%;"><h5>Lackawanna, Pennsylvania, US</h5><hr><b>Date of stay-at-home order:</b> 04-01-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 340</div>`)[0];
+            popup_ad5d4183a62d4ebc9bdd6213ae567989.setContent(html_412401e08ff6468bbfe23f542285daf3);
+        
+
+        circle_marker_afe1c1c42bd84b4698c36aebac2f5ae2.bindPopup(popup_ad5d4183a62d4ebc9bdd6213ae567989)
+        ;
+
+        
+    
+    
+            var circle_marker_6c9d70611ef54c319c123b986867a7dc = L.circleMarker(
+                [32.0971334, -111.7890033],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.925059450211071, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_e2ae8f29c02d4663a620ded767db68cc = L.popup({"maxWidth": 160});
+
+        
+            var html_574bc5311f5f4b73a0997c342d25cd7e = $(`<div id="html_574bc5311f5f4b73a0997c342d25cd7e" style="width: 100.0%; height: 100.0%;"><h5>Pima, Arizona, US</h5><hr><b>Date of stay-at-home order:</b> 03-31-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 500</div>`)[0];
+            popup_e2ae8f29c02d4663a620ded767db68cc.setContent(html_574bc5311f5f4b73a0997c342d25cd7e);
+        
+
+        circle_marker_6c9d70611ef54c319c123b986867a7dc.bindPopup(popup_e2ae8f29c02d4663a620ded767db68cc)
+        ;
+
+        
+    
+    
+            var circle_marker_6cf2fe950cea4921bbcbb73ca64d99b2 = L.circleMarker(
+                [37.75215114, -122.43856720000001],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.208361702193043, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_509608a3233e431d891ece0c28bc7e41 = L.popup({"maxWidth": 160});
+
+        
+            var html_1825aed7b96f44029a4f7ec32dd1613c = $(`<div id="html_1825aed7b96f44029a4f7ec32dd1613c" style="width: 100.0%; height: 100.0%;"><h5>San Francisco, California, US</h5><hr><b>Date of stay-at-home order:</b> 03-19-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 299</div>`)[0];
+            popup_509608a3233e431d891ece0c28bc7e41.setContent(html_1825aed7b96f44029a4f7ec32dd1613c);
+        
+
+        circle_marker_6cf2fe950cea4921bbcbb73ca64d99b2.bindPopup(popup_509608a3233e431d891ece0c28bc7e41)
+        ;
+
+        
+    
+    
+            var circle_marker_f8335e6a29dc414da1ab7074eef71596 = L.circleMarker(
+                [38.83240149, -104.5251411],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.33138798607303, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_dfa09fb0c6aa4609a6270bee1a7a8fe1 = L.popup({"maxWidth": 160});
+
+        
+            var html_1e1dbd8cbac6428a9a872b3ce7384763 = $(`<div id="html_1e1dbd8cbac6428a9a872b3ce7384763" style="width: 100.0%; height: 100.0%;"><h5>El Paso, Colorado, US</h5><hr><b>Date of stay-at-home order:</b> 03-26-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 370</div>`)[0];
+            popup_dfa09fb0c6aa4609a6270bee1a7a8fe1.setContent(html_1e1dbd8cbac6428a9a872b3ce7384763);
+        
+
+        circle_marker_f8335e6a29dc414da1ab7074eef71596.bindPopup(popup_dfa09fb0c6aa4609a6270bee1a7a8fe1)
+        ;
+
+        
+    
+    
+            var circle_marker_2ddca947683a4d78a9c788f12735ad24 = L.circleMarker(
+                [39.87432092, -104.3362578],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.79625691738174, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_e3460620c5cc41c8af2f50f38a29f193 = L.popup({"maxWidth": 160});
+
+        
+            var html_ab59a0ad16544a99a7bc42de9477200a = $(`<div id="html_ab59a0ad16544a99a7bc42de9477200a" style="width: 100.0%; height: 100.0%;"><h5>Adams, Colorado, US</h5><hr><b>Date of stay-at-home order:</b> 03-26-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 288</div>`)[0];
+            popup_e3460620c5cc41c8af2f50f38a29f193.setContent(html_ab59a0ad16544a99a7bc42de9477200a);
+        
+
+        circle_marker_2ddca947683a4d78a9c788f12735ad24.bindPopup(popup_e3460620c5cc41c8af2f50f38a29f193)
+        ;
+
+        
+    
+    
+            var circle_marker_ac42a0a2ae8a45b9860ce8ff1eac2e97 = L.circleMarker(
+                [26.58410348, -81.88399313],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.776532348327454, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_e75162e3893f43b98fd578a8345cbfa9 = L.popup({"maxWidth": 160});
+
+        
+            var html_9483ec768a3d45a7a797870ba0f8f5ba = $(`<div id="html_9483ec768a3d45a7a797870ba0f8f5ba" style="width: 100.0%; height: 100.0%;"><h5>Lee, Florida, US</h5><hr><b>Date of stay-at-home order:</b> 04-03-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 585</div>`)[0];
+            popup_e75162e3893f43b98fd578a8345cbfa9.setContent(html_9483ec768a3d45a7a797870ba0f8f5ba);
+        
+
+        circle_marker_ac42a0a2ae8a45b9860ce8ff1eac2e97.bindPopup(popup_e75162e3893f43b98fd578a8345cbfa9)
+        ;
+
+        
+    
+    
+            var circle_marker_d1ab8d7b16ea41eaa9badff103e2e1d4 = L.circleMarker(
+                [41.408032500000004, -72.93620426],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1a00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.368087403161748, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_a5bb07d66a5546c68aee4dec0a2d8efa = L.popup({"maxWidth": 160});
+
+        
+            var html_497d0ef4941e479db00042072ff9fe1f = $(`<div id="html_497d0ef4941e479db00042072ff9fe1f" style="width: 100.0%; height: 100.0%;"><h5>New Haven, Connecticut, US</h5><hr><b>Date of stay-at-home order:</b> 03-23-2020<br><b>Social Distance Maintained:</b> Most<br><b>New Cases after stay-at-home:</b> 611</div>`)[0];
+            popup_a5bb07d66a5546c68aee4dec0a2d8efa.setContent(html_497d0ef4941e479db00042072ff9fe1f);
+        
+
+        circle_marker_d1ab8d7b16ea41eaa9badff103e2e1d4.bindPopup(popup_a5bb07d66a5546c68aee4dec0a2d8efa)
+        ;
+
+        
+    
+    
+            var circle_marker_ade98405dfbc4d77bda6dd2b2add6cbd = L.circleMarker(
+                [27.9276559, -82.32013172],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.65145780342372, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_017af43360944bb0b956ccc17e0d4eb0 = L.popup({"maxWidth": 160});
+
+        
+            var html_6c2ee8a00ff04d03b56f280176df9998 = $(`<div id="html_6c2ee8a00ff04d03b56f280176df9998" style="width: 100.0%; height: 100.0%;"><h5>Hillsborough, Florida, US</h5><hr><b>Date of stay-at-home order:</b> 04-03-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 668</div>`)[0];
+            popup_017af43360944bb0b956ccc17e0d4eb0.setContent(html_6c2ee8a00ff04d03b56f280176df9998);
+        
+
+        circle_marker_ade98405dfbc4d77bda6dd2b2add6cbd.bindPopup(popup_017af43360944bb0b956ccc17e0d4eb0)
+        ;
+
+        
+    
+    
+            var circle_marker_9d69de4eb710454cbd8fd3192939a7ad = L.circleMarker(
+                [33.76944049, -84.22396017],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.97404904841261, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_f05267a8f86e4e64a0aba8189adbb11c = L.popup({"maxWidth": 160});
+
+        
+            var html_689407356d48461997d6a697b8b855aa = $(`<div id="html_689407356d48461997d6a697b8b855aa" style="width: 100.0%; height: 100.0%;"><h5>DeKalb, Georgia, US</h5><hr><b>Date of stay-at-home order:</b> 04-03-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 775</div>`)[0];
+            popup_f05267a8f86e4e64a0aba8189adbb11c.setContent(html_689407356d48461997d6a697b8b855aa);
+        
+
+        circle_marker_9d69de4eb710454cbd8fd3192939a7ad.bindPopup(popup_f05267a8f86e4e64a0aba8189adbb11c)
+        ;
+
+        
+    
+    
+            var circle_marker_441388c595d04db9a990a2b547040b2f = L.circleMarker(
+                [31.53328528, -84.21722377],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 54.993084950959826, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_d3a7baf9f061469f9f351bb690cf7423 = L.popup({"maxWidth": 160});
+
+        
+            var html_98a048c88353423ea66be0620e3c10d7 = $(`<div id="html_98a048c88353423ea66be0620e3c10d7" style="width: 100.0%; height: 100.0%;"><h5>Dougherty, Georgia, US</h5><hr><b>Date of stay-at-home order:</b> 04-03-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 1064</div>`)[0];
+            popup_d3a7baf9f061469f9f351bb690cf7423.setContent(html_98a048c88353423ea66be0620e3c10d7);
+        
+
+        circle_marker_441388c595d04db9a990a2b547040b2f.bindPopup(popup_d3a7baf9f061469f9f351bb690cf7423)
+        ;
+
+        
+    
+    
+            var circle_marker_931990f9514f46c5979082887facab7d = L.circleMarker(
+                [35.1864775, -89.89692423],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.036155511567213, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_bedc7d25b39547a582602ec79ce8b2b5 = L.popup({"maxWidth": 160});
+
+        
+            var html_70cbc9a04a894ce58b739fca3e210af1 = $(`<div id="html_70cbc9a04a894ce58b739fca3e210af1" style="width: 100.0%; height: 100.0%;"><h5>Shelby, Tennessee, US</h5><hr><b>Date of stay-at-home order:</b> 03-31-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 964</div>`)[0];
+            popup_bedc7d25b39547a582602ec79ce8b2b5.setContent(html_70cbc9a04a894ce58b739fca3e210af1);
+        
+
+        circle_marker_931990f9514f46c5979082887facab7d.bindPopup(popup_bedc7d25b39547a582602ec79ce8b2b5)
+        ;
+
+        
+    
+    
+            var circle_marker_5dea1b58facc4765bc2bf1e621012cfa = L.circleMarker(
+                [41.87064746, -71.57753536],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.056872750369688, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_f5766697737b454587d98206dadedc0e = L.popup({"maxWidth": 160});
+
+        
+            var html_62e6078db8724e22906423d564ff9835 = $(`<div id="html_62e6078db8724e22906423d564ff9835" style="width: 100.0%; height: 100.0%;"><h5>Providence, Rhode Island, US</h5><hr><b>Date of stay-at-home order:</b> 03-28-2020<br><b>Social Distance Maintained:</b> Below Average<br><b>New Cases after stay-at-home:</b> 505</div>`)[0];
+            popup_f5766697737b454587d98206dadedc0e.setContent(html_62e6078db8724e22906423d564ff9835);
+        
+
+        circle_marker_5dea1b58facc4765bc2bf1e621012cfa.bindPopup(popup_f5766697737b454587d98206dadedc0e)
+        ;
+
+        
+    
+    
+            var circle_marker_a01d702aa8bd48f5b094359cc3af67bc = L.circleMarker(
+                [40.41570541, -75.92457766],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.485854808125787, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+        var popup_a608b54e17a544648cb322e36413e5b6 = L.popup({"maxWidth": 160});
+
+        
+            var html_8177426233794c4fb96b3a3451dafc27 = $(`<div id="html_8177426233794c4fb96b3a3451dafc27" style="width: 100.0%; height: 100.0%;"><h5>Berks, Pennsylvania, US</h5><hr><b>Date of stay-at-home order:</b> 04-01-2020<br><b>Social Distance Maintained:</b> Least<br><b>New Cases after stay-at-home:</b> 707</div>`)[0];
+            popup_a608b54e17a544648cb322e36413e5b6.setContent(html_8177426233794c4fb96b3a3451dafc27);
+        
+
+        circle_marker_a01d702aa8bd48f5b094359cc3af67bc.bindPopup(popup_a608b54e17a544648cb322e36413e5b6)
+        ;
+
+        
+    
+    
+            var circle_marker_d8e2746caa2b44a3ae3be9f008717333 = L.circleMarker(
+                [31.084696, -132.0],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.297164301943805, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+            var circle_marker_8072c534a8da4395b8751d3ee06d7ed3 = L.circleMarker(
+                [28.084696, -132.0],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.538923723777064, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+            var circle_marker_ee989edba4d241f59fd37c170128bf51 = L.circleMarker(
+                [25.084696, -132.0],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.6108898295068, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+            var marker_eb0a5f0e878f497d9176f2cc474d93a3 = L.marker(
+                [31.084696, -132.0],
+                {}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+            var div_icon_3d2a9f5b4b5043c2945c42c5a906cb55 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 8pt\"\u003e25th percentile\u003c/div\u003e", "iconAnchor": [-10, 5], "iconSize": [100, 36]});
+            marker_eb0a5f0e878f497d9176f2cc474d93a3.setIcon(div_icon_3d2a9f5b4b5043c2945c42c5a906cb55);
+        
+    
+            var marker_063cbdc84c92472383b743a401ec0391 = L.marker(
+                [28.084696, -132.0],
+                {}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+            var div_icon_5b1bff99d0fd41cbb6bef1970dd98e14 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 8pt\"\u003e50th percentile\u003c/div\u003e", "iconAnchor": [-10, 5], "iconSize": [100, 36]});
+            marker_063cbdc84c92472383b743a401ec0391.setIcon(div_icon_5b1bff99d0fd41cbb6bef1970dd98e14);
+        
+    
+            var marker_bd258c77f90f40b0b6684d48d2469f96 = L.marker(
+                [25.084696, -132.0],
+                {}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+            var div_icon_ff8bde4c2663484d84b7aca1213c1656 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 8pt\"\u003e75th percentile\u003c/div\u003e", "iconAnchor": [-10, 5], "iconSize": [100, 36]});
+            marker_bd258c77f90f40b0b6684d48d2469f96.setIcon(div_icon_ff8bde4c2663484d84b7aca1213c1656);
+        
+    
+            var marker_71d45c0bc06c43d5a9584a5a849145f4 = L.marker(
+                [33.584696, -134.0],
+                {}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+            var div_icon_e931e5a80e21444c9d857cbde7f39c3b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 8pt\"\u003e\u003cb\u003eNew Cases per Million\u003cb\u003e\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_71d45c0bc06c43d5a9584a5a849145f4.setIcon(div_icon_e931e5a80e21444c9d857cbde7f39c3b);
+        
+    
+            var marker_e79eacc3cc0848ed8df1267b97245d60 = L.marker(
+                [42.084696, -134.0],
+                {}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+            var div_icon_704285ca3201421a9968807f76cd3004 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 8pt\"\u003e\u003cb\u003eSocial Distancing\u003cb\u003e\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [150, 36]});
+            marker_e79eacc3cc0848ed8df1267b97245d60.setIcon(div_icon_704285ca3201421a9968807f76cd3004);
+        
+    
+            var circle_marker_974b8f83336b47a3b311fce0f57fafeb = L.circleMarker(
+                [40.084696, -132.0],
+                {"bubblingMouseEvents": true, "color": "#ffea00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.4027224573767, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+            var circle_marker_ca64606b48524db9b7464e7218f33c96 = L.circleMarker(
+                [38.584696, -132.0],
+                {"bubblingMouseEvents": true, "color": "#ffbf00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.4027224573767, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+            var circle_marker_f7044cdad04c498280819c247650a5ca = L.circleMarker(
+                [37.084696, -132.0],
+                {"bubblingMouseEvents": true, "color": "#ff8b00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.4027224573767, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+            var circle_marker_e98b2d36fad1454198c14f9bd9fbb291 = L.circleMarker(
+                [35.584696, -132.0],
+                {"bubblingMouseEvents": true, "color": "#ff1a00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffea00", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.4027224573767, "stroke": true, "weight": 3}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+            var marker_8b54914dff5f42e682ff4b7ce38614aa = L.marker(
+                [40.084696, -132.0],
+                {}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+            var div_icon_84300c633b6e47c3946105eace02ff0e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 8pt\"\u003eLeast\u003c/div\u003e", "iconAnchor": [-10, 5], "iconSize": [100, 36]});
+            marker_8b54914dff5f42e682ff4b7ce38614aa.setIcon(div_icon_84300c633b6e47c3946105eace02ff0e);
+        
+    
+            var marker_de396dce5a044895906e5a1b08dd122e = L.marker(
+                [38.584696, -132.0],
+                {}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+            var div_icon_4f6d104a786943ac971437792625a0fd = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 8pt\"\u003eBelow Average\u003c/div\u003e", "iconAnchor": [-10, 5], "iconSize": [100, 36]});
+            marker_de396dce5a044895906e5a1b08dd122e.setIcon(div_icon_4f6d104a786943ac971437792625a0fd);
+        
+    
+            var marker_ba73274d55d14fe68f4246bb207e3063 = L.marker(
+                [37.084696, -132.0],
+                {}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+            var div_icon_8421bde08a5f4619a2d1e56003cb0ef1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 8pt\"\u003eAbove Average\u003c/div\u003e", "iconAnchor": [-10, 5], "iconSize": [100, 36]});
+            marker_ba73274d55d14fe68f4246bb207e3063.setIcon(div_icon_8421bde08a5f4619a2d1e56003cb0ef1);
+        
+    
+            var marker_3d5614f2a334476e92a216e5d33c6ee6 = L.marker(
+                [35.584696, -132.0],
+                {}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+            var div_icon_3a0df81e5f0e423c9209ff00d1fc4c35 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 8pt\"\u003eMost\u003c/div\u003e", "iconAnchor": [-10, 5], "iconSize": [100, 36]});
+            marker_3d5614f2a334476e92a216e5d33c6ee6.setIcon(div_icon_3a0df81e5f0e423c9209ff00d1fc4c35);
+        
+    
+            var marker_7e97ecc06ae24bf0b5764b33ecf1294f = L.marker(
+                [52.315079, -115.968492],
+                {}
+            ).addTo(map_0e44273c50294523b30d484130b963fc);
+        
+    
+            var div_icon_9407e663cd9e401f8e59fb332e0b6fc6 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"background: rgba(225, 225, 225, .5); font-size: 8pt\"\u003e\u003ch5\u003e\u003cb\u003eDoes social distancing work?\u003c/b\u003e\u003c/h5\u003eThis interactive map shows which metropolitan areas in the US maintained the most social distance (color) and experienced the most new cases per million people (size) in the period following the implementation of local stay-at-home orders. Data is sourced from \u003ca href=\"https://github.com/CSSEGISandData/COVID-19\"  target=\"_blank\"\u003eJohns Hopkins University\u003c/a\u003e and \u003ca href=\"https://www.descarteslabs.com/mobility/\" target=\"_blank\"\u003eDescartes Labs.\u003ca/\u003e\u003c/div\u003e", "iconAnchor": [-10, 5], "iconSize": [500, 100]});
+            marker_7e97ecc06ae24bf0b5764b33ecf1294f.setIcon(div_icon_9407e663cd9e401f8e59fb332e0b6fc6);
+        
+</script>
