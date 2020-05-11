@@ -4,6 +4,7 @@ Thank you for visiting the Geominr COVID-19 data repository. All materials in th
 ## Contents:
 * [Data Summary](https://github.com/geominr/covid-19#data-summary)
 * [Data Files](https://github.com/geominr/covid-19#data-files)
+* [Social Distancing Map](https://github.com/geominr/covid-19#data-files)
 
 ## Data Summary
 This repository contains daily coronavirus data for 345 total US counties from 32 states and the District of Columbia. Each county-level time series of daily cumulative* total COVID-19 cases and deaths was matched by five-digit FIPS code or county name to dynamic and static variables from eight additional data sources. By combining data from multiple sources, we are able to examine the impact of social distancing as well as various pre-existing social and environmental determinants of health on the spread of the novel coronavirus in American metropolitan regions. This rich collection of contextual data can offer insights into which communities were most vulnerable and help guide local and national policies aimed at curbing the spread and allocating scarce resources to bolster ongoing response efforts.  
@@ -56,7 +57,9 @@ The reporting of accurate coronavirus data from local health departments has bee
 * [Flagged observations - deaths](https://github.com/geominr/covid-19/blob/master/covid-county-data/data-quality/jhu_uscounty_covidDeaths_flags.csv)
 
 
-
+### Social Distancing Map
+Preliminary results of our ongoing research show a significant negative correlation between adherance to social distancing and new coronavirus cases in the 10 day window following a local stay-at-home order. Download the interactive map [here](https://github.com/geominr/covid-19/blob/master/social-distancing-map.html).
+![Map](mapscreenshot.png)
 
 
 
